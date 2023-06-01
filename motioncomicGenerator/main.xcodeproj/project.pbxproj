@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0137AD624E6D44EFAB70F9A2 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9E2998C7BB2B44D19BBC5C59 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				D39342FDB63058DAFC8CD75A /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				6CC331FC9B8A47E797EB6B67 /* PBXTargetDependency */,
+				583FC6BABC4A48F99FC18193 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		7942EC300E2048088F091F77 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5091C87FF1FE4AE1BEDA1A35 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				B6137CF23DE3C99A5162C57A /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		57DFE633A24A40459EB3DA65 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/twopage_to_onepage.cpp */ = {isa = PBXBuildFile; fileRef = 536E48F8168C41F3B9F81EAA /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/twopage_to_onepage.cpp */; };
+		5ABBDFD70B3A409EB7963BED /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/speechballoon_separation.hpp */ = {isa = PBXBuildFile; fileRef = BCBFFFAB54C346068ADAF117 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/speechballoon_separation.hpp */; };
+		6693AB35AA4146DC91E9A95A /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/frame_separation.cpp */ = {isa = PBXBuildFile; fileRef = 59EB524B586946058228DB0E /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/frame_separation.cpp */; };
+		72C942166DEA4039833D3F4A /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/frame_separation.hpp */ = {isa = PBXBuildFile; fileRef = F7D5BDFFDDE94575B0D2FFD0 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/frame_separation.hpp */; };
+		7BD15139F06047E5BA1D254E /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/blackpage_framedetect.hpp */ = {isa = PBXBuildFile; fileRef = D8565E050BE54E9F91510D08 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/blackpage_framedetect.hpp */; };
+		885EF2DCC6F94514BA47E36F /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/read_file_path.hpp */ = {isa = PBXBuildFile; fileRef = 407303DBE7E144B69427002B /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/read_file_path.hpp */; };
+		95B83264A2D349E0AD694244 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/read_file_path.cpp */ = {isa = PBXBuildFile; fileRef = 4EEAFA2615E34591B4AACD19 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/read_file_path.cpp */; };
+		9B8D90201755486FA3D31676 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/blackpage_framedetect.cpp */ = {isa = PBXBuildFile; fileRef = 7EAA2159F3FA4BE5A51D67FB /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/blackpage_framedetect.cpp */; };
+		B11CE79A6595450D9D2F48C5 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/page_removing_frame.hpp */ = {isa = PBXBuildFile; fileRef = 4A50E064A6FF4138A5DA9BC0 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/page_removing_frame.hpp */; };
+		CA89DA3E7A7440E7B6F9956E /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/page_classification.hpp */ = {isa = PBXBuildFile; fileRef = 29D290C5FA0C4DBD8C016334 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/page_classification.hpp */; };
+		D04FC10ECE3C4DDE81D23667 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/twopage_to_onepage.hpp */ = {isa = PBXBuildFile; fileRef = FBBBF4C647F84673955BE9E9 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/twopage_to_onepage.hpp */; };
+		E3ECF96FA3704DA5A6FFA9F1 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2A40729E7D2946818EC83A52 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/CMakeLists.txt */; };
+		F24B59958CB1409DAB71B303 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/page_removing_frame.cpp */ = {isa = PBXBuildFile; fileRef = A1A71AE4406244ADAE47ADA3 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/page_removing_frame.cpp */; };
+		F387AC962417490BA613E57F /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/main.cpp */ = {isa = PBXBuildFile; fileRef = E0F486DF31844EC180491E14 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/main.cpp */; };
+		FB5AB0BBBDD44D4AA07D22AE /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/speechballoon_separation.cpp */ = {isa = PBXBuildFile; fileRef = 98C4D8C05F114FDDAE13FFEB /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/speechballoon_separation.cpp */; };
+		FDBA36E51A9E455CA88C65C4 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/page_classification.cpp */ = {isa = PBXBuildFile; fileRef = 7AF01E2DF2A140EFA6BBDB4D /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/page_classification.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		00AA00255AD949468D4B1293 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		6C97475D67664CC7A036FDD8 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		AC84092A12EC4116B80A651F /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		E9735AD7439B45EC85365E1C /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		017117321CC54432B3EDD61B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BC80B58CB424B87BC1A36A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7942EC300E2048088F091F77;
+			remoteInfo = ZERO_CHECK;
+		};
+		94C0C7A88F504105BA288D04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BC80B58CB424B87BC1A36A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64AEF02617114B039F8AB770;
+			remoteInfo = main;
+		};
+		A6C965B73B2B43B0B616F018 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BC80B58CB424B87BC1A36A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7942EC300E2048088F091F77;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29D290C5FA0C4DBD8C016334 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/page_classification.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = page_classification.hpp; path = src/page_classification.hpp; sourceTree = SOURCE_ROOT; };
+		2A40729E7D2946818EC83A52 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3D831D6264534C92BC9623C4 /* main */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = main; sourceTree = BUILT_PRODUCTS_DIR; };
+		407303DBE7E144B69427002B /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/read_file_path.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = read_file_path.hpp; path = src/read_file_path.hpp; sourceTree = SOURCE_ROOT; };
+		4A50E064A6FF4138A5DA9BC0 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/page_removing_frame.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = page_removing_frame.hpp; path = src/page_removing_frame.hpp; sourceTree = SOURCE_ROOT; };
+		4EEAFA2615E34591B4AACD19 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/read_file_path.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = read_file_path.cpp; path = src/read_file_path.cpp; sourceTree = SOURCE_ROOT; };
+		536E48F8168C41F3B9F81EAA /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/twopage_to_onepage.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = twopage_to_onepage.cpp; path = src/twopage_to_onepage.cpp; sourceTree = SOURCE_ROOT; };
+		59EB524B586946058228DB0E /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/frame_separation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = frame_separation.cpp; path = src/frame_separation.cpp; sourceTree = SOURCE_ROOT; };
+		7AF01E2DF2A140EFA6BBDB4D /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/page_classification.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = page_classification.cpp; path = src/page_classification.cpp; sourceTree = SOURCE_ROOT; };
+		7EAA2159F3FA4BE5A51D67FB /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/blackpage_framedetect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = blackpage_framedetect.cpp; path = src/blackpage_framedetect.cpp; sourceTree = SOURCE_ROOT; };
+		96E511C7179342808C6009C7 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		98C4D8C05F114FDDAE13FFEB /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/speechballoon_separation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = speechballoon_separation.cpp; path = src/speechballoon_separation.cpp; sourceTree = SOURCE_ROOT; };
+		A1A71AE4406244ADAE47ADA3 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/page_removing_frame.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = page_removing_frame.cpp; path = src/page_removing_frame.cpp; sourceTree = SOURCE_ROOT; };
+		BCBFFFAB54C346068ADAF117 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/speechballoon_separation.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = speechballoon_separation.hpp; path = src/speechballoon_separation.hpp; sourceTree = SOURCE_ROOT; };
+		D8565E050BE54E9F91510D08 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/blackpage_framedetect.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = blackpage_framedetect.hpp; path = src/blackpage_framedetect.hpp; sourceTree = SOURCE_ROOT; };
+		E0F486DF31844EC180491E14 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		F7D5BDFFDDE94575B0D2FFD0 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/frame_separation.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = frame_separation.hpp; path = src/frame_separation.hpp; sourceTree = SOURCE_ROOT; };
+		FBBBF4C647F84673955BE9E9 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/twopage_to_onepage.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = twopage_to_onepage.hpp; path = src/twopage_to_onepage.hpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F9471A9BCC54A74B3C55E01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		064D70AD5A74486EB7FB5162 = {
+			isa = PBXGroup;
+			children = (
+				10D388F3C5734D9083D7D766 /* main */,
+				F50D8508C0FD4594803C5B56 /* ALL_BUILD */,
+				BE580D2FFA0142E592BCF97D /* Products */,
+				9A0973FB92B548679C033363 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		10D388F3C5734D9083D7D766 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				B08582388FBA47DF8D5001B1 /* Source Files */,
+				23EAF5ADA1434DDBA6DE63FA /* Header Files */,
+				2A40729E7D2946818EC83A52 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/CMakeLists.txt */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		23EAF5ADA1434DDBA6DE63FA /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8565E050BE54E9F91510D08 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/blackpage_framedetect.hpp */,
+				F7D5BDFFDDE94575B0D2FFD0 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/frame_separation.hpp */,
+				29D290C5FA0C4DBD8C016334 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/page_classification.hpp */,
+				4A50E064A6FF4138A5DA9BC0 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/page_removing_frame.hpp */,
+				407303DBE7E144B69427002B /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/read_file_path.hpp */,
+				BCBFFFAB54C346068ADAF117 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/speechballoon_separation.hpp */,
+				FBBBF4C647F84673955BE9E9 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/twopage_to_onepage.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		27E0E93BBD3D41C7A00C514D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		9A0973FB92B548679C033363 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B08582388FBA47DF8D5001B1 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EAA2159F3FA4BE5A51D67FB /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/blackpage_framedetect.cpp */,
+				59EB524B586946058228DB0E /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/frame_separation.cpp */,
+				E0F486DF31844EC180491E14 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/main.cpp */,
+				7AF01E2DF2A140EFA6BBDB4D /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/page_classification.cpp */,
+				A1A71AE4406244ADAE47ADA3 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/page_removing_frame.cpp */,
+				4EEAFA2615E34591B4AACD19 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/read_file_path.cpp */,
+				98C4D8C05F114FDDAE13FFEB /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/speechballoon_separation.cpp */,
+				536E48F8168C41F3B9F81EAA /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/twopage_to_onepage.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		BE580D2FFA0142E592BCF97D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D831D6264534C92BC9623C4 /* main */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F50D8508C0FD4594803C5B56 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				27E0E93BBD3D41C7A00C514D /* CMake Rules */,
+				96E511C7179342808C6009C7 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64AEF02617114B039F8AB770 /* main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEC96A4CBDF944819CB15333 /* Build configuration list for PBXNativeTarget "main" */;
+			buildPhases = (
+				1BE5F4423EE8419FBB20B7A1 /* Sources */,
+				3F9471A9BCC54A74B3C55E01 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC1A5529C4A94AFBBC57685C /* PBXTargetDependency */,
+			);
+			name = main;
+			productName = main;
+			productReference = 3D831D6264534C92BC9623C4 /* main */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BC80B58CB424B87BC1A36A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1320;
+			};
+			buildConfigurationList = 62A9F98D3B594A44956ED932 /* Build configuration list for PBXProject "main" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				AC84092A12EC4116B80A651F /* Debug */,
+				00AA00255AD949468D4B1293 /* Release */,
+				6C97475D67664CC7A036FDD8 /* MinSizeRel */,
+				E9735AD7439B45EC85365E1C /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 064D70AD5A74486EB7FB5162;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				0137AD624E6D44EFAB70F9A2 /* ALL_BUILD */,
+				7942EC300E2048088F091F77 /* ZERO_CHECK */,
+				64AEF02617114B039F8AB770 /* main */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B6137CF23DE3C99A5162C57A /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator
+  make -f /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator
+  make -f /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator
+  make -f /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator
+  make -f /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		D39342FDB63058DAFC8CD75A /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BE5F4423EE8419FBB20B7A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8D90201755486FA3D31676 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/blackpage_framedetect.cpp */,
+				6693AB35AA4146DC91E9A95A /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/frame_separation.cpp */,
+				F387AC962417490BA613E57F /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/main.cpp */,
+				FDBA36E51A9E455CA88C65C4 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/page_classification.cpp */,
+				F24B59958CB1409DAB71B303 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/page_removing_frame.cpp */,
+				95B83264A2D349E0AD694244 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/read_file_path.cpp */,
+				FB5AB0BBBDD44D4AA07D22AE /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/speechballoon_separation.cpp */,
+				57DFE633A24A40459EB3DA65 /* /Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/src/twopage_to_onepage.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		583FC6BABC4A48F99FC18193 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7942EC300E2048088F091F77 /* ZERO_CHECK */;
+			targetProxy = A6C965B73B2B43B0B616F018 /* PBXContainerItemProxy */;
+		};
+		6CC331FC9B8A47E797EB6B67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64AEF02617114B039F8AB770 /* main */;
+			targetProxy = 94C0C7A88F504105BA288D04 /* PBXContainerItemProxy */;
+		};
+		DC1A5529C4A94AFBBC57685C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7942EC300E2048088F091F77 /* ZERO_CHECK */;
+			targetProxy = 017117321CC54432B3EDD61B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		116F8D5FFCF34168A785261E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/usr/local/lib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/usr/local/lib/libopencv_gapi.4.6.0.dylib,/usr/local/lib/libopencv_stitching.4.6.0.dylib,/usr/local/lib/libopencv_alphamat.4.6.0.dylib,/usr/local/lib/libopencv_aruco.4.6.0.dylib,/usr/local/lib/libopencv_barcode.4.6.0.dylib,/usr/local/lib/libopencv_bgsegm.4.6.0.dylib,/usr/local/lib/libopencv_bioinspired.4.6.0.dylib,/usr/local/lib/libopencv_ccalib.4.6.0.dylib,/usr/local/lib/libopencv_dnn_objdetect.4.6.0.dylib,/usr/local/lib/libopencv_dnn_superres.4.6.0.dylib,/usr/local/lib/libopencv_dpm.4.6.0.dylib,/usr/local/lib/libopencv_face.4.6.0.dylib,/usr/local/lib/libopencv_freetype.4.6.0.dylib,/usr/local/lib/libopencv_fuzzy.4.6.0.dylib,/usr/local/lib/libopencv_hfs.4.6.0.dylib,/usr/local/lib/libopencv_img_hash.4.6.0.dylib,/usr/local/lib/libopencv_intensity_transform.4.6.0.dylib,/usr/local/lib/libopencv_line_descriptor.4.6.0.dylib,/usr/local/lib/libopencv_mcc.4.6.0.dylib,/usr/local/lib/libopencv_quality.4.6.0.dylib,/usr/local/lib/libopencv_rapid.4.6.0.dylib,/usr/local/lib/libopencv_reg.4.6.0.dylib,/usr/local/lib/libopencv_rgbd.4.6.0.dylib,/usr/local/lib/libopencv_saliency.4.6.0.dylib,/usr/local/lib/libopencv_sfm.4.6.0.dylib,/usr/local/lib/libopencv_stereo.4.6.0.dylib,/usr/local/lib/libopencv_structured_light.4.6.0.dylib,/usr/local/lib/libopencv_superres.4.6.0.dylib,/usr/local/lib/libopencv_surface_matching.4.6.0.dylib,/usr/local/lib/libopencv_tracking.4.6.0.dylib,/usr/local/lib/libopencv_videostab.4.6.0.dylib,/usr/local/lib/libopencv_viz.4.6.0.dylib,/usr/local/lib/libopencv_wechat_qrcode.4.6.0.dylib,/usr/local/lib/libopencv_xfeatures2d.4.6.0.dylib,/usr/local/lib/libopencv_xobjdetect.4.6.0.dylib,/usr/local/lib/libopencv_xphoto.4.6.0.dylib,/usr/local/lib/libopencv_shape.4.6.0.dylib,/usr/local/lib/libopencv_highgui.4.6.0.dylib,/usr/local/lib/libopencv_datasets.4.6.0.dylib,/usr/local/lib/libopencv_plot.4.6.0.dylib,/usr/local/lib/libopencv_text.4.6.0.dylib,/usr/local/lib/libopencv_ml.4.6.0.dylib,/usr/local/lib/libopencv_phase_unwrapping.4.6.0.dylib,/usr/local/lib/libopencv_optflow.4.6.0.dylib,/usr/local/lib/libopencv_ximgproc.4.6.0.dylib,/usr/local/lib/libopencv_video.4.6.0.dylib,/usr/local/lib/libopencv_videoio.4.6.0.dylib,/usr/local/lib/libopencv_imgcodecs.4.6.0.dylib,/usr/local/lib/libopencv_objdetect.4.6.0.dylib,/usr/local/lib/libopencv_calib3d.4.6.0.dylib,/usr/local/lib/libopencv_dnn.4.6.0.dylib,/usr/local/lib/libopencv_features2d.4.6.0.dylib,/usr/local/lib/libopencv_flann.4.6.0.dylib,/usr/local/lib/libopencv_photo.4.6.0.dylib,/usr/local/lib/libopencv_imgproc.4.6.0.dylib,/usr/local/lib/libopencv_core.4.6.0.dylib);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/Cellar/opencv/4.6.0_1/include/opencv4,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		143EBEC353014A0FB1A327D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2450E2A6639B4EF6893B13B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		267CC6FAFA4F4D8F9F7A44A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		45D0FA9D95C948618C8571C5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = "/Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/build";
+			};
+			name = RelWithDebInfo;
+		};
+		600CFE2574794E5AB48A91C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = "/Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/build";
+			};
+			name = Release;
+		};
+		626DE59958704780B3A72601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		67144B41CFF64984B07BBFCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/usr/local/lib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/usr/local/lib/libopencv_gapi.4.6.0.dylib,/usr/local/lib/libopencv_stitching.4.6.0.dylib,/usr/local/lib/libopencv_alphamat.4.6.0.dylib,/usr/local/lib/libopencv_aruco.4.6.0.dylib,/usr/local/lib/libopencv_barcode.4.6.0.dylib,/usr/local/lib/libopencv_bgsegm.4.6.0.dylib,/usr/local/lib/libopencv_bioinspired.4.6.0.dylib,/usr/local/lib/libopencv_ccalib.4.6.0.dylib,/usr/local/lib/libopencv_dnn_objdetect.4.6.0.dylib,/usr/local/lib/libopencv_dnn_superres.4.6.0.dylib,/usr/local/lib/libopencv_dpm.4.6.0.dylib,/usr/local/lib/libopencv_face.4.6.0.dylib,/usr/local/lib/libopencv_freetype.4.6.0.dylib,/usr/local/lib/libopencv_fuzzy.4.6.0.dylib,/usr/local/lib/libopencv_hfs.4.6.0.dylib,/usr/local/lib/libopencv_img_hash.4.6.0.dylib,/usr/local/lib/libopencv_intensity_transform.4.6.0.dylib,/usr/local/lib/libopencv_line_descriptor.4.6.0.dylib,/usr/local/lib/libopencv_mcc.4.6.0.dylib,/usr/local/lib/libopencv_quality.4.6.0.dylib,/usr/local/lib/libopencv_rapid.4.6.0.dylib,/usr/local/lib/libopencv_reg.4.6.0.dylib,/usr/local/lib/libopencv_rgbd.4.6.0.dylib,/usr/local/lib/libopencv_saliency.4.6.0.dylib,/usr/local/lib/libopencv_sfm.4.6.0.dylib,/usr/local/lib/libopencv_stereo.4.6.0.dylib,/usr/local/lib/libopencv_structured_light.4.6.0.dylib,/usr/local/lib/libopencv_superres.4.6.0.dylib,/usr/local/lib/libopencv_surface_matching.4.6.0.dylib,/usr/local/lib/libopencv_tracking.4.6.0.dylib,/usr/local/lib/libopencv_videostab.4.6.0.dylib,/usr/local/lib/libopencv_viz.4.6.0.dylib,/usr/local/lib/libopencv_wechat_qrcode.4.6.0.dylib,/usr/local/lib/libopencv_xfeatures2d.4.6.0.dylib,/usr/local/lib/libopencv_xobjdetect.4.6.0.dylib,/usr/local/lib/libopencv_xphoto.4.6.0.dylib,/usr/local/lib/libopencv_shape.4.6.0.dylib,/usr/local/lib/libopencv_highgui.4.6.0.dylib,/usr/local/lib/libopencv_datasets.4.6.0.dylib,/usr/local/lib/libopencv_plot.4.6.0.dylib,/usr/local/lib/libopencv_text.4.6.0.dylib,/usr/local/lib/libopencv_ml.4.6.0.dylib,/usr/local/lib/libopencv_phase_unwrapping.4.6.0.dylib,/usr/local/lib/libopencv_optflow.4.6.0.dylib,/usr/local/lib/libopencv_ximgproc.4.6.0.dylib,/usr/local/lib/libopencv_video.4.6.0.dylib,/usr/local/lib/libopencv_videoio.4.6.0.dylib,/usr/local/lib/libopencv_imgcodecs.4.6.0.dylib,/usr/local/lib/libopencv_objdetect.4.6.0.dylib,/usr/local/lib/libopencv_calib3d.4.6.0.dylib,/usr/local/lib/libopencv_dnn.4.6.0.dylib,/usr/local/lib/libopencv_features2d.4.6.0.dylib,/usr/local/lib/libopencv_flann.4.6.0.dylib,/usr/local/lib/libopencv_photo.4.6.0.dylib,/usr/local/lib/libopencv_imgproc.4.6.0.dylib,/usr/local/lib/libopencv_core.4.6.0.dylib);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/Cellar/opencv/4.6.0_1/include/opencv4,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8A7AFBBFB2A0446E80013B48 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8BDAAAD6978C4E5D9FC2C81C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/usr/local/lib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/usr/local/lib/libopencv_gapi.4.6.0.dylib,/usr/local/lib/libopencv_stitching.4.6.0.dylib,/usr/local/lib/libopencv_alphamat.4.6.0.dylib,/usr/local/lib/libopencv_aruco.4.6.0.dylib,/usr/local/lib/libopencv_barcode.4.6.0.dylib,/usr/local/lib/libopencv_bgsegm.4.6.0.dylib,/usr/local/lib/libopencv_bioinspired.4.6.0.dylib,/usr/local/lib/libopencv_ccalib.4.6.0.dylib,/usr/local/lib/libopencv_dnn_objdetect.4.6.0.dylib,/usr/local/lib/libopencv_dnn_superres.4.6.0.dylib,/usr/local/lib/libopencv_dpm.4.6.0.dylib,/usr/local/lib/libopencv_face.4.6.0.dylib,/usr/local/lib/libopencv_freetype.4.6.0.dylib,/usr/local/lib/libopencv_fuzzy.4.6.0.dylib,/usr/local/lib/libopencv_hfs.4.6.0.dylib,/usr/local/lib/libopencv_img_hash.4.6.0.dylib,/usr/local/lib/libopencv_intensity_transform.4.6.0.dylib,/usr/local/lib/libopencv_line_descriptor.4.6.0.dylib,/usr/local/lib/libopencv_mcc.4.6.0.dylib,/usr/local/lib/libopencv_quality.4.6.0.dylib,/usr/local/lib/libopencv_rapid.4.6.0.dylib,/usr/local/lib/libopencv_reg.4.6.0.dylib,/usr/local/lib/libopencv_rgbd.4.6.0.dylib,/usr/local/lib/libopencv_saliency.4.6.0.dylib,/usr/local/lib/libopencv_sfm.4.6.0.dylib,/usr/local/lib/libopencv_stereo.4.6.0.dylib,/usr/local/lib/libopencv_structured_light.4.6.0.dylib,/usr/local/lib/libopencv_superres.4.6.0.dylib,/usr/local/lib/libopencv_surface_matching.4.6.0.dylib,/usr/local/lib/libopencv_tracking.4.6.0.dylib,/usr/local/lib/libopencv_videostab.4.6.0.dylib,/usr/local/lib/libopencv_viz.4.6.0.dylib,/usr/local/lib/libopencv_wechat_qrcode.4.6.0.dylib,/usr/local/lib/libopencv_xfeatures2d.4.6.0.dylib,/usr/local/lib/libopencv_xobjdetect.4.6.0.dylib,/usr/local/lib/libopencv_xphoto.4.6.0.dylib,/usr/local/lib/libopencv_shape.4.6.0.dylib,/usr/local/lib/libopencv_highgui.4.6.0.dylib,/usr/local/lib/libopencv_datasets.4.6.0.dylib,/usr/local/lib/libopencv_plot.4.6.0.dylib,/usr/local/lib/libopencv_text.4.6.0.dylib,/usr/local/lib/libopencv_ml.4.6.0.dylib,/usr/local/lib/libopencv_phase_unwrapping.4.6.0.dylib,/usr/local/lib/libopencv_optflow.4.6.0.dylib,/usr/local/lib/libopencv_ximgproc.4.6.0.dylib,/usr/local/lib/libopencv_video.4.6.0.dylib,/usr/local/lib/libopencv_videoio.4.6.0.dylib,/usr/local/lib/libopencv_imgcodecs.4.6.0.dylib,/usr/local/lib/libopencv_objdetect.4.6.0.dylib,/usr/local/lib/libopencv_calib3d.4.6.0.dylib,/usr/local/lib/libopencv_dnn.4.6.0.dylib,/usr/local/lib/libopencv_features2d.4.6.0.dylib,/usr/local/lib/libopencv_flann.4.6.0.dylib,/usr/local/lib/libopencv_photo.4.6.0.dylib,/usr/local/lib/libopencv_imgproc.4.6.0.dylib,/usr/local/lib/libopencv_core.4.6.0.dylib);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/Cellar/opencv/4.6.0_1/include/opencv4,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A6CBCBA69B444672BE117527 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AB53DAE3215C4959A287F010 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = "/Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/build";
+			};
+			name = MinSizeRel;
+		};
+		D255E749BE724DCA961CBFEB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D540B31BF9F64BA2A2342B39 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DB7C907DE0EE4192B2B39126 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/usr/local/lib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/usr/local/lib/libopencv_gapi.4.6.0.dylib,/usr/local/lib/libopencv_stitching.4.6.0.dylib,/usr/local/lib/libopencv_alphamat.4.6.0.dylib,/usr/local/lib/libopencv_aruco.4.6.0.dylib,/usr/local/lib/libopencv_barcode.4.6.0.dylib,/usr/local/lib/libopencv_bgsegm.4.6.0.dylib,/usr/local/lib/libopencv_bioinspired.4.6.0.dylib,/usr/local/lib/libopencv_ccalib.4.6.0.dylib,/usr/local/lib/libopencv_dnn_objdetect.4.6.0.dylib,/usr/local/lib/libopencv_dnn_superres.4.6.0.dylib,/usr/local/lib/libopencv_dpm.4.6.0.dylib,/usr/local/lib/libopencv_face.4.6.0.dylib,/usr/local/lib/libopencv_freetype.4.6.0.dylib,/usr/local/lib/libopencv_fuzzy.4.6.0.dylib,/usr/local/lib/libopencv_hfs.4.6.0.dylib,/usr/local/lib/libopencv_img_hash.4.6.0.dylib,/usr/local/lib/libopencv_intensity_transform.4.6.0.dylib,/usr/local/lib/libopencv_line_descriptor.4.6.0.dylib,/usr/local/lib/libopencv_mcc.4.6.0.dylib,/usr/local/lib/libopencv_quality.4.6.0.dylib,/usr/local/lib/libopencv_rapid.4.6.0.dylib,/usr/local/lib/libopencv_reg.4.6.0.dylib,/usr/local/lib/libopencv_rgbd.4.6.0.dylib,/usr/local/lib/libopencv_saliency.4.6.0.dylib,/usr/local/lib/libopencv_sfm.4.6.0.dylib,/usr/local/lib/libopencv_stereo.4.6.0.dylib,/usr/local/lib/libopencv_structured_light.4.6.0.dylib,/usr/local/lib/libopencv_superres.4.6.0.dylib,/usr/local/lib/libopencv_surface_matching.4.6.0.dylib,/usr/local/lib/libopencv_tracking.4.6.0.dylib,/usr/local/lib/libopencv_videostab.4.6.0.dylib,/usr/local/lib/libopencv_viz.4.6.0.dylib,/usr/local/lib/libopencv_wechat_qrcode.4.6.0.dylib,/usr/local/lib/libopencv_xfeatures2d.4.6.0.dylib,/usr/local/lib/libopencv_xobjdetect.4.6.0.dylib,/usr/local/lib/libopencv_xphoto.4.6.0.dylib,/usr/local/lib/libopencv_shape.4.6.0.dylib,/usr/local/lib/libopencv_highgui.4.6.0.dylib,/usr/local/lib/libopencv_datasets.4.6.0.dylib,/usr/local/lib/libopencv_plot.4.6.0.dylib,/usr/local/lib/libopencv_text.4.6.0.dylib,/usr/local/lib/libopencv_ml.4.6.0.dylib,/usr/local/lib/libopencv_phase_unwrapping.4.6.0.dylib,/usr/local/lib/libopencv_optflow.4.6.0.dylib,/usr/local/lib/libopencv_ximgproc.4.6.0.dylib,/usr/local/lib/libopencv_video.4.6.0.dylib,/usr/local/lib/libopencv_videoio.4.6.0.dylib,/usr/local/lib/libopencv_imgcodecs.4.6.0.dylib,/usr/local/lib/libopencv_objdetect.4.6.0.dylib,/usr/local/lib/libopencv_calib3d.4.6.0.dylib,/usr/local/lib/libopencv_dnn.4.6.0.dylib,/usr/local/lib/libopencv_features2d.4.6.0.dylib,/usr/local/lib/libopencv_flann.4.6.0.dylib,/usr/local/lib/libopencv_photo.4.6.0.dylib,/usr/local/lib/libopencv_imgproc.4.6.0.dylib,/usr/local/lib/libopencv_core.4.6.0.dylib);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/Cellar/opencv/4.6.0_1/include/opencv4,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E7B7860224E74DB2B5850593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = "/Users/tanakakaito/src/motioncomic/コマ分割精度向上/motioncomicGenerator/build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5091C87FF1FE4AE1BEDA1A35 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2450E2A6639B4EF6893B13B8 /* Debug */,
+				626DE59958704780B3A72601 /* Release */,
+				A6CBCBA69B444672BE117527 /* MinSizeRel */,
+				D255E749BE724DCA961CBFEB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		62A9F98D3B594A44956ED932 /* Build configuration list for PBXProject "main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B7860224E74DB2B5850593 /* Debug */,
+				600CFE2574794E5AB48A91C3 /* Release */,
+				AB53DAE3215C4959A287F010 /* MinSizeRel */,
+				45D0FA9D95C948618C8571C5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9E2998C7BB2B44D19BBC5C59 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267CC6FAFA4F4D8F9F7A44A4 /* Debug */,
+				143EBEC353014A0FB1A327D0 /* Release */,
+				8A7AFBBFB2A0446E80013B48 /* MinSizeRel */,
+				D540B31BF9F64BA2A2342B39 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EEC96A4CBDF944819CB15333 /* Build configuration list for PBXNativeTarget "main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67144B41CFF64984B07BBFCE /* Debug */,
+				116F8D5FFCF34168A785261E /* Release */,
+				8BDAAAD6978C4E5D9FC2C81C /* MinSizeRel */,
+				DB7C907DE0EE4192B2B39126 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BC80B58CB424B87BC1A36A2 /* Project object */;
+}
