@@ -37,6 +37,8 @@ std::vector<cv::Mat> Framedetect::frame_detect(cv::Mat &src_page){//コマ抽出
     cv::GaussianBlur(gray_img, gaussian_img, cv::Size(3,3), 0);//平滑化
     
     extractSpeechBalloon(hukidashi_contours,hierarchy2, gaussian_img);//吹き出しによるコマ未検出を防ぐため吹き出し検出で塗りつぶし
+    cv::imshow("speech_balloon", gaussian_img);
+    cv::waitKey(0);
     cv::Mat inverse_bin_img;  //階調反転二値画像
     threshold(gaussian_img, inverse_bin_img, 210, 255, cv::THRESH_BINARY_INV);//二値化
     
@@ -49,14 +51,22 @@ std::vector<cv::Mat> Framedetect::frame_detect(cv::Mat &src_page){//コマ抽出
     std::vector<cv::Point2f> lines2;
     HoughLines(canny_img, lines, 1, M_PI/180.0, 50);  //直線検出
     HoughLines(canny_img, lines2, 1, M_PI/360.0, 50);
+
+
     
     cv::Mat lines_img = cv::Mat::zeros(img_size, CV_8UC1);
     
     drawHoughLines(lines, lines_img);
     drawHoughLines2(lines2, lines_img);
+
+    cv::imshow("lines_img", lines_img);
+    cv::waitKey(0);
     
     cv::Mat and_img = cv::Mat::zeros(img_size, CV_8UC1);  //論理積画像
     bitwise_and(inverse_bin_img, lines_img, and_img);  //二値画像と直線検出画像の論理積
+
+    // cv::imshow("and_img", and_img);
+    // cv::waitKey(0);
     
     std::vector<std::vector<cv::Point>> contours; //輪郭点群
     cv::Mat tmp_img; //一次的に利用する画像
@@ -67,11 +77,25 @@ std::vector<cv::Mat> Framedetect::frame_detect(cv::Mat &src_page){//コマ抽出
     
     cv::Mat complement_and_img;
     createAndImgWithBoundingBox(boundingbox_from_and_img, contours, inverse_bin_img, complement_and_img);
+    cv::imshow("complement_and_img", complement_and_img);
+    cv::waitKey(0);
     
     std::vector <std::vector<cv::Point>>contours3;
     std::vector<cv::Rect> bounding_boxes; //バウンディングボックス群
 
     findContours(complement_and_img, contours3, cv::RETR_EXTERNAL, cv::CHAIN_APPROX_SIMPLE);//輪郭抽出
+    // for(int i = 0; i < contours3.size(); i++)
+    // {
+    //     std::cout << "Contour " << i+1 << ":" << std::endl;
+    //     for(int j = 0; j < contours3[i].size(); j++)
+    //     {
+    //         cv::Point point = contours3[i][j];
+    //         std::cout << "Point " << j+1 << ": x = " << point.x << ", y = " << point.y << std::endl;
+    //     }
+    // }
+    // cv::imshow("conoturs3", complement_and_img);
+    // cv::waitKey(0);
+
     
     //バウンディングボックスの登録
     for (int i=0; i<contours3.size(); i++) {
@@ -82,14 +106,29 @@ std::vector<cv::Mat> Framedetect::frame_detect(cv::Mat &src_page){//コマ抽出
             bounding_boxes.push_back(tmp_bounding_box); //バウンディングボックスの登録
         }
     }
+    // printf("bounding_boxes.size() = %d\n", (int)bounding_boxes.size());
+    // cv::imshow("a",complement_and_img);
+    // cv::waitKey(0);
+
     //ページごとでコマの輪郭描画
     for(int i=0; i<contours3.size(); i++){
-        
+        // for(int j = 0; j < contours3[i].size(); j++)
+        // {
+        //     cv::Point point = contours3[i][j];
+        //     std::cout << "Point " << j+1 << ": x = " << point.x << ", y = " << point.y << std::endl;
+        // }
         //近似の座標リストの宣言
         std::vector<cv::Point> approx;
         
         //輪郭を直線近似する
         approxPolyDP(contours3[i], approx, 6, true);
+        // printf("approx.size() = %d\n", (int)approx.size());
+        // for(int i = 0; i < approx.size(); i++)
+        // {
+        //     cv::Point point = approx[i];
+        //     std::cout << "Point " << i+1 << ": x = " << point.x << ", y = " << point.y << std::endl;
+        // }
+
         
         //外接矩形生成
         cv::Rect brect = boundingRect(contours3[i]);
@@ -180,7 +219,6 @@ std::vector<cv::Mat> Framedetect::frame_detect(cv::Mat &src_page){//コマ抽出
 //吹き出し抽出
 void Framedetect::extractSpeechBalloon(std::vector<std::vector<cv::Point> > fukidashi_contours, std::vector<cv::Vec4i> hierarchy2, cv::Mat &gaussian_img){
     // 輪郭の描画
-    
     for(int i=0;i<fukidashi_contours.size();i++){
         
         //(1) 極端に小さい，または大きい輪郭の除外
@@ -190,7 +228,7 @@ void Framedetect::extractSpeechBalloon(std::vector<std::vector<cv::Point> > fuki
         double en=0;
         
         if(gaussian_img.rows * gaussian_img.cols * 0.008 <= area &&
-           area < gaussian_img.rows * gaussian_img.cols * 0.03){
+           area < gaussian_img.rows * gaussian_img.cols * 0.05){
             
             en= 4.0 * M_PI * area / (length * length);
             if( en >0.4 ){//en >0.4
@@ -251,7 +289,6 @@ void Framedetect::findFrameExistenceArea(const cv::Mat &inverse_bin_img){
 
 //直線描画(lines1)
 void Framedetect::drawHoughLines(std::vector<cv::Point2f> lines, cv::Mat &drawLinesImage){
-    
     for(int i=0; i<MIN(lines.size(), 100); i++){
         
         cv::Point2f line = lines[i];

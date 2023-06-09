@@ -6,18 +6,27 @@ import math
 from modules import *
 
 def main():
-    input_img = cv2.imread('./input/006.jpg')
+    if os.path.exists('./output/0604/afterDeg.txt'):
+        os.remove('./output/0604/afterDeg.txt')
+    if os.path.exists('./output/0604/beforeDeg.txt'):
+        os.remove('./output/0604/beforeDeg.txt')
+    input_img = cv2.imread('./input/Belmondo/004.jpg')
     twoPage = PageCut(input_img)
     src_img = twoPage[0]
+    # cv2.imshow('src_img', src_img)
+    # cv2.waitKey(0)
+    # cv2.destroyAllWindows()
     if src_img is None:
         print("Not open:", src_img)
         return
     # srcがカラーの場合グレースケールに変換
     if len(src_img.shape) == 3:
-        src_img = cv2.cvtColor(src_img, cv2.COLOR_BGR2GRAY)
         color_img = src_img
+        src_img = cv2.cvtColor(src_img, cv2.COLOR_BGR2GRAY)
     else:
         color_img = cv2.cvtColor(src_img, cv2.COLOR_GRAY2BGR)
+
+    cv2.imwrite('./output/0604/004_src_img.jpg', src_img)
 
     binForSpeechBalloon_img = cv2.threshold(src_img, 230, 255, cv2.THRESH_BINARY)[1]
     # cv2.imshow('binForSpeechBalloon_img', binForSpeechBalloon_img)
@@ -26,8 +35,11 @@ def main():
 
     # 膨張収縮
     kernel = np.ones((3, 3), np.uint8)
-    binForSpeechBalloon_img = cv2.dilate(binForSpeechBalloon_img, None, iterations=1)
-    binForSpeechBalloon_img = cv2.erode(binForSpeechBalloon_img, None, iterations=1)
+    binForSpeechBalloon_img = cv2.erode(binForSpeechBalloon_img, kernel,(-1,-1), iterations = 1)
+    binForSpeechBalloon_img = cv2.dilate(binForSpeechBalloon_img, kernel,(-1,-1), iterations = 1)
+    # cv2.imshow('binForSpeechBalloon_img', binForSpeechBalloon_img)
+    # cv2.waitKey(0)
+    # cv2.destroyAllWindows()
 
     hierarchy2 = []  # cv::Vec4i のリスト
     hukidashi_contours = []  # cv::Point のリストのリスト（輪郭情報）
@@ -39,35 +51,44 @@ def main():
 
     # 吹き出し検出　塗りつぶし
     gaussian_img = extractSpeechBalloon(hukidashi_contours, hierarchy2, gaussian_img)
-    # cv2.imshow('gaussian_img', gaussian_img)
-    # cv2.waitKey(0)
-    # cv2.destroyAllWindows()
+    cv2.imshow('gaussian_img', gaussian_img)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+    # cv2.imwrite('./output/0604/004_gaussian_img.jpg', gaussian_img)
+
 
     # inverse_bin_img = cv2.bitwise_not(binForSpeechBalloon_img)
     inverse_bin_img = cv2.threshold(gaussian_img,210,255,cv2.THRESH_BINARY_INV)[1]
+    cv2.imwrite('./output/0604/004_inverse_bin_img.jpg', inverse_bin_img)
+
+    ####################ここまでOK####################
+
 
     pageCorners,_, = findFrameExistenceArea(inverse_bin_img)
-    # print(pageCorners)
+    print('pageCorners',pageCorners) # ここ怪しい
 
-    canny_img = cv2.Canny(src_img, 120, 130, apertureSize=3)
+    canny_img = cv2.Canny(inverse_bin_img, 50, 110, apertureSize=3) # 元の引数は120,130
+    # ここ元は，src_imgに対してCannyをかけていたが，gaussian_imgに対してかけるように変更
 
     lines = []
     lines2 = []
 
-    lines = cv2.HoughLines(canny_img, 1, np.pi / 180.0, 50)
-    lines2 = cv2.HoughLines(canny_img, 1, np.pi / 360.0, 50)
+    lines = cv2.HoughLines(canny_img, 1, np.pi / 180.0, 200)
+    # lines2 = cv2.HoughLines(canny_img, 1, np.pi / 360.0, 250)
 
     lines_img = np.zeros(src_img.shape, dtype=np.uint8)
 
     lines_img = drawLines(lines, lines_img)
     lines_img = drawLines(lines2, lines_img)
+    cv2.imwrite('./output/0604/004_lines_img.jpg', lines_img)
+
+    ####################ここまでOK????####################
 
     and_img = np.zeros(src_img.shape, dtype=np.uint8)
     and_img = cv2.bitwise_and(inverse_bin_img, lines_img)
+    cv2.imwrite('./output/0604/004_and_img.jpg', and_img)
 
-    # cv2.imshow('and_img', and_img)
-    # cv2.waitKey(0)
-    # cv2.destroyAllWindows()
+    ####################ここまでOK####################
 
     contours = []
     tmp_img = and_img.copy()
@@ -76,15 +97,23 @@ def main():
     boundingbox_from_and_img = and_img.copy()
 
     complement_and_img = createAndImgWithBoundingBox(boundingbox_from_and_img, contours,inverse_bin_img)
+    cv2.imwrite('./output/0604/004_complement_and_img.jpg', complement_and_img)
 
-    # cv2.imshow('complement_and_img', complement_and_img)
-    # cv2.waitKey(0)
-    # cv2.destroyAllWindows()
+    ####################ここまでOK####################
 
     contours3 = []
     bounding_boxes = []
 
+
     contours3, _ = cv2.findContours(complement_and_img, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+
+    # for i, contour in enumerate(contours3):
+    #     print(f"Contour {i+1}:")
+    #     for j, point in enumerate(contour):
+    #         print(f"Point {j+1}: x = {point[0][0]}, y = {point[0][1]}")
+    # cv2.imshow('contours3',complement_and_img)
+    # cv2.waitKey(0)
+    # cv2.destroyAllWindows()
 
     for i in range(len(contours3)):
         tmp_bounding_box = cv2.boundingRect(contours3[i])
@@ -92,10 +121,19 @@ def main():
         if judgeAreaOfBoundingBox(tmp_bounding_box, complement_and_img.shape[0]*complement_and_img.shape[1]):
             bounding_boxes.append(tmp_bounding_box)
 
-    for i in range(len(contours3)):
+    # print('bounding_boxes',len(bounding_boxes))
+    # cv2.imshow('complement_and_img',complement_and_img)
+    # cv2.waitKey(0)
+    # cv2.destroyAllWindows()
 
+    ####################ここまでOK####################
+
+    for i in range(len(contours3)):
+        # print('contours3',contours3[i])
         approx = cv2.approxPolyDP(contours3[i], 6, True)
-        print(approx)
+        # print('approx_size',len(approx))
+        # cv2.imshow("approx", complement_and_img)
+        # cv2.waitKey(0)
 
         # Create a bounding rectangle
         brect = cv2.boundingRect(contours3[i])
@@ -113,6 +151,7 @@ def main():
         if ymax>inverse_bin_img.shape[0]-6:ymax = inverse_bin_img.shape[0]
 
         bbPoints = np.array([[xmin, ymin], [xmin, ymax], [xmax, ymin], [xmax, ymax]], dtype=np.int32)
+        top_line, bottom_line, left_line, right_line = renew_line(bbPoints)
 
         # 大きさ４で初期化
         definitePanelPoint = np.array([[0, 0], [0, 0], [0, 0], [0, 0]], dtype=np.int32)
@@ -131,7 +170,7 @@ def main():
 
         if judgeAreaOfBoundingBox(brect, src_img.shape[1] * src_img.shape[0]):
             # Check if bounding boxes overlap
-            isOverlap = judgeBoundingBoxOverlap(bounding_boxes, brect)
+            isOverlap = judgeBoundingBoxOverlap(isOverlap, bounding_boxes, brect)
         else:
             isOverlap = False
 
@@ -140,9 +179,9 @@ def main():
         for i in range(len(approx)):
             p = approx[i][0]
 
-            print('deffinitePanel',definitePanelPoint)
-            print('pagecorners',pageCorners)
-            print('bbpoints',bbPoints)
+            # print('deffinitePanel',definitePanelPoint)
+            # print('pagecorners',pageCorners)
+            # print('bbpoints',bbPoints)
 
             flag_LT, bb_min_LT, definitePanelPoint[0] = definePanelCorners(flag_LT, p, bb_min_LT,  pageCorners[0],  definitePanelPoint[0], bbPoints[0])
             flag_LB, bb_min_LB, definitePanelPoint[1] = definePanelCorners(flag_LB, p, bb_min_LB,  pageCorners[1],  definitePanelPoint[1], bbPoints[1])
@@ -152,7 +191,7 @@ def main():
 
         top_line, bottom_line, left_line, right_line = renew_line(definitePanelPoint)
 
-        alphaImage = cv2.cvtColor(src_img, cv2.COLOR_BGR2BGRA)
+        alphaImage = cv2.cvtColor(color_img, cv2.COLOR_BGR2BGRA)
 
         # createAlphaImage(alphaImage, definitePanelPoint)
 
@@ -163,27 +202,23 @@ def main():
 
         panel_imgs = []
         panel_imgs.append(cut_img)
-        print(panel_imgs[0].shape)
+        # print(panel_imgs[0].shape)
 
-        print('definitePanelPoint[0]',definitePanelPoint[0])
-        print('definitePanelPoint[1]',definitePanelPoint[1])
-        print('definitePanelPoint[2]',definitePanelPoint[2])
-        print('definitePanelPoint[3]',definitePanelPoint[3])
+        # print('definitePanelPoint[0]',definitePanelPoint[0])
+        # print('definitePanelPoint[1]',definitePanelPoint[1])
+        # print('definitePanelPoint[2]',definitePanelPoint[2])
+        # print('definitePanelPoint[3]',definitePanelPoint[3])
         cv2.line(color_img,definitePanelPoint[0],definitePanelPoint[2],(255,0,0),thickness=2,lineType=8)
         cv2.line(color_img,definitePanelPoint[2],definitePanelPoint[3],(255,0,0),thickness=2,lineType=8)
         cv2.line(color_img,definitePanelPoint[3],definitePanelPoint[1],(255,0,0),thickness=2,lineType=8)
         cv2.line(color_img,definitePanelPoint[1],definitePanelPoint[0],(255,0,0),thickness=2,lineType=8)
 
+    print(len(panel_imgs))
     for i in range (len(panel_imgs)):
         cv2.imshow("panel"+str(i),panel_imgs[i])
+        cv2.imwrite("./output/panel/panel"+str(i)+".png",panel_imgs[i])
         cv2.waitKey(0)
         cv2.destroyAllWindows()
-
-
-
-
-
-
 
 
 
@@ -196,12 +231,12 @@ def extractSpeechBalloon(fukidashi_contours,hierarchy2,gaussian_img):
         area = cv2.contourArea(fukidashi_contours[i])
         length = cv2.arcLength(fukidashi_contours[i], True)
         en = 0.0
-        if gaussian_img.shape[0] * gaussian_img.shape[1] * 0.008 <= area and area < gaussian_img.shape[0] * gaussian_img.shape[1] * 0.03:
+        if gaussian_img.shape[0] * gaussian_img.shape[1] * 0.005 <= area and area < gaussian_img.shape[0] * gaussian_img.shape[1] * 0.05:
             en = 4.0 * np.pi * area / (length * length)
         if en > 0.4:
             cv2.drawContours(gaussian_img, fukidashi_contours, i, 0, -1, cv2.LINE_AA, hierarchy2, 1)
 
-        return gaussian_img
+    return gaussian_img
 
 def findFrameExistenceArea(inverse_bin_img):
     height, width = inverse_bin_img.shape
@@ -231,16 +266,25 @@ def findFrameExistenceArea(inverse_bin_img):
         if min_x < 6: min_x = 0
         if max_x > width - 6: max_x = width
 
-        pageCorners = [(min_x, 0), (max_x, 0), (max_x, height), (min_x, height)]
+        pageCorners = [(min_x, 0), (max_x, 0), (min_x, height), (max_x, height)]
 
         rec_img = np.zeros((height, width), dtype=np.uint8)
 
         return pageCorners, rec_img
 
 def drawLines(lines, lines_img):
+    # for i in range(min(len(lines), 100)):
     for i in range(len(lines)):
+        line = lines[i]
         rho = lines[i][0][0]
         theta = lines[i][0][1]
+        theta_deg = np.degrees(theta)
+        with open('./output/0604/beforeDeg.txt', mode='a') as f:
+            f.write(str(theta_deg) + '\n')
+        if (theta_deg > 30 and theta_deg < 90) or (theta_deg < 120 and theta_deg > 150):
+            continue
+        with open('./output/0604/afterDeg.txt', mode='a') as f:
+            f.write(str(theta_deg) + '\n')
         a = np.cos(theta)
         b = np.sin(theta)
         x0 = a*rho
@@ -250,7 +294,7 @@ def drawLines(lines, lines_img):
 
         lines_img = cv2.line(lines_img, pt1, pt2, (255), 1, cv2.LINE_AA)
 
-        return lines_img
+    return lines_img
 
 def createAndImgWithBoundingBox(src_img, contours, inverse_bin_img):
     for i in range(len(contours)):
@@ -269,7 +313,7 @@ def judgeAreaOfBoundingBox(bounding_box, page_area):
         return False
     return True
 
-def judgeBoundingBoxOverlap(bounding_boxes, brect):
+def judgeBoundingBoxOverlap(isOverlap,bounding_boxes, brect):
     for box in bounding_boxes:
     # If it's the same, skip
         if box[0] == brect[0] and box[1] == brect[1] and box[2] == brect[2] and box[3] == brect[3]:
@@ -298,7 +342,7 @@ def definePanelCorners(definite, current_point, bounding_box_min_dist, PageCorne
             if bounding_box_dist < bounding_box_min_dist:
                 bounding_box_min_dist = bounding_box_dist
                 definite_panel_point = current_point
-    print("受け渡す前",definite_panel_point)
+    # print("受け渡す前",definite_panel_point)
     return definite, bounding_box_min_dist, definite_panel_point
 
 def align2edge(definite_panel_point, inverse_bin_img):
