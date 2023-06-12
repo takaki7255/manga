@@ -6,7 +6,7 @@ from pylsd.lsd import lsd
 def main():
     input_img = cv2.imread('./input/Belmondo/004.jpg')
     twoPage = PageCut(input_img)
-    src_img = twoPage[0]
+    src_img = twoPage[1]
     if src_img is None:
         print("Not open:", src_img)
         return
@@ -16,6 +16,8 @@ def main():
         src_img = cv2.cvtColor(src_img, cv2.COLOR_BGR2GRAY)
     else:
         color_img = cv2.cvtColor(src_img, cv2.COLOR_GRAY2BGR)
+
+    height, width = src_img.shape[:2]
 
     gausForLsd_img = cv2.GaussianBlur(src_img, (5, 5), 0)
 
@@ -48,7 +50,7 @@ def main():
     # pylsdのやつ
     for line in lines:
         x1, y1, x2, y2 = map(int,line[:4])
-        if (x2-x1)**2 + (y2-y1)**2 > 30000:# 今のところ9000が最適
+        if (x2-x1)**2 + (y2-y1)**2 > 9000:# 今のところ9000が最適
         # 赤線を引く
             # result_img = cv2.line(result_img, (x1,y1), (x2,y2), (0,0,255), 3)
             pt1 = (x1, y1)
@@ -79,6 +81,12 @@ def main():
             continue
 
     and_img = cv2.bitwise_and(lines_img,inverse_bin_img)
+    
+    # 画像端に直線を描画する
+    cv2.line(and_img, (0, 0), (width-1, 0), (255,255,255), 3)  # 上辺
+    cv2.line(and_img, (0, height-1), (width-1, height-1), (255,255,255), 3)  # 下辺
+    cv2.line(and_img, (0, 0), (0, height-1), (255,255,255), 3)  # 左辺
+    cv2.line(and_img, (width-1, 0), (width-1, height-1), (255,255,255), 3)  # 右辺
 
 
     cv2.imshow('result_img', result_img)
@@ -87,7 +95,6 @@ def main():
     cv2.imshow('and_img', and_img)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
-
 
 
 
