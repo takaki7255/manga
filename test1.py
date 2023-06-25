@@ -30,7 +30,7 @@ def main():
     for line in linesL:
         x1, y1, x2, y2 = map(int,line[:4])
         # resultL_img = cv2.line(resultL_img, (x1,y1), (x2,y2), (255,255,255), 3)
-        if (x2-x1)**2 + (y2-y1)**2 > 9000:# 今のところ9000が最適
+        if (x2-x1)**2 + (y2-y1)**2 > 1000:# 今のところ9000が最適
         # 赤線を引く
             resultL_img = cv2.line(resultL_img, (x1,y1), (x2,y2), (0,0,255), 3)
             resultL1_img = cv2.line(resultL1_img, (x1,y1), (x2,y2), (255,255,255), 3)
