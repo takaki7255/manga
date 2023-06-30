@@ -45,10 +45,10 @@ def main():
     # lsdで直線検出
     lines = lsd(gausForLsd_img)
 
-    result_img = color_img.copy()
+    result_img = np.zeros_like(src_img)
     lines_img = np.zeros_like(src_img)
     lines_senbun = np.zeros_like(src_img)
-    result_senbub = np.zeros_like(src_img)
+    result_senbun = np.zeros_like(src_img)
     # pylsdのやつ
     for line in lines:
         x1, y1, x2, y2 = map(int,line[:4])
@@ -111,7 +111,7 @@ def main():
     #     x2 = int(x0 - 1000 * (-b))
     #     y2 = int(y0 - 1000 * (a))
 
-    #     cv2.line(result_senbub, (x1, y1), (x2, y2), (255, 255, 255), 2)
+    #     cv2.line(result_senbun, (x1, y1), (x2, y2), (255, 255, 255), 2)
 
     # 膨張・収縮処理
     # kernel = np.ones((3,3),np.uint8)
@@ -128,7 +128,7 @@ def main():
     contours = [cnt for cnt in contours if cv2.contourArea(cnt) > 100]
 
     # 輪郭を描画
-    result_senbub = cv2.drawContours(result_senbub, contours, -1, (255, 255, 255), 3)
+    result_senbun = cv2.drawContours(result_senbun, contours, -1, (255, 255, 255), 3)
 
     #ここにさらに直線検出
     lines_s = cv2.HoughLines(and_senbun, 1, np.pi / 180, 250)
@@ -146,9 +146,67 @@ def main():
         x2 = int(x0 - 1000 * (-b))
         y2 = int(y0 - 1000 * (a))
 
-        cv2.line(result_senbub, (x1, y1), (x2, y2), (255, 255, 255), 2)
+        cv2.line(result_senbun, (x1, y1), (x2, y2), (255, 255, 255), 3)
+    
+    # 二値画像に膨張収縮
+    kernel = np.ones((3,3),np.uint8)
+    forBitwiseInverseImg = cv2.dilate(inverse_bin_img,kernel,iterations = 2)
+    forBitwiseInverseImg = cv2.erode(forBitwiseInverseImg,kernel,iterations = 2)
 
-    result_senbub = cv2.bitwise_and(result_senbub,inverse_bin_img)
+    result_senbun = cv2.bitwise_and(result_senbun,forBitwiseInverseImg)
+
+    result_senbun_dulateerode = cv2.dilate(result_senbun,kernel,iterations = 2)
+    result_senbun_dulateerode = cv2.erode(result_senbun_dulateerode,kernel,iterations = 2)
+
+    # 画像端に直線を引く
+    cv2.line(result_senbun_dulateerode, (0, 0), (width-1, 0), (255,255,255), 3)  # 上辺
+    cv2.line(result_senbun_dulateerode, (0, height-1), (width-1, height-1), (255,255,255), 3)  # 下辺
+    cv2.line(result_senbun_dulateerode, (0, 0), (0, height-1), (255,255,255), 3)  # 左辺
+    cv2.line(result_senbun_dulateerode, (width-1, 0), (width-1, height-1), (255,255,255), 3)  # 右辺
+
+    # 輪郭抽出
+    contours = []
+    hierarchy = []
+    # contours,hierarchy = cv2.findContours(result_senbun_dulateerode, cv2.RETR_LIST, cv2.CHAIN_APPROX_NONE)
+    contours,hierarchy = cv2.findContours(result_senbun_dulateerode, cv2.RETR_TREE, cv2.CHAIN_APPROX_TC89_KCOS)
+    # print(contours)
+
+    # 極端に小さい輪郭を削除
+    contours = [cnt for cnt in contours if cv2.contourArea(cnt) > 10000]
+    # 画像サイズの輪郭を削除
+    contours = [cnt for cnt in contours if cv2.contourArea(cnt) < (width*height)/2]
+    print(contours)
+
+
+    # 輪郭を描画
+    # result_img = cv2.drawContours(result_img, contours, -1, (255, 255, 255), -2)
+
+    # 輪郭を描画
+    count = 0
+    for contour in contours:
+        # 輪郭を近似
+        epsilon = 0.08*cv2.arcLength(contour,True)
+        approx = cv2.approxPolyDP(contour,epsilon,True)
+        if len(approx) == 4:
+            count += 1
+            result_img = cv2.drawContours(result_img, [approx], -1, (255, 255, 255), 2)
+    print(count)
+    # for i in range(len(contours)):
+    #     # hierarchy[0][i][3]は、i番目の輪郭の親のインデックスです。
+
+    #     # 親のインデックスを取得
+    #     parent_index = hierarchy[0][i][3]
+
+    #     # 親が存在しない場合はスキップ
+    #     if parent_index == -1:
+    #         continue
+
+    #     # 親の輪郭がさらに親を持たない（つまり、親が1つだけ存在する）場合に描画
+    #     if hierarchy[0][parent_index][3] == -1:
+    #         print('yobidashi')
+    #         cv2.drawContours(result_img, contours, i, (255, 255, 255), 2)
+
+
 
     cv2.imshow('lines_img', lines_img)
     cv2.imwrite('./output/0604/lines_img.jpg', lines_img)
@@ -156,11 +214,14 @@ def main():
     cv2.imwrite('./output/0604/lines_senbun.jpg', lines_senbun)
     cv2.imshow('gaussian_img', inverse_bin_img)
     cv2.imshow('and_img', and_img)
-    cv2.imshow('result_senbub', result_senbub)
-    cv2.imwrite('./output/0604/result_senbub.jpg', result_senbub)
+    cv2.imshow('result_senbub', result_senbun)
+    cv2.imwrite('./output/0604/result_senbub.jpg', result_senbun)
     cv2.imwrite('./output/0604/and_img.jpg', and_img)
     cv2.imshow('and_senbun',and_senbun)
     cv2.imwrite('./output/0604/and_senbun.jpg', and_senbun)
+    cv2.imshow('result_senbub_dulateerode', result_senbun_dulateerode)
+    cv2.imshow('result_img', result_img)
+    cv2.imwrite('./output/0604/result_img.jpg', result_img)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
