@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 import math
+import os
 
 def PageCut(input_img):
     pageImg = []
@@ -12,6 +13,13 @@ def PageCut(input_img):
     else:  # 縦 > 横の場合: 単一ページ画像だと判断しそのまま保存
         pageImg.append(input_img)
     return pageImg
+
+def get_imgList_form_dir(dir_path):
+    img_list = []
+    for file in os.listdir(dir_path):
+        if file.endswith(".jpg") or file.endswith(".png"):
+            img_list.append(os.path.join(dir_path, file))
+    return img_list
 
 
 def findFrameArea(input_page_image):

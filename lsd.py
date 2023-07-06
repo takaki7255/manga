@@ -16,6 +16,7 @@ def main():
         src_img = cv2.cvtColor(src_img, cv2.COLOR_BGR2GRAY)
     else:
         color_img = cv2.cvtColor(src_img, cv2.COLOR_GRAY2BGR)
+    cv2.imwrite('./output/0604//gray.jpg', src_img)
 
     height, width = src_img.shape[:2]
 
@@ -46,6 +47,7 @@ def main():
     lines = lsd(gausForLsd_img)
 
     result_img = np.zeros_like(src_img)
+    result_img2 = np.zeros_like(src_img)
     lines_img = np.zeros_like(src_img)
     lines_senbun = np.zeros_like(src_img)
     result_senbun = np.zeros_like(src_img)
@@ -172,10 +174,10 @@ def main():
     # print(contours)
 
     # 極端に小さい輪郭を削除
-    contours = [cnt for cnt in contours if cv2.contourArea(cnt) > 10000]
+    contours = [cnt for cnt in contours if cv2.contourArea(cnt) > 1000]
     # 画像サイズの輪郭を削除
     contours = [cnt for cnt in contours if cv2.contourArea(cnt) < (width*height)/2]
-    print(contours)
+    # print(contours)
 
 
     # 輪郭を描画
@@ -188,23 +190,23 @@ def main():
         epsilon = 0.08*cv2.arcLength(contour,True)
         approx = cv2.approxPolyDP(contour,epsilon,True)
         if len(approx) == 4:
+            # x1,y1,w1,h1 = cv2.boundingRect(contour)
+            # for contour2 in contours:
+            #     x2,y2,w2,h2 = cv2.boundingRect(contour2)
+            #     if not (x1 > x2+w2 or x1+w1 < x2 or y1 > y2+h2 or y1+h1 < y2):
+            #         print(f"Contour  is overlapping with contour ")
+            #         count += 1
+            #         result_img = cv2.drawContours(result_img, [approx], -1, (255, 255, 255), 2)
             count += 1
             result_img = cv2.drawContours(result_img, [approx], -1, (255, 255, 255), 2)
     print(count)
-    # for i in range(len(contours)):
-    #     # hierarchy[0][i][3]は、i番目の輪郭の親のインデックスです。
 
-    #     # 親のインデックスを取得
-    #     parent_index = hierarchy[0][i][3]
+    contours2 = []
+    contours2,hierarchy = cv2.findContours(result_img, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_TC89_KCOS)
+    print(len(contours2))
+    # 輪郭描画
+    result_img = cv2.drawContours(result_img2, contours2, -1, (255, 255, 255), 2)
 
-    #     # 親が存在しない場合はスキップ
-    #     if parent_index == -1:
-    #         continue
-
-    #     # 親の輪郭がさらに親を持たない（つまり、親が1つだけ存在する）場合に描画
-    #     if hierarchy[0][parent_index][3] == -1:
-    #         print('yobidashi')
-    #         cv2.drawContours(result_img, contours, i, (255, 255, 255), 2)
 
 
 
@@ -222,6 +224,8 @@ def main():
     cv2.imshow('result_senbub_dulateerode', result_senbun_dulateerode)
     cv2.imshow('result_img', result_img)
     cv2.imwrite('./output/0604/result_img.jpg', result_img)
+    cv2.imshow('result_img2', result_img2)
+    cv2.imwrite('./output/0604/result_img2.jpg', result_img2)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
