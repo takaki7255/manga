@@ -48,9 +48,11 @@ def main():
 
     result_img = np.zeros_like(src_img)
     result_img2 = np.zeros_like(src_img)
+    result_img3 = np.zeros_like(src_img)
     lines_img = np.zeros_like(src_img)
     lines_senbun = np.zeros_like(src_img)
     result_senbun = np.zeros_like(src_img)
+    corners = []
     # pylsdのやつ
     for line in lines:
         x1, y1, x2, y2 = map(int,line[:4])
@@ -189,6 +191,8 @@ def main():
         # 輪郭を近似
         epsilon = 0.08*cv2.arcLength(contour,True)
         approx = cv2.approxPolyDP(contour,epsilon,True)
+        # cornersに近似した輪郭の頂点を格納
+        corners.append(approx)
         if len(approx) == 4:
             # x1,y1,w1,h1 = cv2.boundingRect(contour)
             # for contour2 in contours:
@@ -206,26 +210,46 @@ def main():
     print(len(contours2))
     # 輪郭描画
     result_img = cv2.drawContours(result_img2, contours2, -1, (255, 255, 255), 2)
+    # # 輪郭の四隅の座標を取得
+    # for contour in contours2:
+    #     rect = cv2.minAreaRect(contour)
+    #     box = cv2.boxPoints(rect)
+    #     box = np.int0(box)  # 座標を整数に変換
+    #     # 四隅座標を格納
+    #     corners.append(box)
+    # print(corners)
+
+    # 座標から画像に直線を引く
+    corners = np.array(corners)
+    corners = corners.squeeze()
+    for corner in corners:
+        print(type(corner))
+        print(corner)
+        corner = corner.squeeze()
+        cv2.circle(result_img3, tuple(corner[0]), radius=5, color=(255, 255, 255), thickness=-1)
+    
 
 
 
 
-    cv2.imshow('lines_img', lines_img)
-    cv2.imwrite('./output/0604/lines_img.jpg', lines_img)
-    cv2.imshow('lines_senbun', lines_senbun)
-    cv2.imwrite('./output/0604/lines_senbun.jpg', lines_senbun)
-    cv2.imshow('gaussian_img', inverse_bin_img)
-    cv2.imshow('and_img', and_img)
-    cv2.imshow('result_senbub', result_senbun)
-    cv2.imwrite('./output/0604/result_senbub.jpg', result_senbun)
-    cv2.imwrite('./output/0604/and_img.jpg', and_img)
-    cv2.imshow('and_senbun',and_senbun)
-    cv2.imwrite('./output/0604/and_senbun.jpg', and_senbun)
-    cv2.imshow('result_senbub_dulateerode', result_senbun_dulateerode)
-    cv2.imshow('result_img', result_img)
-    cv2.imwrite('./output/0604/result_img.jpg', result_img)
+
+    # cv2.imshow('lines_img', lines_img)
+    # cv2.imwrite('./output/0604/lines_img.jpg', lines_img)
+    # cv2.imshow('lines_senbun', lines_senbun)
+    # cv2.imwrite('./output/0604/lines_senbun.jpg', lines_senbun)
+    # cv2.imshow('gaussian_img', inverse_bin_img)
+    # cv2.imshow('and_img', and_img)
+    # cv2.imshow('result_senbub', result_senbun)
+    # cv2.imwrite('./output/0604/result_senbub.jpg', result_senbun)
+    # cv2.imwrite('./output/0604/and_img.jpg', and_img)
+    # cv2.imshow('and_senbun',and_senbun)
+    # cv2.imwrite('./output/0604/and_senbun.jpg', and_senbun)
+    # cv2.imshow('result_senbub_dulateerode', result_senbun_dulateerode)
+    # cv2.imshow('result_img', result_img)
+    # cv2.imwrite('./output/0604/result_img.jpg', result_img)
     cv2.imshow('result_img2', result_img2)
-    cv2.imwrite('./output/0604/result_img2.jpg', result_img2)
+    # cv2.imwrite('./output/0604/result_img2.jpg', result_img2)
+    cv2.imshow('result_img3', result_img3)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
