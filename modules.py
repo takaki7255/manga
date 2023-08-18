@@ -21,6 +21,16 @@ def get_imgList_form_dir(dir_path):
             img_list.append(os.path.join(dir_path, file))
     return img_list
 
+def extractSpeechBalloon(fukidashi_contours,hierarchy2,gaussian_img):
+    for i in range(len(fukidashi_contours)):
+        area = cv2.contourArea(fukidashi_contours[i])
+        length = cv2.arcLength(fukidashi_contours[i], True)
+        en = 0.0
+        if gaussian_img.shape[0] * gaussian_img.shape[1] * 0.005 <= area and area < gaussian_img.shape[0] * gaussian_img.shape[1] * 0.05:
+            en = 4.0 * np.pi * area / (length * length)
+        if en > 0.4:
+            cv2.drawContours(gaussian_img, fukidashi_contours, i, 0, -1, cv2.LINE_AA, hierarchy2, 1)
+
 
 def findFrameArea(input_page_image):
     # 入力がグレースケールでない場合はグレースケールに変換
