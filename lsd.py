@@ -12,8 +12,8 @@ def main():
     img_files = get_imgs_from_folder_sorted(folder)
     # print(img_files)
     for img_file in img_files:
-        # if img_file != "012.jpg":
-        #     continue
+        if img_file != "012.jpg":
+            continue
         input_img = cv2.imread(folder + img_file)
         # print(input_img)
         twoPage = PageCut(input_img)
@@ -90,7 +90,7 @@ def main():
                 x1, y1, x2, y2 = map(int, line[:4])
                 if (x2 - x1) ** 2 + (y2 - y1) ** 2 > 9000:  # 今のところ9000が最適
                     # 赤線を引く
-                    cv2.line(lines_senbun, (x1, y1), (x2, y2), (255, 255, 255), 3)
+                    cv2.line(lines_senbun, (x1, y1), (x2, y2), (255, 255, 255), 1)
             # cv2.imshow("lines_senbun", lines_senbun)
             cv2.imwrite(
                 "./output/0818/" + str(img_file) + str(pagenum) + "lines_senbun.jpg",
