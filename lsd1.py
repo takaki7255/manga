@@ -11,7 +11,7 @@ def main():
     img_files = get_imgs_from_folder_sorted(folder)
     # print(img_files)
     for img_file in img_files:
-        if img_file != "012.jpg":
+        if img_file != "044.jpg":
             continue
         input_img = cv2.imread(folder + img_file)
         # print(input_img)
@@ -70,36 +70,37 @@ def main():
             )
 
             inverse_bin_img = cv2.threshold(
-                gaussian_img, 100, 255, cv2.THRESH_BINARY_INV
+                gaussian_img, 150, 255, cv2.THRESH_BINARY_INV
             )[1]
 
             senbun = np.zeros_like(src_img)
             lines = lsd(gausForLsd_img)
             for line in lines:
                 x1, y1, x2, y2 = map(int, line[:4])
-                if (x2 - x1) ** 2 + (y2 - y1) ** 2 > 9000:  # 今のところ9000が最適
+                if (x2 - x1) ** 2 + (y2 - y1) ** 2 > 5000:  # 今のところ9000が最適
                     # 線を引く
                     cv2.line(senbun, (x1, y1), (x2, y2), (255, 255, 255), 3)
-
-            cv2.imwrite(
-                "./output/0818" + img_file + "_" + str(pagenum) + "_lsd1senbun.jpg",
-                senbun,
-            )
+            cv2.imshow("senbun", senbun)
+            cv2.waitKey(0)
+            cv2.destroyAllWindows()
 
             hough_lines = cv2.HoughLines(senbun, 1, np.pi / 180, 250)
             if hough_lines is None:
                 continue
             hough_img = np.zeros_like(src_img)
-            for rho, theta in hough_lines[:, 0]:
+            for i in range(len(hough_lines)):
+                rho = hough_lines[i][0][0]
+                theta = hough_lines[i][0][1]
                 a = np.cos(theta)
                 b = np.sin(theta)
                 x0 = a * rho
                 y0 = b * rho
+
                 x1 = int(x0 + 2000 * (-b))
                 y1 = int(y0 + 2000 * (a))
                 x2 = int(x0 - 2000 * (-b))
                 y2 = int(y0 - 2000 * (a))
-                cv2.line(hough_img, (x1, y1), (x2, y2), (255, 255, 255), 3)
+                cv2.line(hough_img, (x1, y1), (x2, y2), (255, 255, 255), 5)
             cv2.imshow("hough", hough_img)
             cv2.waitKey(0)
             cv2.destroyAllWindows()
@@ -107,58 +108,71 @@ def main():
             # 二値画像に膨張収縮
             kernel = np.ones((3, 3), np.uint8)
             forAndInverseImg = cv2.dilate(inverse_bin_img, kernel, iterations=2)
-            forAndInverseImg = cv2.erode(forAndInverseImg, kernel, iterations=2)
+            # forAndInverseImg = cv2.erode(forAndInverseImg, kernel, iterations=2)
+            # 画像の黒と白を入れ替える
+            # forAndInverseImg = cv2.bitwise_not(forAndInverseImg)
+            cv2.imshow("forAndInverseImg", forAndInverseImg)
+            cv2.waitKey(0)
+            cv2.destroyAllWindows()
 
             and_img = np.zeros_like(src_img)
             and_img = cv2.bitwise_and(forAndInverseImg, hough_img)
-
-            # 画像端に直線を引く
-            for i in range(height):
-                and_img[i][0] = 255
-                and_img[i][width - 1] = 255
-            for i in range(width):
-                and_img[0][i] = 255
-                and_img[height - 1][i] = 255
             cv2.imshow("and", and_img)
             cv2.waitKey(0)
             cv2.destroyAllWindows()
+
+            # # 画像端に直線を引く
+            # for i in range(height):
+            #     and_img[i][0] = 255
+            #     and_img[i][width - 1] = 255
+            # for i in range(width):
+            #     and_img[0][i] = 255
+            #     and_img[height - 1][i] = 255
+            # cv2.imshow("and", and_img)
 
             # 輪郭抽出
             contours = []
             hierarchy = []
             contours, hierarchy = cv2.findContours(
-                and_img, cv2.RETR_LIST, cv2.CHAIN_APPROX_NONE
+                and_img, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE
             )
-            # 極端に小さい輪郭を削除
-            contours = [cnt for cnt in contours if cv2.contourArea(cnt) > 1000]
-            # 画像サイズの輪郭を削除
-            contours = [
-                cnt for cnt in contours if cv2.contourArea(cnt) < (width * height) / 2
-            ]
+
+            # バウンディングボックスのリストと面積判定
+            bounding_boxes = []
             for contour in contours:
                 bounding_rect = cv2.boundingRect(contour)
-                cv2.rectangle(
-                    result_img,
-                    (bounding_rect[0], bounding_rect[1]),
-                    (
-                        bounding_rect[0] + bounding_rect[2],
-                        bounding_rect[1] + bounding_rect[3],
-                    ),
-                    (255, 255, 255),
-                    3,
-                )
+                min_area = width * height * 0.048
+                max_area = width * height * 0.5
+                w, h = bounding_rect[2], bounding_rect[3]
+                area = w * h
+                if area > max_area:
+                    continue
+                if area < min_area:
+                    continue
+                bounding_boxes.append(bounding_rect)
+
+            for box in bounding_boxes:
+                x, y, w, h = box
+                cv2.rectangle(result_img, (x, y), (x + w, y + h), (255, 255, 255), 2)
 
             cv2.imshow("result", result_img)
             cv2.waitKey(0)
             cv2.destroyAllWindows()
-            # 輪郭を描画
-            count = 0
-            for contour in contours:
-                count += 1
-                cv2.drawContours(result_img, contour, -1, (255, 255, 255), 3)
-            cv2.imshow("result", result_img)
-            cv2.waitKey(0)
-            cv2.destroyAllWindows()
+            # cv2.imwrite(
+            #     "./output/0821/" + img_file + "_" + str(pagenum) + ".jpg", result_img
+            # )
+
+            # contours2 = []
+            # hierarchy2 = []
+            # result_img2 = np.zeros_like(src_img)
+            # contours2, hierarchy2 = cv2.findContours(
+            #     result_img, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE
+            # )
+            # for contour2 in contours2:
+            #     cv2.drawContours(result_img2, contour2, -1, (255, 255, 255), 3)
+            # cv2.imshow("result2", result_img2)
+            # cv2.waitKey(0)
+            # cv2.destroyAllWindows()
 
 
 def extractSpeechBalloon(fukidashi_contours, hierarchy2, gaussian_img):
@@ -167,7 +181,7 @@ def extractSpeechBalloon(fukidashi_contours, hierarchy2, gaussian_img):
         length = cv2.arcLength(fukidashi_contours[i], True)
         en = 0.0
         if (
-            gaussian_img.shape[0] * gaussian_img.shape[1] * 0.005 <= area
+            gaussian_img.shape[0] * gaussian_img.shape[1] * 0.001 <= area
             and area < gaussian_img.shape[0] * gaussian_img.shape[1] * 0.05
         ):
             en = 4.0 * np.pi * area / (length * length)
@@ -204,6 +218,35 @@ def is_black_image(img, threshold=0):
     avg_color_per_row = np.average(img, axis=0)
     avg_color = np.average(avg_color_per_row, axis=0)
     return np.all(avg_color <= threshold)
+
+
+def compute_iou(box1, box2):
+    x1, y1, w1, h1 = box1
+    x2, y2, w2, h2 = box2
+
+    xi1 = max(x1, x2)
+    yi1 = max(y1, y2)
+    xi2 = min(x1 + w1, x2 + w2)
+    yi2 = min(y1 + h1, y2 + h2)
+
+    intersection_area = max(xi2 - xi1, 0) * max(yi2 - yi1, 0)
+
+    area1 = w1 * h1
+    area2 = w2 * h2
+    union_area = area1 + area2 - intersection_area
+
+    # 重複していない場合、IoUは0になります
+    if union_area == 0:
+        return 0
+
+    return intersection_area / union_area
+
+
+def is_Overlap(box1, bounding_boxes):
+    for box2 in bounding_boxes:
+        if compute_iou(box1, box2) != 0:
+            return True
+    return False
 
 
 if __name__ == "__main__":

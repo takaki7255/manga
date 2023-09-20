@@ -1,0 +1,327 @@
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/ARMS.xml
+{'page': '40', 'frame': {'id': '00000499', 'xmin': '302', 'ymin': '705', 'xmax': '393', 'ymax': '1092'}, 'length': 91}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/AisazuNihaIrarenai.xml
+{'page': '13', 'frame': {'id': '00000bf3', 'xmin': '1290', 'ymin': '1009', 'xmax': '1622', 'ymax': '1027'}, 'length': 18}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/AkkeraKanjinchou.xml
+{'page': '89', 'frame': {'id': '00002c9f', 'xmin': '50', 'ymin': '1073', 'xmax': '363', 'ymax': '1107'}, 'length': 34}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/Akuhamu.xml
+{'page': '60', 'frame': {'id': '00003c57', 'xmin': '81', 'ymin': '398', 'xmax': '97', 'ymax': '536'}, 'length': 16}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/AosugiruHaru.xml
+{'page': '26', 'frame': {'id': '0000447a', 'xmin': '1574', 'ymin': '1', 'xmax': '1602', 'ymax': '1165'}, 'length': 28}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/AppareKappore.xml
+{'page': '51', 'frame': {'id': '000058c8', 'xmin': '907', 'ymin': '302', 'xmax': '1243', 'ymax': '369'}, 'length': 67}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/Arisa.xml
+{'page': '69', 'frame': {'id': '00006fea', 'xmin': '213', 'ymin': '786', 'xmax': '271', 'ymax': '1103'}, 'length': 58}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/BEMADER_P.xml
+{'page': '96', 'frame': {'id': '0000881b', 'xmin': '421', 'ymin': '603', 'xmax': '483', 'ymax': '830'}, 'length': 62}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/BakuretsuKungFuGirl.xml
+{'page': '21', 'frame': {'id': '00008fd8', 'xmin': '245', 'ymin': '152', 'xmax': '310', 'ymax': '398'}, 'length': 65}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/Belmondo.xml
+{'page': '26', 'frame': {'id': '0000a5a4', 'xmin': '1093', 'ymin': '36', 'xmax': '1118', 'ymax': '70'}, 'length': 25}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/BokuHaSitatakaKun.xml
+{'page': '7', 'frame': {'id': '0000b516', 'xmin': '1526', 'ymin': '400', 'xmax': '1613', 'ymax': '697'}, 'length': 87}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/BurariTessenTorimonocho.xml
+{'page': '108', 'frame': {'id': '0000ec5b', 'xmin': '629', 'ymin': '0', 'xmax': '658', 'ymax': '522'}, 'length': 29}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/ByebyeC-BOY.xml
+{'page': '90', 'frame': {'id': '0000ffef', 'xmin': '337', 'ymin': '81', 'xmax': '376', 'ymax': '400'}, 'length': 39}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/Count3DeKimeteAgeru.xml
+{'page': '17', 'frame': {'id': '000102f2', 'xmin': '49', 'ymin': '821', 'xmax': '63', 'ymax': '1169'}, 'length': 14}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/DollGun.xml
+{'page': '36', 'frame': {'id': '00011723', 'xmin': '1264', 'ymin': '808', 'xmax': '1366', 'ymax': '1102'}, 'length': 102}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/Donburakokko.xml
+{'page': '35', 'frame': {'id': '0001266f', 'xmin': '892', 'ymin': '370', 'xmax': '1567', 'ymax': '413'}, 'length': 43}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/DualJustice.xml
+{'page': '11', 'frame': {'id': '00012e82', 'xmin': '67', 'ymin': '789', 'xmax': '740', 'ymax': '806'}, 'length': 17}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/EienNoWith.xml
+{'page': '25', 'frame': {'id': '00013e97', 'xmin': '74', 'ymin': '378', 'xmax': '169', 'ymax': '434'}, 'length': 56}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/EvaLady.xml
+{'page': '89', 'frame': {'id': '0001613b', 'xmin': '1104', 'ymin': '1124', 'xmax': '1395', 'ymax': '1150'}, 'length': 26}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/EverydayOsakanaChan.xml
+{'page': '5', 'frame': {'id': '00016479', 'xmin': '900', 'ymin': '1084', 'xmax': '1129', 'ymax': '1095'}, 'length': 11}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/GOOD_KISS_Ver2.xml
+{'page': '36', 'frame': {'id': '00017df5', 'xmin': '883', 'ymin': '483', 'xmax': '1543', 'ymax': '515'}, 'length': 32}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/GakuenNoise.xml
+{'page': '56', 'frame': {'id': '0001956e', 'xmin': '446', 'ymin': '69', 'xmax': '532', 'ymax': '1089'}, 'length': 86}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/GarakutayaManta.xml
+{'page': '93', 'frame': {'id': '0001b1c6', 'xmin': '286', 'ymin': '2', 'xmax': '323', 'ymax': '391'}, 'length': 37}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/GinNoChimera.xml
+{'page': '85', 'frame': {'id': '0001bda1', 'xmin': '1253', 'ymin': '1', 'xmax': '1277', 'ymax': '421'}, 'length': 24}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/Hamlet.xml
+{'page': '33', 'frame': {'id': '0001c566', 'xmin': '914', 'ymin': '74', 'xmax': '1589', 'ymax': '145'}, 'length': 71}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/HanzaiKousyouninMinegishiEitarou.xml
+{'page': '95', 'frame': {'id': '0001fa3f', 'xmin': '110', 'ymin': '593', 'xmax': '721', 'ymax': '616'}, 'length': 23}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/HaruichibanNoFukukoro.xml
+{'page': '95', 'frame': {'id': '00020af3', 'xmin': '899', 'ymin': '558', 'xmax': '1225', 'ymax': '596'}, 'length': 38}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/HarukaRefrain.xml
+{'page': '14', 'frame': {'id': '00020d92', 'xmin': '765', 'ymin': '346', 'xmax': '772', 'ymax': '348'}, 'length': 2}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/HealingPlanet.xml
+{'page': '30', 'frame': {'id': '0002204a', 'xmin': '4', 'ymin': '570', 'xmax': '624', 'ymax': '598'}, 'length': 28}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/HeiseiJimen.xml
+{'page': '66', 'frame': {'id': '00023576', 'xmin': '63', 'ymin': '601', 'xmax': '260', 'ymax': '654'}, 'length': 53}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/HighschoolKimengumi_vol01.xml
+{'page': '95', 'frame': {'id': '000258ef', 'xmin': '363', 'ymin': '706', 'xmax': '440', 'ymax': '1100'}, 'length': 77}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/HighschoolKimengumi_vol20.xml
+{'page': '88', 'frame': {'id': '00027334', 'xmin': '159', 'ymin': '853', 'xmax': '218', 'ymax': '1116'}, 'length': 59}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/HinagikuKenzan.xml
+{'page': '15', 'frame': {'id': '000276bf', 'xmin': '1467', 'ymin': '3', 'xmax': '1647', 'ymax': '57'}, 'length': 54}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/HisokaReturns.xml
+{'page': '41', 'frame': {'id': '00028914', 'xmin': '943', 'ymin': '1029', 'xmax': '1177', 'ymax': '1089'}, 'length': 60}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/JangiriPonpon.xml
+{'page': '66', 'frame': {'id': '0002a508', 'xmin': '313', 'ymin': '314', 'xmax': '389', 'ymax': '581'}, 'length': 76}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/JijiBabaFight.xml
+{'page': '4', 'frame': {'id': '0002b0fc', 'xmin': '885', 'ymin': '589', 'xmax': '1551', 'ymax': '752'}, 'length': 163}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/Joouari.xml
+{'page': '24', 'frame': {'id': '0002c9ab', 'xmin': '1470', 'ymin': '789', 'xmax': '1584', 'ymax': '1084'}, 'length': 114}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/Jyovolley.xml
+{'page': '67', 'frame': {'id': '0002e101', 'xmin': '1088', 'ymin': '1156', 'xmax': '1573', 'ymax': '1169'}, 'length': 13}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/KarappoHighschool.xml
+{'page': '15', 'frame': {'id': '0002e86f', 'xmin': '1219', 'ymin': '158', 'xmax': '1276', 'ymax': '548'}, 'length': 57}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/KimiHaBokuNoTaiyouDa.xml
+{'page': '36', 'frame': {'id': '00030183', 'xmin': '911', 'ymin': '764', 'xmax': '936', 'ymax': '1101'}, 'length': 25}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/KoukouNoHitotachi.xml
+{'page': '21', 'frame': {'id': '000317d7', 'xmin': '437', 'ymin': '861', 'xmax': '741', 'ymax': '1070'}, 'length': 209}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/KuroidoGanka.xml
+{'page': '99', 'frame': {'id': '00033c82', 'xmin': '1241', 'ymin': '514', 'xmax': '1333', 'ymax': '1094'}, 'length': 92}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/KyokugenCyclone.xml
+{'page': '8', 'frame': {'id': '00033ebb', 'xmin': '1480', 'ymin': '77', 'xmax': '1510', 'ymax': '379'}, 'length': 30}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/LancelotFullThrottle.xml
+{'page': '91', 'frame': {'id': '00035eb6', 'xmin': '892', 'ymin': '291', 'xmax': '899', 'ymax': '874'}, 'length': 7}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/LoveHina_vol01.xml
+{'page': '77', 'frame': {'id': '000372cd', 'xmin': '914', 'ymin': '639', 'xmax': '959', 'ymax': '682'}, 'length': 43}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/LoveHina_vol14.xml
+{'page': '8', 'frame': {'id': '000378c6', 'xmin': '1000', 'ymin': '557', 'xmax': '1466', 'ymax': '584'}, 'length': 27}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/MAD_STONE.xml
+{'page': '54', 'frame': {'id': '00039725', 'xmin': '82', 'ymin': '607', 'xmax': '299', 'ymax': '682'}, 'length': 75}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/MadouTaiga.xml
+{'page': '9', 'frame': {'id': '00039c40', 'xmin': '1376', 'ymin': '626', 'xmax': '1422', 'ymax': '710'}, 'length': 46}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/MagicStarGakuin.xml
+{'page': '74', 'frame': {'id': '0003b474', 'xmin': '166', 'ymin': '477', 'xmax': '725', 'ymax': '521'}, 'length': 44}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/MagicianLoad.xml
+{'page': '11', 'frame': {'id': '0003b6cc', 'xmin': '856', 'ymin': '0', 'xmax': '917', 'ymax': '1169'}, 'length': 61}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/MariaSamaNihaNaisyo.xml
+{'page': '82', 'frame': {'id': '0003d0a9', 'xmin': '1210', 'ymin': '769', 'xmax': '1256', 'ymax': '1084'}, 'length': 46}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/MayaNoAkaiKutsu.xml
+{'page': '25', 'frame': {'id': '0003d5f7', 'xmin': '290', 'ymin': '1', 'xmax': '308', 'ymax': '1165'}, 'length': 18}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/MemorySeijin.xml
+{'page': '95', 'frame': {'id': '0003ee6f', 'xmin': '76', 'ymin': '524', 'xmax': '90', 'ymax': '954'}, 'length': 14}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/MeteoSanStrikeDesu.xml
+{'page': '82', 'frame': {'id': '0003fb6b', 'xmin': '73', 'ymin': '765', 'xmax': '759', 'ymax': '823'}, 'length': 58}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/MiraiSan.xml
+{'page': '64', 'frame': {'id': '00040d21', 'xmin': '191', 'ymin': '788', 'xmax': '240', 'ymax': '1088'}, 'length': 49}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/MisutenaideDaisy.xml
+{'page': '59', 'frame': {'id': '000424ee', 'xmin': '76', 'ymin': '841', 'xmax': '234', 'ymax': '917'}, 'length': 76}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/MoeruOnisan_vol01.xml
+{'page': '7', 'frame': {'id': '00043417', 'xmin': '80', 'ymin': '878', 'xmax': '98', 'ymax': '1104'}, 'length': 18}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/MoeruOnisan_vol19.xml
+{'page': '16', 'frame': {'id': '0004580b', 'xmin': '291', 'ymin': '93', 'xmax': '443', 'ymax': '334'}, 'length': 152}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/MomoyamaHaikagura.xml
+{'page': '49', 'frame': {'id': '000480ff', 'xmin': '472', 'ymin': '0', 'xmax': '529', 'ymax': '431'}, 'length': 57}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/MukoukizuNoChonbo.xml
+{'page': '3', 'frame': {'id': '0004816f', 'xmin': '299', 'ymin': '871', 'xmax': '413', 'ymax': '1108'}, 'length': 114}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/MutekiBoukenSyakuma.xml
+{'page': '53', 'frame': {'id': '00049976', 'xmin': '489', 'ymin': '100', 'xmax': '548', 'ymax': '313'}, 'length': 59}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/Nekodama.xml
+{'page': '31', 'frame': {'id': '0004a728', 'xmin': '264', 'ymin': '721', 'xmax': '288', 'ymax': '1065'}, 'length': 24}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/NichijouSoup.xml
+{'page': '88', 'frame': {'id': '0004c851', 'xmin': '835', 'ymin': '678', 'xmax': '1412', 'ymax': '740'}, 'length': 62}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/Ningyoushi.xml
+{'page': '55', 'frame': {'id': '0004d302', 'xmin': '84', 'ymin': '649', 'xmax': '735', 'ymax': '690'}, 'length': 41}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/OL_Lunch.xml
+{'page': '61', 'frame': {'id': '0004ede4', 'xmin': '76', 'ymin': '867', 'xmax': '391', 'ymax': '1085'}, 'length': 218}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/OhWareraRettouSeitokai.xml
+{'page': '51', 'frame': {'id': '0004f9bd', 'xmin': '309', 'ymin': '1006', 'xmax': '353', 'ymax': '1051'}, 'length': 44}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/PLANET7.xml
+{'page': '10', 'frame': {'id': '00050413', 'xmin': '1249', 'ymin': '642', 'xmax': '1322', 'ymax': '1169'}, 'length': 73}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/ParaisoRoad.xml
+{'page': '37', 'frame': {'id': '00051ec4', 'xmin': '535', 'ymin': '100', 'xmax': '610', 'ymax': '442'}, 'length': 75}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/PikaruGenkiDesu.xml
+{'page': '22', 'frame': {'id': '0005307c', 'xmin': '375', 'ymin': '115', 'xmax': '409', 'ymax': '576'}, 'length': 34}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/PlatinumJungle.xml
+{'page': '28', 'frame': {'id': '00054356', 'xmin': '1193', 'ymin': '870', 'xmax': '1633', 'ymax': '897'}, 'length': 27}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/PrayerHaNemurenai.xml
+{'page': '17', 'frame': {'id': '00054df4', 'xmin': '128', 'ymin': '803', 'xmax': '1351', 'ymax': '1023'}, 'length': 220}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/PrismHeart.xml
+{'page': '76', 'frame': {'id': '00056962', 'xmin': '874', 'ymin': '808', 'xmax': '980', 'ymax': '1167'}, 'length': 106}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/PsychoStaff.xml
+{'page': '6', 'frame': {'id': '00056d82', 'xmin': '894', 'ymin': '816', 'xmax': '1573', 'ymax': '838'}, 'length': 22}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/Raphael.xml
+{'page': '9', 'frame': {'id': '00057ce9', 'xmin': '1074', 'ymin': '429', 'xmax': '1139', 'ymax': '1061'}, 'length': 65}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/ReveryEarth.xml
+{'page': '16', 'frame': {'id': '000593d1', 'xmin': '1122', 'ymin': '681', 'xmax': '1352', 'ymax': '721'}, 'length': 40}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/RinToSiteSippuNoNaka.xml
+{'page': '127', 'frame': {'id': '0005b525', 'xmin': '317', 'ymin': '0', 'xmax': '420', 'ymax': '1169'}, 'length': 103}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/RisingGirl.xml
+{'page': '50', 'frame': {'id': '0005c165', 'xmin': '103', 'ymin': '888', 'xmax': '132', 'ymax': '1014'}, 'length': 29}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/Saisoku.xml
+{'page': '4', 'frame': {'id': '0005cd5a', 'xmin': '122', 'ymin': '673', 'xmax': '670', 'ymax': '694'}, 'length': 21}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/SaladDays_vol01.xml
+{'page': '43', 'frame': {'id': '0005e46e', 'xmin': '1307', 'ymin': '0', 'xmax': '1329', 'ymax': '273'}, 'length': 22}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/SaladDays_vol18.xml
+{'page': '79', 'frame': {'id': '0005fab4', 'xmin': '33', 'ymin': '1033', 'xmax': '78', 'ymax': '1165'}, 'length': 45}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/SamayoeruSyonenNiJunaiWo.xml
+{'page': '17', 'frame': {'id': '0005ff55', 'xmin': '1210', 'ymin': '696', 'xmax': '1316', 'ymax': '1168'}, 'length': 106}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/SeisinkiVulnus.xml
+{'page': '81', 'frame': {'id': '000616d2', 'xmin': '1209', 'ymin': '811', 'xmax': '1326', 'ymax': '1094'}, 'length': 117}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/ShimatteIkouze_vol01.xml
+{'page': '7', 'frame': {'id': '00061b0d', 'xmin': '1156', 'ymin': '76', 'xmax': '1257', 'ymax': '310'}, 'length': 101}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/ShimatteIkouze_vol26.xml
+{'page': '22', 'frame': {'id': '00063e62', 'xmin': '1216', 'ymin': '359', 'xmax': '1248', 'ymax': '389'}, 'length': 30}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/SonokiDeABC.xml
+{'page': '36', 'frame': {'id': '00065bab', 'xmin': '1091', 'ymin': '763', 'xmax': '1379', 'ymax': '782'}, 'length': 19}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/SyabondamaKieta.xml
+{'page': '6', 'frame': {'id': '00066815', 'xmin': '653', 'ymin': '509', 'xmax': '734', 'ymax': '1169'}, 'length': 81}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/TaiyouNiSmash.xml
+{'page': '6', 'frame': {'id': '0006782f', 'xmin': '468', 'ymin': '236', 'xmax': '542', 'ymax': '1169'}, 'length': 74}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/TapkunNoTanteisitsu.xml
+{'page': '79', 'frame': {'id': '00069506', 'xmin': '49', 'ymin': '819', 'xmax': '419', 'ymax': '890'}, 'length': 71}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/TasogareTsushin.xml
+{'page': '33', 'frame': {'id': '00069e94', 'xmin': '905', 'ymin': '1081', 'xmax': '1586', 'ymax': '1094'}, 'length': 13}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/TennenSenshiG.xml
+{'page': '64', 'frame': {'id': '0006b768', 'xmin': '1289', 'ymin': '120', 'xmax': '1359', 'ymax': '411'}, 'length': 70}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/TensiNoHaneToAkumaNoShippo.xml
+{'page': '9', 'frame': {'id': '0006bd83', 'xmin': '33', 'ymin': '876', 'xmax': '68', 'ymax': '1164'}, 'length': 35}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/TetsuSan.xml
+{'page': '20', 'frame': {'id': '0006d549', 'xmin': '80', 'ymin': '74', 'xmax': '405', 'ymax': '114'}, 'length': 40}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/That'sIzumiko.xml
+{'page': '89', 'frame': {'id': '0006e992', 'xmin': '894', 'ymin': '570', 'xmax': '1566', 'ymax': '603'}, 'length': 33}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/TotteokiNoABC.xml
+{'page': '37', 'frame': {'id': '0006f815', 'xmin': '478', 'ymin': '852', 'xmax': '755', 'ymax': '885'}, 'length': 33}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/ToutaMairimasu.xml
+{'page': '77', 'frame': {'id': '000711c3', 'xmin': '328', 'ymin': '696', 'xmax': '442', 'ymax': '1168'}, 'length': 114}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/TouyouKidan.xml
+{'page': '43', 'frame': {'id': '0007209f', 'xmin': '82', 'ymin': '72', 'xmax': '768', 'ymax': '102'}, 'length': 30}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/TsubasaNoKioku.xml
+{'page': '17', 'frame': {'id': '000733ee', 'xmin': '106', 'ymin': '638', 'xmax': '145', 'ymax': '1090'}, 'length': 39}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/UchiNoNyan'sDiary.xml
+{'page': '35', 'frame': {'id': '00074919', 'xmin': '832', 'ymin': '874', 'xmax': '836', 'ymax': '1166'}, 'length': 4}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/UchuKigekiM774.xml
+{'page': '47', 'frame': {'id': '00075fb2', 'xmin': '389', 'ymin': '84', 'xmax': '478', 'ymax': '496'}, 'length': 89}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/UltraEleven.xml
+{'page': '36', 'frame': {'id': '0007734c', 'xmin': '422', 'ymin': '0', 'xmax': '480', 'ymax': '308'}, 'length': 58}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/UnbalanceTokyo.xml
+{'page': '74', 'frame': {'id': '00079456', 'xmin': '1631', 'ymin': '689', 'xmax': '1647', 'ymax': '1091'}, 'length': 16}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/WarewareHaOniDearu.xml
+{'page': '14', 'frame': {'id': '00079a55', 'xmin': '35', 'ymin': '748', 'xmax': '637', 'ymax': '766'}, 'length': 18}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/YamatoNoHane.xml
+{'page': '23', 'frame': {'id': '0007ab53', 'xmin': '1092', 'ymin': '79', 'xmax': '1176', 'ymax': '486'}, 'length': 84}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/YasasiiAkuma.xml
+{'page': '85', 'frame': {'id': '0007c946', 'xmin': '86', 'ymin': '521', 'xmax': '416', 'ymax': '606'}, 'length': 85}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/YouchienBoueigumi.xml
+{'page': '5', 'frame': {'id': '0007cc0c', 'xmin': '899', 'ymin': '83', 'xmax': '1219', 'ymax': '315'}, 'length': 232}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/YoumaKourin.xml
+{'page': '24', 'frame': {'id': '0007d984', 'xmin': '103', 'ymin': '392', 'xmax': '197', 'ymax': '795'}, 'length': 94}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/YukiNoFuruMachi.xml
+{'page': '31', 'frame': {'id': '0007ee9d', 'xmin': '1060', 'ymin': '419', 'xmax': '1084', 'ymax': '608'}, 'length': 24}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/YumeNoKayoiji.xml
+{'page': '27', 'frame': {'id': '0007feec', 'xmin': '1119', 'ymin': '60', 'xmax': '1145', 'ymax': '389'}, 'length': 26}
+
+./../Manga109_released_2021_12_30/annotations.v2020.12.18/YumeiroCooking.xml
+{'page': '54', 'frame': {'id': '0008133c', 'xmin': '1109', 'ymin': '684', 'xmax': '1202', 'ymax': '996'}, 'length': 93}
+

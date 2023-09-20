@@ -12,7 +12,7 @@ def main():
     img_files = get_imgs_from_folder_sorted(folder)
     # print(img_files)
     for img_file in img_files:
-        if img_file != "012.jpg":
+        if img_file != "044.jpg":
             continue
         input_img = cv2.imread(folder + img_file)
         # print(input_img)
@@ -89,61 +89,25 @@ def main():
             for line in lines:
                 x1, y1, x2, y2 = map(int, line[:4])
                 if (x2 - x1) ** 2 + (y2 - y1) ** 2 > 9000:  # 今のところ9000が最適
-                    # 赤線を引く
-                    cv2.line(lines_senbun, (x1, y1), (x2, y2), (255, 255, 255), 1)
-            # cv2.imshow("lines_senbun", lines_senbun)
-            cv2.imwrite(
-                "./output/0818/" + str(img_file) + str(pagenum) + "lines_senbun.jpg",
-                lines_senbun,
-            )
-            # cv2.waitKey(0)
-            # cv2.destroyAllWindows()
-
-            # for i in range(len(lines)):
-            #     x1, y1, x2, y2 = map(int,lines[i][:4])
-            #     if (x2-x1)**2 + (y2-y1)**2 > 15000:
-            #         pt1 = (int(lines[i][0]), int(lines[i][1]))
-            #         pt2 = (int(lines[i][2]), int(lines[i][3]))
-
-            #         # 線分の傾きと切片を計算します。
-            #         if pt2[0] - pt1[0] != 0:  # 垂直な線分を除きます。
-            #             slope = (pt2[1] - pt1[1]) / (pt2[0] - pt1[0])
-            #             intercept = pt1[1] - slope * pt1[0]
-
-            #             # 画像の左右の端でのy座標を計算します。
-            #             y_start = int(slope * 0 + intercept)
-            #             y_end = int(slope * lines_img.shape[1] + intercept)
-            #             cv2.line(lines_img, (0, y_start), (lines_img.shape[1], y_end), (255, 255, 255), 3)
-            #         #     y2 = src_img.shape[0]
-            #         #     x2 = int((y2 - b) / a)
-            #         #     cv2.line(lines_img, (x1, y1), (x2, y2), (255, 255, 255), 3)
-            #         #     cv2.line(result_img, (x1, y1), (x2, y2), (0, 0, 255), 3)
-            #         # else:
-            #         #     cv2.line(lines_img, (x1, 0), (x1, src_img.shape[0]), (255, 255, 255), 3)
-            #         #     cv2.line(result_img, (x1, 0), (x1, src_img.shape[0]), (0, 0, 255), 3)
-            #     else:
-            #         continue
+                    # 線を引く
+                    cv2.line(lines_senbun, (x1, y1), (x2, y2), (255, 255, 255), 3)
+            cv2.imshow("lines_senbun", lines_senbun)
+            # cv2.imwrite(
+            #     "./output/0818/" + str(img_file) + str(pagenum) + "lines_senbun.jpg",
+            #     lines_senbun,
+            # )
+            cv2.waitKey(0)
+            cv2.destroyAllWindows()
 
             and_img = cv2.bitwise_and(lines_img, inverse_bin_img)
             and_senbun = cv2.bitwise_and(lines_senbun, inverse_bin_img)
-            cv2.imwrite(
-                "./output/0818/" + str(img_file) + str(pagenum) + "and_senbun.jpg",
-                and_senbun,
-            )
-            # cv2.imshow('and_img', and_senbun)
-            # cv2.waitKey(0)
-            # cv2.destroyAllWindows()
-
-            # # 画像端に直線を描画する　最後にやる
-            # cv2.line(and_img, (0, 0), (width-1, 0), (255,255,255), 3)  # 上辺
-            # cv2.line(and_img, (0, height-1), (width-1, height-1), (255,255,255), 3)  # 下辺
-            # cv2.line(and_img, (0, 0), (0, height-1), (255,255,255), 3)  # 左辺
-            # cv2.line(and_img, (width-1, 0), (width-1, height-1), (255,255,255), 3)  # 右辺
-
-            # cv2.line(and_senbun, (0, 0), (width-1, 0), (255,255,255), 3)  # 上辺
-            # cv2.line(and_senbun, (0, height-1), (width-1, height-1), (255,255,255), 3)  # 下辺
-            # cv2.line(and_senbun, (0, 0), (0, height-1), (255,255,255), 3)  # 左辺
-            # cv2.line(and_senbun, (width-1, 0), (width-1, height-1), (255,255,255), 3)  # 右辺
+            # cv2.imwrite(
+            #     "./output/0818/" + str(img_file) + str(pagenum) + "and_senbun.jpg",
+            #     and_senbun,
+            # )
+            cv2.imshow("and_img", and_senbun)
+            cv2.waitKey(0)
+            cv2.destroyAllWindows()
 
             # # 直線検出
             # lines_s = cv2.HoughLines(lines_senbun, 1, np.pi / 180, 200)
@@ -182,10 +146,10 @@ def main():
             result_senbun = cv2.drawContours(
                 result_senbun, contours, -1, (255, 255, 255), 3
             )
-            cv2.imwrite(
-                "./output/0818/" + str(img_file) + str(pagenum) + "result_senbun.jpg",
-                result_senbun,
-            )
+            # cv2.imwrite(
+            #     "./output/0818/" + str(img_file) + str(pagenum) + "result_senbun.jpg",
+            #     result_senbun,
+            # )
             # cv2.imshow("result_senbun",result_senbun)
             # cv2.waitKey(0)
             # cv2.destroyAllWindows()
@@ -203,20 +167,20 @@ def main():
                 x0 = a * rho
                 y0 = b * rho
 
-                x1 = int(x0 + 1000 * (-b))
-                y1 = int(y0 + 1000 * (a))
-                x2 = int(x0 - 1000 * (-b))
-                y2 = int(y0 - 1000 * (a))
+                x1 = int(x0 + 2000 * (-b))
+                y1 = int(y0 + 2000 * (a))
+                x2 = int(x0 - 2000 * (-b))
+                y2 = int(y0 - 2000 * (a))
 
                 cv2.line(result_senbun, (x1, y1), (x2, y2), (255, 255, 255), 3)
 
-            cv2.imwrite(
-                "./output/0818/" + str(img_file) + str(pagenum) + "result_senbun.jpg",
-                result_senbun,
-            )
-            # cv2.imshow("result_senbun",result_senbun)
-            # cv2.waitKey(0)
-            # cv2.destroyAllWindows()
+            # cv2.imwrite(
+            #     "./output/0818/" + str(img_file) + str(pagenum) + "result_senbun.jpg",
+            #     result_senbun,
+            # )
+            cv2.imshow("result_senbun", result_senbun)
+            cv2.waitKey(0)
+            cv2.destroyAllWindows()
 
             # 二値画像に膨張収縮
             kernel = np.ones((3, 3), np.uint8)
@@ -229,16 +193,16 @@ def main():
             result_senbun_dulateerode = cv2.erode(
                 result_senbun_dulateerode, kernel, iterations=2
             )
-            cv2.imwrite(
-                "./output/0818/"
-                + str(img_file)
-                + str(pagenum)
-                + "result_senbun_dulateerode.jpg",
-                result_senbun_dulateerode,
-            )
-            # cv2.imshow("result_senbun_dulateerode",result_senbun_dulateerode)
-            # cv2.waitKey(0)
-            # cv2.destroyAllWindows()
+            # cv2.imwrite(
+            #     "./output/0818/"
+            #     + str(img_file)
+            #     + str(pagenum)
+            #     + "result_senbun_dulateerode.jpg",
+            #     result_senbun_dulateerode,
+            # )
+            cv2.imshow("result_senbun_dulateerode", result_senbun_dulateerode)
+            cv2.waitKey(0)
+            cv2.destroyAllWindows()
 
             # 画像端に直線を引く
             cv2.line(
@@ -261,17 +225,17 @@ def main():
                 (255, 255, 255),
                 3,
             )  # 右辺
-            cv2.imwrite(
-                "./output/0818/"
-                + str(img_file)
-                + str(pagenum)
-                + "result_senbun_dulateerode.jpg",
-                result_senbun_dulateerode,
-            )
-            # cv2.imshow("result_senbun_dulateerode",result_senbun_dulateerode)
+            # cv2.imwrite(
+            #     "./output/0818/"
+            #     + str(img_file)
+            #     + str(pagenum)
+            #     + "result_senbun_dulateerode.jpg",
+            #     result_senbun_dulateerode,
+            # )
+            cv2.imshow("result_senbun_dulateerode", result_senbun_dulateerode)
             # cv2.imwrite("./output/0818/result_senbun_dulateerode.jpg",result_senbun_dulateerode)
-            # cv2.waitKey(0)
-            # cv2.destroyAllWindows()
+            cv2.waitKey(0)
+            cv2.destroyAllWindows()
 
             # 輪郭抽出
             contours = []
@@ -305,13 +269,13 @@ def main():
                     #         result_img = cv2.drawContours(result_img, [approx], -1, (255, 255, 255), 2)
                     count += 1
                     cv2.drawContours(result_img, [approx], -1, (255, 255, 255), 2)
-                    cv2.imwrite(
-                        "./output/0818/"
-                        + str(img_file)
-                        + str(pagenum)
-                        + "result_img.jpg",
-                        result_img,
-                    )
+                    # cv2.imwrite(
+                    #     "./output/0818/"
+                    #     + str(img_file)
+                    #     + str(pagenum)
+                    #     + "result_img.jpg",
+                    #     result_img,
+                    # )
             # print(count)
 
             contours2 = []
@@ -330,15 +294,16 @@ def main():
                 mask = cv2.cvtColor(mask, cv2.COLOR_GRAY2BGR)
                 crop_img = cv2.bitwise_and(color_img, mask)
                 result_img2 = cv2.bitwise_or(result_img2, crop_img)
-                cv2.imwrite(
-                    "./output/0818/" + str(img_file) + str(pagenum) + "result_img2.jpg",
-                    result_img2,
-                )
-                # cv2.imshow('crop_img', crop_img)
-                # cv2.waitKey(0)
-                # cv2.destroyAllWindows()
+                # cv2.imwrite(
+                #     "./output/0818/" + str(img_file) + str(pagenum) + "result_img2.jpg",
+                #     result_img2,
+                # )
+                cv2.imshow("crop_img", crop_img)
+                cv2.waitKey(0)
+                cv2.destroyAllWindows()
                 # 論理積画像を保存
                 crop_imgs.append(crop_img)
+            print(len(crop_imgs))
 
             # print(len(contours2))
             # 輪郭描画
@@ -367,9 +332,9 @@ def main():
             # cv2.imshow('result_img', result_img)
             # cv2.imwrite('./output/0818/result_img.jpg', result_img)
             # cv2.imshow('result_img2', result_img2)
-            cv2.imwrite(
-                "./output/0818/" + str(img_file) + str(pagenum) + ".jpg", result_img2
-            )
+            # cv2.imwrite(
+            #     "./output/0818/" + str(img_file) + str(pagenum) + ".jpg", result_img2
+            # )
             # cv2.imshow('result_img3', result_img3)
             # for i in range(len(crop_imgs)):
             # cv2.imshow(f'crop_img{i}', crop_imgs[i])
