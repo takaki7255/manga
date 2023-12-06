@@ -1,0 +1,1057 @@
+PrismHeart
+Page 0:
+Page 1:
+Page 2:
+0,886,10,1604,554,<BoundingBox(frame,00055ac9)
+1,892,574,1555,820,<BoundingBox(frame,00055ac4)
+2,893,832,1603,1164,<BoundingBox(frame,00055ac1)
+ 3 Subpanels of <BoundingBox(None,) 52.0,7.0,764.0,691.0,2>:
+2,507,8,762,547,<BoundingBox(frame,00055ac2)
+2,52,7,764,691,<BoundingBox(frame,00055ac0)
+4,53,705,762,1086,<BoundingBox(frame,00055acd)
+Page 3:
+ 0 Subpanels of <BoundingBox(None,) 906.0,8.0,1605.0,421.0,2>:
+4,1037,8,1605,340,<BoundingBox(frame,00055ae3)
+4,906,100,1193,421,<BoundingBox(frame,00055af5)
+1,910,348,1605,787,<BoundingBox(frame,00055ad8)
+2,1318,800,1605,1167,<BoundingBox(frame,00055b03)
+3,906,801,1302,1164,<BoundingBox(frame,00055af2)
+ 4 Subpanels of <BoundingBox(None,) 50.0,5.0,744.0,452.0,2>:
+3,560,5,740,321,<BoundingBox(frame,00055af4)
+3,50,5,744,452,<BoundingBox(frame,00055aff)
+5,42,458,741,835,<BoundingBox(frame,00055ae6)
+6,42,864,741,1164,<BoundingBox(frame,00055af1)
+Page 4:
+ 0 Subpanels of <BoundingBox(None,) 898.0,4.0,1599.0,755.0,3>:
+6,898,4,1258,430,<BoundingBox(frame,00055b2d)
+6,899,8,1599,755,<BoundingBox(frame,00055b08)
+6,1422,4,1566,308,<BoundingBox(frame,00055b33)
+1,1226,679,1602,837,<BoundingBox(frame,00055b34)
+2,1114,766,1565,1166,<BoundingBox(frame,00055b0f)
+3,905,766,1094,1168,<BoundingBox(frame,00055b40)
+4,430,5,763,507,<BoundingBox(frame,00055b15)
+5,43,5,427,670,<BoundingBox(frame,00055b26)
+6,437,496,765,656,<BoundingBox(frame,00055b07)
+7,290,687,770,1161,<BoundingBox(frame,00055b0e)
+8,53,750,341,1164,<BoundingBox(frame,00055b27)
+Page 5:
+ 0 Subpanels of <BoundingBox(None,) 875.0,10.0,1604.0,513.0,2>:
+8,875,10,1599,513,<BoundingBox(frame,00055b4a)
+8,1360,76,1604,275,<BoundingBox(frame,00055b4c)
+1,1134,524,1607,815,<BoundingBox(frame,00055b51)
+2,903,524,1116,837,<BoundingBox(frame,00055b6c)
+3,896,799,1603,1163,<BoundingBox(frame,00055b61)
+ 4 Subpanels of <BoundingBox(None,) 49.0,4.0,752.0,645.0,3>:
+3,49,273,748,645,<BoundingBox(frame,00055b5b)
+3,512,5,749,306,<BoundingBox(frame,00055b7c)
+3,49,4,752,450,<BoundingBox(frame,00055b7a)
+5,482,677,744,1168,<BoundingBox(frame,00055b72)
+ 6 Subpanels of <BoundingBox(None,) 51.0,659.0,471.0,1161.0,2>:
+5,298,674,464,931,<BoundingBox(frame,00055b5e)
+5,51,659,471,1161,<BoundingBox(frame,00055b5f)
+Page 6:
+0,912,94,1572,319,<BoundingBox(frame,00055b96)
+ 1 Subpanels of <BoundingBox(None,) 903.0,329.0,1607.0,696.0,2>:
+0,903,329,1606,696,<BoundingBox(frame,00055bba)
+0,1409,347,1607,571,<BoundingBox(frame,00055b98)
+2,1148,618,1604,1163,<BoundingBox(frame,00055b9a)
+3,913,715,1135,1168,<BoundingBox(frame,00055baf)
+ 4 Subpanels of <BoundingBox(None,) 406.0,4.0,757.0,662.0,2>:
+3,421,4,757,662,<BoundingBox(frame,00055b8e)
+3,406,446,607,606,<BoundingBox(frame,00055bbf)
+5,39,9,404,660,<BoundingBox(frame,00055bbd)
+6,92,670,751,908,<BoundingBox(frame,00055b87)
+7,566,937,752,1168,<BoundingBox(frame,00055bbb)
+8,52,924,552,1162,<BoundingBox(frame,00055b95)
+Page 7:
+0,1319,4,1608,633,<BoundingBox(frame,00055bd5)
+ 1 Subpanels of <BoundingBox(None,) 888.0,8.0,1298.0,707.0,2>:
+0,888,470,1100,707,<BoundingBox(frame,00055be5)
+0,910,8,1298,642,<BoundingBox(frame,00055bf6)
+ 2 Subpanels of <BoundingBox(None,) 909.0,647.0,1599.0,1164.0,2>:
+0,919,647,1599,1162,<BoundingBox(frame,00055bc3)
+0,909,826,1418,1164,<BoundingBox(frame,00055c02)
+3,300,8,748,368,<BoundingBox(frame,00055bf3)
+4,83,74,281,369,<BoundingBox(frame,00055bda)
+5,386,398,747,558,<BoundingBox(frame,00055bc4)
+ 6 Subpanels of <BoundingBox(None,) 52.0,381.0,748.0,1165.0,2>:
+5,60,381,748,1165,<BoundingBox(frame,00055bf5)
+5,52,539,302,1165,<BoundingBox(frame,00055bf8)
+Page 8:
+0,1302,2,1563,441,<BoundingBox(frame,00055c14)
+1,904,102,1415,473,<BoundingBox(frame,00055c2d)
+2,898,454,1569,718,<BoundingBox(frame,00055c04)
+3,1123,658,1567,1164,<BoundingBox(frame,00055c03)
+4,900,711,1173,1164,<BoundingBox(frame,00055c3f)
+5,97,6,757,314,<BoundingBox(frame,00055c11)
+ 6 Subpanels of <BoundingBox(None,) 425.0,347.0,754.0,719.0,2>:
+5,425,574,562,719,<BoundingBox(frame,00055c32)
+5,489,347,754,687,<BoundingBox(frame,00055c3a)
+7,47,323,475,655,<BoundingBox(frame,00055c31)
+8,50,749,754,1169,<BoundingBox(frame,00055c3c)
+Page 9:
+ 0 Subpanels of <BoundingBox(None,) 879.0,8.0,1603.0,517.0,2>:
+8,895,8,1603,447,<BoundingBox(frame,00055c4d)
+8,879,313,1230,517,<BoundingBox(frame,00055c6a)
+1,1178,391,1604,1165,<BoundingBox(frame,00055c76)
+2,894,586,1187,734,<BoundingBox(frame,00055c51)
+3,895,759,1218,1165,<BoundingBox(frame,00055c60)
+4,217,1,748,642,<BoundingBox(frame,00055c7a)
+5,45,2,197,643,<BoundingBox(frame,00055c6e)
+ 6 Subpanels of <BoundingBox(None,) 255.0,651.0,747.0,1165.0,2>:
+5,481,651,747,1165,<BoundingBox(frame,00055c46)
+5,255,652,595,1161,<BoundingBox(frame,00055c4f)
+7,82,762,285,1166,<BoundingBox(frame,00055c6f)
+Page 10:
+0,1300,4,1608,1165,<BoundingBox(frame,00055c82)
+1,878,2,1285,460,<BoundingBox(frame,00055c9c)
+2,898,468,1275,693,<BoundingBox(frame,00055ca6)
+3,895,715,1277,884,<BoundingBox(frame,00055c9d)
+4,884,896,1280,1168,<BoundingBox(frame,00055c88)
+ 5 Subpanels of <BoundingBox(None,) 47.0,0.0,759.0,571.0,2>:
+4,49,248,759,571,<BoundingBox(frame,00055c96)
+4,47,0,757,344,<BoundingBox(frame,00055c86)
+6,50,582,770,889,<BoundingBox(frame,00055cab)
+ 7 Subpanels of <BoundingBox(None,) 44.0,873.0,765.0,1168.0,2>:
+6,44,897,765,1168,<BoundingBox(frame,00055c92)
+6,477,873,763,1080,<BoundingBox(frame,00055c99)
+Page 11:
+ 0 Subpanels of <BoundingBox(None,) 886.0,105.0,1609.0,445.0,2>:
+6,886,105,1552,445,<BoundingBox(frame,00055cd9)
+6,1351,136,1609,332,<BoundingBox(frame,00055cda)
+ 1 Subpanels of <BoundingBox(None,) 874.0,472.0,1546.0,739.0,2>:
+6,890,472,1546,683,<BoundingBox(frame,00055cb8)
+6,874,523,1076,739,<BoundingBox(frame,00055cd6)
+ 2 Subpanels of <BoundingBox(None,) 875.0,691.0,1604.0,1165.0,2>:
+6,875,803,1263,1165,<BoundingBox(frame,00055cbb)
+6,883,691,1604,1162,<BoundingBox(frame,00055cd1)
+ 3 Subpanels of <BoundingBox(None,) 260.0,6.0,756.0,1136.0,2>:
+6,260,9,756,1136,<BoundingBox(frame,00055cd4)
+6,346,6,746,302,<BoundingBox(frame,00055ce7)
+4,267,894,499,1141,<BoundingBox(frame,00055cdd)
+Page 12:
+0,1082,2,1607,382,<BoundingBox(frame,00055cfc)
+1,887,2,1068,378,<BoundingBox(frame,00055d01)
+2,882,388,1601,822,<BoundingBox(frame,00055d1a)
+3,1429,833,1605,1165,<BoundingBox(frame,00055ceb)
+4,888,834,1413,1169,<BoundingBox(frame,00055d03)
+5,276,1,768,447,<BoundingBox(frame,00055d0a)
+ 6 Subpanels of <BoundingBox(None,) 270.0,339.0,765.0,885.0,2>:
+5,270,462,765,885,<BoundingBox(frame,00055d08)
+5,273,339,550,627,<BoundingBox(frame,00055d04)
+7,275,893,772,1167,<BoundingBox(frame,00055d13)
+Page 13:
+ 0 Subpanels of <BoundingBox(None,) 891.0,4.0,1605.0,634.0,3>:
+7,1218,291,1399,613,<BoundingBox(frame,00055d51)
+7,891,4,1338,634,<BoundingBox(frame,00055d24)
+7,1315,4,1605,538,<BoundingBox(frame,00055d30)
+1,890,642,1608,849,<BoundingBox(frame,00055d27)
+2,884,754,1603,1166,<BoundingBox(frame,00055d57)
+3,269,4,749,404,<BoundingBox(frame,00055d58)
+4,86,2,251,402,<BoundingBox(frame,00055d45)
+5,50,415,753,767,<BoundingBox(frame,00055d43)
+6,435,725,748,1167,<BoundingBox(frame,00055d3c)
+7,140,746,418,1168,<BoundingBox(frame,00055d31)
+8,50,771,164,1165,<BoundingBox(frame,00055d3f)
+Page 14:
+ 0 Subpanels of <BoundingBox(None,) 1061.0,4.0,1610.0,830.0,2>:
+8,1061,52,1604,830,<BoundingBox(frame,00055d74)
+8,1424,4,1610,327,<BoundingBox(frame,00055d79)
+1,906,199,1175,796,<BoundingBox(frame,00055d6f)
+ 2 Subpanels of <BoundingBox(None,) 903.0,834.0,1605.0,1165.0,2>:
+1,903,834,1567,1165,<BoundingBox(frame,00055d68)
+1,1356,866,1605,1042,<BoundingBox(frame,00055d70)
+3,49,4,747,332,<BoundingBox(frame,00055d69)
+4,434,284,767,432,<BoundingBox(frame,00055d85)
+ 5 Subpanels of <BoundingBox(None,) 45.0,339.0,765.0,1169.0,3>:
+4,46,809,258,1169,<BoundingBox(frame,00055d7e)
+4,270,807,526,1163,<BoundingBox(frame,00055d64)
+4,45,339,765,1159,<BoundingBox(frame,00055d7f)
+Page 15:
+0,1207,4,1566,654,<BoundingBox(frame,00055d93)
+1,908,92,1219,441,<BoundingBox(frame,00055d9c)
+2,908,466,1233,655,<BoundingBox(frame,00055d95)
+3,903,661,1605,1164,<BoundingBox(frame,00055db0)
+ 4 Subpanels of <BoundingBox(None,) 98.0,2.0,777.0,420.0,2>:
+3,585,2,777,302,<BoundingBox(frame,00055d99)
+3,98,92,760,420,<BoundingBox(frame,00055db1)
+5,99,431,763,656,<BoundingBox(frame,00055da0)
+ 6 Subpanels of <BoundingBox(None,) 56.0,666.0,760.0,1165.0,2>:
+5,101,666,760,1165,<BoundingBox(frame,00055da1)
+5,56,846,308,1164,<BoundingBox(frame,00055da4)
+Page 16:
+0,1155,4,1608,355,<BoundingBox(frame,00055dd9)
+1,895,5,1179,357,<BoundingBox(frame,00055dd0)
+2,894,367,1604,894,<BoundingBox(frame,00055dc7)
+3,868,902,1601,1164,<BoundingBox(frame,00055dc8)
+ 4 Subpanels of <BoundingBox(None,) 43.0,5.0,763.0,390.0,2>:
+3,43,5,763,361,<BoundingBox(frame,00055dc3)
+3,46,106,300,390,<BoundingBox(frame,00055dbc)
+5,44,375,759,722,<BoundingBox(frame,00055ddc)
+6,529,703,763,1087,<BoundingBox(frame,00055de2)
+7,94,731,634,1165,<BoundingBox(frame,00055dcd)
+8,51,839,228,1166,<BoundingBox(frame,00055dc0)
+Page 17:
+0,883,2,1611,592,<BoundingBox(frame,00055deb)
+ 1 Subpanels of <BoundingBox(None,) 893.0,598.0,1608.0,1167.0,3>:
+0,893,831,1142,1167,<BoundingBox(frame,00055dfb)
+0,1147,599,1608,1166,<BoundingBox(frame,00055e11)
+0,895,598,1556,810,<BoundingBox(frame,00055e02)
+ 2 Subpanels of <BoundingBox(None,) 404.0,2.0,769.0,571.0,2>:
+0,404,8,749,571,<BoundingBox(frame,00055e07)
+0,622,2,769,295,<BoundingBox(frame,00055df1)
+3,91,8,386,412,<BoundingBox(frame,00055de9)
+4,89,431,385,572,<BoundingBox(frame,00055de7)
+ 5 Subpanels of <BoundingBox(None,) 53.0,579.0,757.0,1164.0,2>:
+4,53,579,757,1164,<BoundingBox(frame,00055e08)
+4,67,855,321,1157,<BoundingBox(frame,00055df8)
+Page 18:
+ 0 Subpanels of <BoundingBox(None,) 880.0,2.0,1609.0,783.0,3>:
+4,1251,4,1604,371,<BoundingBox(frame,00055e4c)
+4,880,2,1603,783,<BoundingBox(frame,00055e18)
+4,1301,394,1609,622,<BoundingBox(frame,00055e17)
+1,1285,794,1542,1168,<BoundingBox(frame,00055e43)
+2,879,790,1264,1165,<BoundingBox(frame,00055e32)
+ 3 Subpanels of <BoundingBox(None,) 47.0,4.0,778.0,538.0,3>:
+2,50,385,478,538,<BoundingBox(frame,00055e22)
+2,477,114,622,256,<BoundingBox(frame,00055e21)
+2,47,4,778,523,<BoundingBox(frame,00055e1b)
+4,89,564,748,775,<BoundingBox(frame,00055e4a)
+5,46,782,750,1169,<BoundingBox(frame,00055e3c)
+Page 19:
+0,886,2,1606,315,<BoundingBox(frame,00055e6e)
+ 1 Subpanels of <BoundingBox(None,) 881.0,321.0,1606.0,1163.0,2>:
+0,884,321,1606,1163,<BoundingBox(frame,00055e5c)
+0,881,880,1313,1091,<BoundingBox(frame,00055e6c)
+ 2 Subpanels of <BoundingBox(None,) 305.0,2.0,762.0,747.0,2>:
+0,530,2,762,284,<BoundingBox(frame,00055e50)
+0,305,5,742,747,<BoundingBox(frame,00055e5b)
+3,49,1,287,744,<BoundingBox(frame,00055e65)
+ 4 Subpanels of <BoundingBox(None,) 47.0,754.0,745.0,1162.0,2>:
+3,47,754,600,1162,<BoundingBox(frame,00055e7c)
+3,460,775,745,1093,<BoundingBox(frame,00055e76)
+Page 20:
+ 0 Subpanels of <BoundingBox(None,) 898.0,2.0,1610.0,744.0,2>:
+3,898,364,1608,744,<BoundingBox(frame,00055e83)
+3,899,2,1610,581,<BoundingBox(frame,00055eac)
+1,1079,773,1608,1168,<BoundingBox(frame,00055e8e)
+2,899,884,1131,1166,<BoundingBox(frame,00055ea9)
+ 3 Subpanels of <BoundingBox(None,) 47.0,4.0,754.0,1090.0,3>:
+2,380,4,754,857,<BoundingBox(frame,00055ea6)
+2,47,253,746,1090,<BoundingBox(frame,00055ea1)
+2,80,4,430,382,<BoundingBox(frame,00055e9c)
+4,47,956,750,1165,<BoundingBox(frame,00055e95)
+Page 21:
+0,899,4,1606,442,<BoundingBox(frame,00055ec9)
+1,900,450,1606,745,<BoundingBox(frame,00055ed4)
+2,892,685,1601,1167,<BoundingBox(frame,00055ed1)
+3,374,5,750,1167,<BoundingBox(frame,00055ed0)
+4,49,4,360,420,<BoundingBox(frame,00055ed5)
+5,42,367,365,935,<BoundingBox(frame,00055eb2)
+6,45,933,332,1168,<BoundingBox(frame,00055eb3)
+Page 22:
+ 0 Subpanels of <BoundingBox(None,) 902.0,2.0,1606.0,755.0,3>:
+6,902,4,1585,755,<BoundingBox(frame,00055ef7)
+6,1417,2,1606,500,<BoundingBox(frame,00055ed9)
+6,1354,296,1580,683,<BoundingBox(frame,00055f04)
+1,1360,769,1572,1090,<BoundingBox(frame,00055edd)
+2,902,767,1346,1090,<BoundingBox(frame,00055ee2)
+3,50,2,745,428,<BoundingBox(frame,00055edb)
+4,45,439,752,732,<BoundingBox(frame,00055ef2)
+5,509,749,771,1165,<BoundingBox(frame,00055eec)
+6,44,782,497,1165,<BoundingBox(frame,00055ed6)
+Page 23:
+0,887,1,1606,790,<BoundingBox(frame,00055f18)
+ 1 Subpanels of <BoundingBox(None,) 889.0,735.0,1605.0,1169.0,2>:
+0,1143,735,1604,1038,<BoundingBox(frame,00055f25)
+0,889,799,1605,1169,<BoundingBox(frame,00055f1c)
+2,83,97,743,374,<BoundingBox(frame,00055f2f)
+ 3 Subpanels of <BoundingBox(None,) 49.0,316.0,743.0,1168.0,2>:
+2,49,316,743,1168,<BoundingBox(frame,00055f19)
+2,82,886,390,1086,<BoundingBox(frame,00055f21)
+Page 24:
+0,520,15,784,163,<BoundingBox(frame,00055f43)
+1,326,80,772,532,<BoundingBox(frame,00055f51)
+2,86,80,360,580,<BoundingBox(frame,00055f41)
+3,52,457,771,1165,<BoundingBox(frame,00055f50)
+Page 25:
+Page 26:
+0,874,7,1604,820,<BoundingBox(frame,00055f57)
+ 1 Subpanels of <BoundingBox(None,) 873.0,699.0,1604.0,1165.0,2>:
+0,873,747,1284,1165,<BoundingBox(frame,00055f8b)
+0,1053,699,1604,1081,<BoundingBox(frame,00055f78)
+2,420,3,759,719,<BoundingBox(frame,00055f6c)
+3,46,3,431,410,<BoundingBox(frame,00055f8c)
+4,45,416,443,708,<BoundingBox(frame,00055f6d)
+5,222,722,759,1166,<BoundingBox(frame,00055f58)
+6,45,766,265,1163,<BoundingBox(frame,00055f88)
+Page 27:
+0,894,3,1601,442,<BoundingBox(frame,00055f98)
+1,907,429,1571,656,<BoundingBox(frame,00055f92)
+ 2 Subpanels of <BoundingBox(None,) 903.0,669.0,1607.0,1164.0,2>:
+1,1412,685,1603,813,<BoundingBox(frame,00055fa2)
+1,903,669,1607,1164,<BoundingBox(frame,00055f9a)
+ 3 Subpanels of <BoundingBox(None,) 47.0,5.0,761.0,626.0,2>:
+1,47,115,755,626,<BoundingBox(frame,00055fa9)
+1,523,5,761,421,<BoundingBox(frame,00055fb7)
+4,548,646,757,1165,<BoundingBox(frame,00055fca)
+5,269,632,550,1169,<BoundingBox(frame,00055fcc)
+6,45,628,300,1164,<BoundingBox(frame,00055fcd)
+Page 28:
+ 0 Subpanels of <BoundingBox(None,) 905.0,6.0,1608.0,686.0,2>:
+6,905,6,1608,686,<BoundingBox(frame,00055fe7)
+6,1162,67,1604,270,<BoundingBox(frame,00055fd7)
+1,1158,698,1608,1165,<BoundingBox(frame,00055fd4)
+2,905,693,1210,1166,<BoundingBox(frame,00055ff5)
+3,45,5,742,463,<BoundingBox(frame,00055fef)
+ 4 Subpanels of <BoundingBox(None,) 47.0,330.0,743.0,1169.0,2>:
+3,47,330,743,1169,<BoundingBox(frame,00055fdb)
+3,47,553,356,1168,<BoundingBox(frame,00055fee)
+Page 29:
+ 0 Subpanels of <BoundingBox(None,) 901.0,5.0,1608.0,880.0,3>:
+3,1385,5,1588,303,<BoundingBox(frame,0005600b)
+3,1186,68,1426,413,<BoundingBox(frame,00056011)
+3,901,8,1608,880,<BoundingBox(frame,00055ffe)
+1,903,882,1601,1165,<BoundingBox(frame,00056018)
+2,51,3,769,335,<BoundingBox(frame,00056005)
+3,47,346,772,666,<BoundingBox(frame,00056020)
+4,399,692,770,1092,<BoundingBox(frame,00055ff7)
+5,47,680,447,1165,<BoundingBox(frame,00056023)
+Page 30:
+ 0 Subpanels of <BoundingBox(None,) 871.0,0.0,1608.0,538.0,3>:
+5,871,0,1608,538,<BoundingBox(frame,00056043)
+5,1285,1,1608,491,<BoundingBox(frame,0005603b)
+5,1409,5,1607,254,<BoundingBox(frame,0005602a)
+1,1328,572,1608,856,<BoundingBox(frame,00056056)
+2,1351,879,1606,1093,<BoundingBox(frame,0005602c)
+3,898,543,1373,1160,<BoundingBox(frame,00056036)
+ 4 Subpanels of <BoundingBox(None,) 418.0,0.0,784.0,1168.0,2>:
+3,557,5,744,326,<BoundingBox(frame,00056038)
+3,418,0,784,1168,<BoundingBox(frame,00056048)
+5,43,2,396,480,<BoundingBox(frame,00056037)
+6,43,491,419,1169,<BoundingBox(frame,0005604a)
+Page 31:
+0,1389,0,1614,412,<BoundingBox(frame,00056064)
+1,903,0,1424,412,<BoundingBox(frame,00056091)
+2,902,421,1603,670,<BoundingBox(frame,00056068)
+ 3 Subpanels of <BoundingBox(None,) 905.0,680.0,1609.0,1169.0,2>:
+2,905,680,1597,1169,<BoundingBox(frame,0005609a)
+2,1421,700,1609,1088,<BoundingBox(frame,00056097)
+4,544,4,749,344,<BoundingBox(frame,00056092)
+5,45,0,558,341,<BoundingBox(frame,0005605c)
+6,486,365,748,1168,<BoundingBox(frame,0005607b)
+7,48,353,484,790,<BoundingBox(frame,0005607a)
+8,51,718,479,1169,<BoundingBox(frame,00056087)
+Page 32:
+ 0 Subpanels of <BoundingBox(None,) 905.0,3.0,1609.0,527.0,2>:
+8,905,3,1609,527,<BoundingBox(frame,000560b2)
+8,905,92,1217,514,<BoundingBox(frame,000560a0)
+1,909,528,1605,719,<BoundingBox(frame,000560a3)
+2,910,618,1604,1166,<BoundingBox(frame,000560ab)
+3,410,1,775,1167,<BoundingBox(frame,000560c5)
+4,48,0,431,425,<BoundingBox(frame,0005609e)
+5,42,452,446,680,<BoundingBox(frame,000560a1)
+6,47,686,492,1169,<BoundingBox(frame,000560cf)
+Page 33:
+0,1170,1,1606,487,<BoundingBox(frame,000560de)
+1,887,3,1184,169,<BoundingBox(frame,000560d7)
+2,888,194,1218,478,<BoundingBox(frame,000560ee)
+3,883,489,1609,673,<BoundingBox(frame,000560f1)
+4,1046,683,1612,1164,<BoundingBox(frame,00056106)
+5,886,788,1108,1169,<BoundingBox(frame,00056100)
+6,450,6,746,572,<BoundingBox(frame,0005610a)
+7,43,5,488,444,<BoundingBox(frame,000560d2)
+8,49,402,744,599,<BoundingBox(frame,000560e6)
+9,85,603,744,779,<BoundingBox(frame,000560f8)
+10,48,787,746,1165,<BoundingBox(frame,00056107)
+Page 34:
+0,891,5,1603,475,<BoundingBox(frame,0005611d)
+1,899,486,1570,704,<BoundingBox(frame,0005611b)
+2,900,707,1609,1169,<BoundingBox(frame,00056137)
+3,45,28,751,499,<BoundingBox(frame,00056129)
+4,471,362,754,839,<BoundingBox(frame,00056117)
+ 5 Subpanels of <BoundingBox(None,) 48.0,417.0,458.0,851.0,2>:
+4,48,671,308,851,<BoundingBox(frame,00056128)
+4,90,417,458,838,<BoundingBox(frame,00056122)
+6,49,851,756,1166,<BoundingBox(frame,0005611c)
+Page 35:
+0,1107,4,1609,678,<BoundingBox(frame,0005616d)
+1,902,99,1197,695,<BoundingBox(frame,0005616a)
+2,900,688,1603,820,<BoundingBox(frame,0005615c)
+3,892,728,1607,1167,<BoundingBox(frame,00056169)
+4,306,3,763,221,<BoundingBox(frame,0005614f)
+ 5 Subpanels of <BoundingBox(None,) 51.0,5.0,776.0,929.0,2>:
+4,282,657,776,929,<BoundingBox(frame,00056167)
+4,51,5,766,911,<BoundingBox(frame,00056162)
+6,45,848,679,1164,<BoundingBox(frame,0005616c)
+Page 36:
+0,901,6,1601,522,<BoundingBox(frame,00056198)
+1,904,448,1609,751,<BoundingBox(frame,00056181)
+2,1209,760,1567,1169,<BoundingBox(frame,0005618d)
+3,904,760,1195,1133,<BoundingBox(frame,00056182)
+4,48,4,743,457,<BoundingBox(frame,000561a0)
+5,433,447,748,838,<BoundingBox(frame,00056190)
+6,475,863,749,1087,<BoundingBox(frame,00056192)
+7,49,464,505,1164,<BoundingBox(frame,000561a1)
+Page 37:
+ 0 Subpanels of <BoundingBox(None,) 916.0,5.0,1609.0,708.0,2>:
+7,918,5,1609,708,<BoundingBox(frame,000561ab)
+7,916,99,1196,685,<BoundingBox(frame,000561c9)
+1,1312,671,1607,1167,<BoundingBox(frame,000561af)
+2,1138,694,1301,1167,<BoundingBox(frame,000561b7)
+3,897,700,1122,1164,<BoundingBox(frame,000561ad)
+4,47,5,753,386,<BoundingBox(frame,000561aa)
+5,48,395,738,637,<BoundingBox(frame,000561b6)
+ 6 Subpanels of <BoundingBox(None,) 47.0,647.0,749.0,1165.0,2>:
+5,47,870,299,1086,<BoundingBox(frame,000561b0)
+5,49,647,749,1165,<BoundingBox(frame,000561c5)
+Page 38:
+ 0 Subpanels of <BoundingBox(None,) 901.0,6.0,1607.0,849.0,3>:
+5,904,308,1196,487,<BoundingBox(frame,000561e1)
+5,904,510,1571,849,<BoundingBox(frame,000561ef)
+5,901,6,1607,767,<BoundingBox(frame,000561ec)
+1,900,854,1601,1167,<BoundingBox(frame,000561dc)
+2,273,2,762,321,<BoundingBox(frame,000561e7)
+3,273,343,765,561,<BoundingBox(frame,000561da)
+4,566,581,763,893,<BoundingBox(frame,000561e5)
+5,269,565,608,845,<BoundingBox(frame,000561eb)
+6,265,798,762,1166,<BoundingBox(frame,000561d4)
+Page 39:
+0,1297,5,1571,360,<BoundingBox(frame,0005622a)
+1,910,2,1285,355,<BoundingBox(frame,00056201)
+ 2 Subpanels of <BoundingBox(None,) 900.0,368.0,1610.0,834.0,2>:
+1,900,368,1607,834,<BoundingBox(frame,00056205)
+1,1390,370,1610,565,<BoundingBox(frame,00056218)
+ 3 Subpanels of <BoundingBox(None,) 905.0,821.0,1601.0,1166.0,2>:
+1,1247,821,1601,1030,<BoundingBox(frame,00056228)
+1,905,850,1395,1166,<BoundingBox(frame,0005622c)
+ 4 Subpanels of <BoundingBox(None,) 47.0,0.0,745.0,449.0,2>:
+1,47,5,738,449,<BoundingBox(frame,00056217)
+1,547,0,745,344,<BoundingBox(frame,00056210)
+5,48,329,743,532,<BoundingBox(frame,00056215)
+6,353,520,743,1165,<BoundingBox(frame,0005620e)
+7,48,519,430,1165,<BoundingBox(frame,0005621f)
+Page 40:
+ 0 Subpanels of <BoundingBox(None,) 900.0,3.0,1612.0,743.0,4>:
+7,900,533,1232,723,<BoundingBox(frame,0005626e)
+7,901,3,1612,290,<BoundingBox(frame,00056232)
+7,1190,233,1605,743,<BoundingBox(frame,00056250)
+7,904,96,1208,508,<BoundingBox(frame,0005624b)
+1,897,752,1602,1166,<BoundingBox(frame,00056268)
+2,538,4,765,549,<BoundingBox(frame,00056269)
+3,47,5,593,685,<BoundingBox(frame,00056243)
+4,207,534,766,742,<BoundingBox(frame,00056240)
+5,47,691,758,1163,<BoundingBox(frame,00056260)
+Page 41:
+0,1454,2,1585,299,<BoundingBox(frame,00056286)
+ 1 Subpanels of <BoundingBox(None,) 883.0,3.0,1599.0,593.0,2>:
+0,883,3,1599,593,<BoundingBox(frame,0005628d)
+0,1222,60,1517,394,<BoundingBox(frame,00056276)
+ 2 Subpanels of <BoundingBox(None,) 888.0,603.0,1611.0,1165.0,3>:
+0,1278,957,1608,1125,<BoundingBox(frame,000562a0)
+0,888,603,1607,1165,<BoundingBox(frame,00056278)
+0,1272,613,1611,944,<BoundingBox(frame,00056292)
+3,435,2,748,673,<BoundingBox(frame,00056281)
+ 4 Subpanels of <BoundingBox(None,) 43.0,2.0,513.0,705.0,2>:
+3,43,2,513,705,<BoundingBox(frame,00056297)
+3,142,4,453,218,<BoundingBox(frame,00056296)
+5,47,638,304,778,<BoundingBox(frame,00056277)
+6,49,671,752,1165,<BoundingBox(frame,00056274)
+Page 42:
+ 0 Subpanels of <BoundingBox(None,) 901.0,0.0,1607.0,693.0,3>:
+6,1387,1,1607,245,<BoundingBox(frame,000562c3)
+6,1165,91,1560,658,<BoundingBox(frame,000562e2)
+6,901,0,1379,693,<BoundingBox(frame,000562e5)
+1,1330,704,1608,1167,<BoundingBox(frame,000562d6)
+2,900,700,1317,920,<BoundingBox(frame,000562ef)
+3,897,940,1309,1166,<BoundingBox(frame,000562d7)
+4,402,0,741,428,<BoundingBox(frame,000562c8)
+5,48,2,399,582,<BoundingBox(frame,000562e0)
+6,405,448,740,671,<BoundingBox(frame,000562f0)
+7,45,547,751,1166,<BoundingBox(frame,000562b5)
+Page 43:
+ 0 Subpanels of <BoundingBox(None,) 1272.0,3.0,1612.0,1068.0,2>:
+7,1272,3,1612,1068,<BoundingBox(frame,00056303)
+7,1289,106,1603,320,<BoundingBox(frame,000562f3)
+1,900,2,1362,965,<BoundingBox(frame,0005630e)
+2,906,836,1613,1165,<BoundingBox(frame,000562f4)
+3,325,2,757,318,<BoundingBox(frame,00056315)
+4,326,331,759,754,<BoundingBox(frame,000562fd)
+5,341,759,754,1091,<BoundingBox(frame,000562f8)
+6,51,2,324,1168,<BoundingBox(frame,0005630b)
+Page 44:
+ 0 Subpanels of <BoundingBox(None,) 873.0,4.0,1608.0,1165.0,5>:
+6,876,914,1102,1164,<BoundingBox(frame,0005631f)
+6,873,5,1606,1165,<BoundingBox(frame,0005631c)
+6,1240,4,1608,642,<BoundingBox(frame,00056330)
+6,962,776,1188,1002,<BoundingBox(frame,0005632c)
+6,995,765,1566,1094,<BoundingBox(frame,0005632d)
+1,42,1,742,306,<BoundingBox(frame,00056325)
+2,45,268,741,437,<BoundingBox(frame,0005631a)
+3,45,439,741,988,<BoundingBox(frame,00056317)
+4,44,901,595,1169,<BoundingBox(frame,00056327)
+Page 45:
+ 0 Subpanels of <BoundingBox(None,) 1182.0,0.0,1606.0,1165.0,3>:
+4,1182,5,1602,1165,<BoundingBox(frame,0005634b)
+4,1274,146,1442,503,<BoundingBox(frame,0005633e)
+4,1406,0,1606,428,<BoundingBox(frame,0005634d)
+1,914,4,1306,1164,<BoundingBox(frame,00056357)
+ 2 Subpanels of <BoundingBox(None,) 49.0,5.0,772.0,782.0,3>:
+1,68,180,391,383,<BoundingBox(frame,00056346)
+1,49,5,772,782,<BoundingBox(frame,0005635d)
+1,51,463,353,646,<BoundingBox(frame,00056362)
+3,378,741,759,1166,<BoundingBox(frame,00056348)
+4,315,835,436,1165,<BoundingBox(frame,0005635b)
+5,51,699,362,1165,<BoundingBox(frame,00056351)
+Page 46:
+0,1339,0,1566,416,<BoundingBox(frame,0005636d)
+1,1168,4,1326,415,<BoundingBox(frame,00056379)
+2,904,3,1148,418,<BoundingBox(frame,00056381)
+ 3 Subpanels of <BoundingBox(None,) 893.0,440.0,1609.0,1169.0,2>:
+2,897,440,1608,864,<BoundingBox(frame,00056383)
+2,893,757,1609,1169,<BoundingBox(frame,00056389)
+4,47,4,778,647,<BoundingBox(frame,00056368)
+5,45,567,762,1169,<BoundingBox(frame,0005636b)
+Page 47:
+0,890,2,1585,309,<BoundingBox(frame,000563af)
+1,906,318,1566,567,<BoundingBox(frame,00056393)
+ 2 Subpanels of <BoundingBox(None,) 900.0,573.0,1615.0,1116.0,2>:
+1,900,573,1590,1116,<BoundingBox(frame,000563ab)
+1,1381,594,1615,1080,<BoundingBox(frame,0005638f)
+3,461,3,728,646,<BoundingBox(frame,000563a2)
+4,68,5,441,312,<BoundingBox(frame,0005639c)
+5,70,335,443,651,<BoundingBox(frame,000563a3)
+6,62,664,731,1168,<BoundingBox(frame,0005639a)
+Page 48:
+0,905,0,1611,501,<BoundingBox(frame,000563c1)
+1,890,509,1608,1169,<BoundingBox(frame,000563ce)
+2,48,4,745,213,<BoundingBox(frame,000563b7)
+3,47,223,744,821,<BoundingBox(frame,000563c3)
+4,40,807,777,1169,<BoundingBox(frame,000563bc)
+Page 49:
+0,912,2,1606,357,<BoundingBox(frame,000563dd)
+1,911,270,1386,471,<BoundingBox(frame,000563df)
+2,873,254,1603,1169,<BoundingBox(frame,000563da)
+Page 50:
+0,46,0,739,284,<BoundingBox(frame,000563ea)
+1,49,128,738,799,<BoundingBox(frame,000563fb)
+2,328,813,742,1164,<BoundingBox(frame,000563fa)
+3,59,812,317,1167,<BoundingBox(frame,000563f8)
+Page 51:
+0,1312,0,1591,369,<BoundingBox(frame,00056403)
+1,888,0,1303,407,<BoundingBox(frame,0005640b)
+2,1207,414,1606,1169,<BoundingBox(frame,00056409)
+3,898,412,1292,1169,<BoundingBox(frame,00056417)
+4,319,0,767,220,<BoundingBox(frame,00056427)
+5,303,196,754,710,<BoundingBox(frame,00056424)
+ 6 Subpanels of <BoundingBox(None,) 52.0,0.0,298.0,791.0,2>:
+5,119,0,271,307,<BoundingBox(frame,00056430)
+5,52,0,298,791,<BoundingBox(frame,0005640a)
+7,501,803,679,1169,<BoundingBox(frame,0005642f)
+8,198,800,484,1168,<BoundingBox(frame,00056400)
+9,44,802,183,1166,<BoundingBox(frame,00056410)
+Page 52:
+0,887,0,1582,219,<BoundingBox(frame,00056470)
+1,894,222,1552,542,<BoundingBox(frame,00056455)
+2,1165,552,1604,1165,<BoundingBox(frame,0005643c)
+3,893,570,1155,846,<BoundingBox(frame,0005644d)
+ 4 Subpanels of <BoundingBox(None,) 892.0,801.0,1221.0,1165.0,2>:
+3,1016,801,1221,987,<BoundingBox(frame,0005645c)
+3,892,866,1196,1165,<BoundingBox(frame,00056439)
+5,477,0,737,322,<BoundingBox(frame,0005645b)
+6,228,2,461,319,<BoundingBox(frame,0005645d)
+7,45,0,221,336,<BoundingBox(frame,0005644b)
+8,71,341,745,554,<BoundingBox(frame,00056469)
+9,45,457,748,1166,<BoundingBox(frame,00056466)
+Page 53:
+ 0 Subpanels of <BoundingBox(None,) 898.0,0.0,1610.0,751.0,2>:
+9,903,0,1610,450,<BoundingBox(frame,00056480)
+9,898,226,1608,751,<BoundingBox(frame,0005648a)
+1,1369,756,1605,1131,<BoundingBox(frame,0005649e)
+2,1166,751,1351,1132,<BoundingBox(frame,0005647b)
+3,898,753,1149,1169,<BoundingBox(frame,00056493)
+4,48,0,738,326,<BoundingBox(frame,00056486)
+5,456,351,737,665,<BoundingBox(frame,000564a8)
+6,246,351,444,673,<BoundingBox(frame,000564ad)
+7,294,693,738,849,<BoundingBox(frame,0005648e)
+8,323,864,736,1093,<BoundingBox(frame,000564a1)
+9,45,336,372,1165,<BoundingBox(frame,0005647f)
+Page 54:
+0,1185,0,1610,455,<BoundingBox(frame,000564be)
+1,908,0,1168,490,<BoundingBox(frame,000564e3)
+2,908,405,1611,691,<BoundingBox(frame,000564b5)
+3,1219,652,1608,1165,<BoundingBox(frame,000564c9)
+4,1160,664,1292,1051,<BoundingBox(frame,000564d8)
+5,911,699,1149,932,<BoundingBox(frame,000564bb)
+6,907,953,1211,1167,<BoundingBox(frame,000564e1)
+7,417,0,748,330,<BoundingBox(frame,000564c8)
+8,41,0,423,338,<BoundingBox(frame,000564c0)
+9,393,340,743,769,<BoundingBox(frame,000564db)
+10,211,336,379,775,<BoundingBox(frame,000564d2)
+11,79,343,247,779,<BoundingBox(frame,000564d1)
+12,72,785,744,1168,<BoundingBox(frame,000564d9)
+Page 55:
+ 0 Subpanels of <BoundingBox(None,) 1103.0,0.0,1592.0,361.0,2>:
+12,1103,0,1572,361,<BoundingBox(frame,0005650c)
+12,1430,0,1592,311,<BoundingBox(frame,00056515)
+1,910,0,1127,362,<BoundingBox(frame,00056504)
+2,905,369,1606,833,<BoundingBox(frame,00056518)
+3,905,750,1472,1169,<BoundingBox(frame,0005650a)
+ 4 Subpanels of <BoundingBox(None,) 45.0,0.0,749.0,649.0,2>:
+3,45,0,749,649,<BoundingBox(frame,000564f5)
+3,496,0,743,349,<BoundingBox(frame,0005651b)
+5,44,519,749,777,<BoundingBox(frame,00056500)
+6,44,711,751,1162,<BoundingBox(frame,000564f6)
+Page 56:
+0,1233,0,1610,1168,<BoundingBox(frame,00056528)
+ 1 Subpanels of <BoundingBox(None,) 879.0,0.0,1351.0,1164.0,3>:
+0,922,605,1125,755,<BoundingBox(frame,00056537)
+0,879,0,1351,1164,<BoundingBox(frame,0005651c)
+0,1091,525,1273,673,<BoundingBox(frame,00056538)
+2,437,0,764,569,<BoundingBox(frame,00056527)
+3,279,0,492,570,<BoundingBox(frame,0005653a)
+4,48,0,343,569,<BoundingBox(frame,0005652a)
+ 5 Subpanels of <BoundingBox(None,) 43.0,577.0,761.0,1169.0,2>:
+4,43,917,515,1169,<BoundingBox(frame,00056547)
+4,48,577,761,1164,<BoundingBox(frame,00056546)
+Page 57:
+ 0 Subpanels of <BoundingBox(None,) 1257.0,90.0,1611.0,594.0,2>:
+4,1257,204,1607,594,<BoundingBox(frame,0005657c)
+4,1260,90,1611,341,<BoundingBox(frame,0005656b)
+1,897,0,1243,596,<BoundingBox(frame,00056571)
+2,1221,644,1563,1169,<BoundingBox(frame,00056554)
+3,897,636,1214,1163,<BoundingBox(frame,00056566)
+4,467,0,757,261,<BoundingBox(frame,0005656a)
+5,511,282,759,518,<BoundingBox(frame,0005656f)
+6,44,0,526,588,<BoundingBox(frame,0005654b)
+7,46,592,759,880,<BoundingBox(frame,00056580)
+ 8 Subpanels of <BoundingBox(None,) 43.0,845.0,756.0,1169.0,2>:
+7,440,845,756,977,<BoundingBox(frame,00056583)
+7,43,886,747,1169,<BoundingBox(frame,00056581)
+Page 58:
+ 0 Subpanels of <BoundingBox(None,) 902.0,0.0,1572.0,441.0,2>:
+7,902,0,1572,441,<BoundingBox(frame,000565c6)
+7,1381,0,1571,312,<BoundingBox(frame,00056597)
+1,1217,451,1564,753,<BoundingBox(frame,000565bf)
+2,1243,769,1559,933,<BoundingBox(frame,0005658b)
+3,1260,952,1562,1165,<BoundingBox(frame,00056586)
+4,902,447,1268,1167,<BoundingBox(frame,0005658e)
+5,538,96,761,588,<BoundingBox(frame,0005659f)
+ 6 Subpanels of <BoundingBox(None,) 44.0,97.0,522.0,684.0,2>:
+5,88,97,522,585,<BoundingBox(frame,00056594)
+5,44,390,250,684,<BoundingBox(frame,000565ad)
+ 7 Subpanels of <BoundingBox(None,) 45.0,592.0,758.0,1169.0,2>:
+5,46,828,245,1163,<BoundingBox(frame,000565bc)
+5,45,592,758,1169,<BoundingBox(frame,000565b4)
+Page 59:
+ 0 Subpanels of <BoundingBox(None,) 894.0,0.0,1611.0,808.0,2>:
+5,1387,48,1609,294,<BoundingBox(frame,000565fd)
+5,894,0,1611,808,<BoundingBox(frame,000565d6)
+1,1110,814,1568,1164,<BoundingBox(frame,000565eb)
+2,903,814,1095,1166,<BoundingBox(frame,000565dc)
+ 3 Subpanels of <BoundingBox(None,) 45.0,0.0,759.0,1166.0,5>:
+2,341,0,759,1086,<BoundingBox(frame,000565ca)
+2,90,556,400,749,<BoundingBox(frame,000565e4)
+2,93,355,374,527,<BoundingBox(frame,000565f7)
+2,45,0,364,350,<BoundingBox(frame,000565d0)
+2,46,663,560,1166,<BoundingBox(frame,000565d1)
+Page 60:
+0,1327,92,1565,327,<BoundingBox(frame,00056642)
+1,902,90,1312,326,<BoundingBox(frame,00056624)
+2,1198,353,1609,734,<BoundingBox(frame,0005661a)
+3,899,437,1293,820,<BoundingBox(frame,0005661b)
+4,1269,744,1611,1166,<BoundingBox(frame,00056615)
+5,901,940,1262,1163,<BoundingBox(frame,00056633)
+6,445,0,748,222,<BoundingBox(frame,00056609)
+7,449,242,744,686,<BoundingBox(frame,00056606)
+8,45,0,439,818,<BoundingBox(frame,00056600)
+ 9 Subpanels of <BoundingBox(None,) 43.0,732.0,750.0,1166.0,2>:
+8,43,826,750,1166,<BoundingBox(frame,0005661c)
+8,336,732,748,937,<BoundingBox(frame,0005660f)
+Page 61:
+0,1266,0,1606,1167,<BoundingBox(frame,00056665)
+1,892,0,1260,355,<BoundingBox(frame,00056656)
+2,901,364,1250,568,<BoundingBox(frame,0005664f)
+3,901,584,1252,702,<BoundingBox(frame,0005664a)
+4,899,719,1249,1160,<BoundingBox(frame,00056661)
+ 5 Subpanels of <BoundingBox(None,) 279.0,0.0,744.0,649.0,2>:
+4,604,0,744,476,<BoundingBox(frame,00056681)
+4,279,0,743,649,<BoundingBox(frame,00056648)
+6,49,0,326,620,<BoundingBox(frame,0005665f)
+ 7 Subpanels of <BoundingBox(None,) 351.0,650.0,741.0,1169.0,2>:
+6,351,938,651,1169,<BoundingBox(frame,0005666d)
+6,390,650,741,1094,<BoundingBox(frame,00056673)
+8,41,630,381,1167,<BoundingBox(frame,00056666)
+Page 62:
+0,1344,0,1610,400,<BoundingBox(frame,000566a6)
+1,1204,0,1327,399,<BoundingBox(frame,00056689)
+2,912,0,1191,396,<BoundingBox(frame,000566a5)
+3,911,400,1610,586,<BoundingBox(frame,000566a3)
+ 4 Subpanels of <BoundingBox(None,) 911.0,484.0,1607.0,1166.0,2>:
+3,911,551,1180,1157,<BoundingBox(frame,000566a2)
+3,916,484,1607,1166,<BoundingBox(frame,0005668e)
+5,591,0,750,352,<BoundingBox(frame,0005669a)
+ 6 Subpanels of <BoundingBox(None,) 46.0,0.0,749.0,531.0,2>:
+5,46,0,749,531,<BoundingBox(frame,0005668f)
+5,410,94,577,391,<BoundingBox(frame,000566b1)
+7,506,508,748,1166,<BoundingBox(frame,00056694)
+8,46,533,505,1167,<BoundingBox(frame,00056698)
+Page 63:
+0,887,0,1610,442,<BoundingBox(frame,000566ed)
+1,1384,447,1611,847,<BoundingBox(frame,000566d4)
+2,1062,447,1370,847,<BoundingBox(frame,000566e4)
+3,892,450,1048,851,<BoundingBox(frame,000566fa)
+4,889,854,1604,1165,<BoundingBox(frame,000566ec)
+5,297,0,747,233,<BoundingBox(frame,000566c1)
+ 6 Subpanels of <BoundingBox(None,) 45.0,0.0,749.0,1098.0,3>:
+5,45,0,749,1098,<BoundingBox(frame,000566d1)
+5,558,250,747,581,<BoundingBox(frame,000566e5)
+5,322,250,541,581,<BoundingBox(frame,000566d0)
+7,44,881,748,1169,<BoundingBox(frame,000566c6)
+Page 64:
+0,1179,0,1611,451,<BoundingBox(frame,0005670b)
+ 1 Subpanels of <BoundingBox(None,) 891.0,0.0,1241.0,429.0,2>:
+0,1096,0,1241,317,<BoundingBox(frame,00056711)
+0,891,90,1174,429,<BoundingBox(frame,00056723)
+2,1252,455,1607,1168,<BoundingBox(frame,0005671a)
+3,892,452,1242,1167,<BoundingBox(frame,0005670d)
+4,46,0,765,335,<BoundingBox(frame,00056713)
+5,425,273,770,1169,<BoundingBox(frame,000566fe)
+ 6 Subpanels of <BoundingBox(None,) 46.0,202.0,490.0,1167.0,3>:
+5,46,202,490,1165,<BoundingBox(frame,00056724)
+5,181,705,361,940,<BoundingBox(frame,00056721)
+5,48,776,366,1167,<BoundingBox(frame,00056729)
+Page 65:
+ 0 Subpanels of <BoundingBox(None,) 1203.0,0.0,1611.0,1165.0,4>:
+5,1203,0,1610,1163,<BoundingBox(frame,00056751)
+5,1379,275,1607,442,<BoundingBox(frame,0005674b)
+5,1275,820,1611,1165,<BoundingBox(frame,00056748)
+5,1268,598,1608,801,<BoundingBox(frame,0005673a)
+1,899,0,1300,1168,<BoundingBox(frame,00056753)
+ 2 Subpanels of <BoundingBox(None,) 43.0,0.0,751.0,636.0,2>:
+1,43,0,751,636,<BoundingBox(frame,00056742)
+1,563,0,717,575,<BoundingBox(frame,00056745)
+3,399,647,750,1169,<BoundingBox(frame,00056750)
+ 4 Subpanels of <BoundingBox(None,) 44.0,659.0,466.0,1168.0,2>:
+3,44,659,384,1168,<BoundingBox(frame,0005673d)
+3,295,694,466,1166,<BoundingBox(frame,00056747)
+Page 66:
+ 0 Subpanels of <BoundingBox(None,) 894.0,0.0,1609.0,929.0,3>:
+3,1118,369,1331,853,<BoundingBox(frame,00056760)
+3,894,0,1609,929,<BoundingBox(frame,00056766)
+3,1090,95,1328,353,<BoundingBox(frame,00056777)
+1,894,811,1602,1089,<BoundingBox(frame,00056771)
+2,45,1,753,737,<BoundingBox(frame,00056758)
+ 3 Subpanels of <BoundingBox(None,) 218.0,710.0,746.0,1169.0,2>:
+2,218,794,468,1169,<BoundingBox(frame,0005677b)
+2,319,710,746,1092,<BoundingBox(frame,0005676e)
+Page 67:
+ 0 Subpanels of <BoundingBox(None,) 893.0,0.0,1584.0,477.0,2>:
+2,893,101,1558,477,<BoundingBox(frame,00056791)
+2,1360,0,1584,408,<BoundingBox(frame,000567ac)
+ 1 Subpanels of <BoundingBox(None,) 887.0,471.0,1609.0,1169.0,2>:
+2,892,471,1609,1162,<BoundingBox(frame,000567a5)
+2,887,887,1435,1169,<BoundingBox(frame,0005678c)
+2,479,0,758,727,<BoundingBox(frame,00056799)
+3,264,0,481,686,<BoundingBox(frame,000567a9)
+4,45,0,334,683,<BoundingBox(frame,000567a0)
+5,269,734,780,1168,<BoundingBox(frame,00056784)
+6,87,734,252,1164,<BoundingBox(frame,00056797)
+Page 68:
+ 0 Subpanels of <BoundingBox(None,) 1235.0,0.0,1610.0,1169.0,4>:
+6,1254,392,1568,614,<BoundingBox(frame,000567c3)
+6,1372,653,1610,804,<BoundingBox(frame,000567d3)
+6,1235,0,1609,1169,<BoundingBox(frame,000567ba)
+6,1238,795,1608,1166,<BoundingBox(frame,000567d7)
+1,898,0,1231,1169,<BoundingBox(frame,000567d5)
+2,500,0,742,420,<BoundingBox(frame,000567c6)
+3,41,0,484,367,<BoundingBox(frame,000567d1)
+ 4 Subpanels of <BoundingBox(None,) 39.0,293.0,753.0,1165.0,3>:
+3,44,592,753,1165,<BoundingBox(frame,000567c8)
+3,39,424,747,813,<BoundingBox(frame,000567b3)
+3,40,293,743,598,<BoundingBox(frame,000567cc)
+Page 69:
+ 0 Subpanels of <BoundingBox(None,) 899.0,0.0,1613.0,1057.0,2>:
+3,899,0,1438,1015,<BoundingBox(frame,000567f4)
+3,1296,0,1613,1057,<BoundingBox(frame,000567e0)
+1,896,926,1611,1167,<BoundingBox(frame,00056800)
+ 2 Subpanels of <BoundingBox(None,) 374.0,0.0,754.0,1168.0,2>:
+1,374,0,754,1168,<BoundingBox(frame,00056801)
+1,609,0,730,355,<BoundingBox(frame,000567ec)
+3,41,0,357,545,<BoundingBox(frame,000567fb)
+4,46,486,355,958,<BoundingBox(frame,000567ee)
+5,40,967,364,1167,<BoundingBox(frame,000567e1)
+Page 70:
+0,1306,0,1594,413,<BoundingBox(frame,00056805)
+1,1307,380,1597,530,<BoundingBox(frame,0005681f)
+2,905,0,1306,554,<BoundingBox(frame,0005680b)
+3,1111,560,1607,1166,<BoundingBox(frame,00056829)
+4,913,633,1103,1165,<BoundingBox(frame,0005682b)
+5,41,0,756,432,<BoundingBox(frame,0005680d)
+ 6 Subpanels of <BoundingBox(None,) 45.0,341.0,754.0,765.0,2>:
+5,45,385,754,765,<BoundingBox(frame,0005682e)
+5,133,341,753,548,<BoundingBox(frame,00056809)
+ 7 Subpanels of <BoundingBox(None,) 45.0,755.0,755.0,1168.0,2>:
+5,465,755,755,948,<BoundingBox(frame,0005680f)
+5,45,774,752,1168,<BoundingBox(frame,0005682c)
+Page 71:
+0,891,0,1612,1169,<BoundingBox(frame,0005683e)
+1,243,0,745,225,<BoundingBox(frame,00056836)
+ 2 Subpanels of <BoundingBox(None,) 50.0,0.0,759.0,1169.0,2>:
+1,76,259,607,587,<BoundingBox(frame,00056842)
+1,50,0,759,1169,<BoundingBox(frame,00056848)
+Page 72:
+0,868,0,1608,1169,<BoundingBox(frame,0005684f)
+1,44,0,786,1169,<BoundingBox(frame,0005684e)
+Page 73:
+0,1407,0,1610,493,<BoundingBox(frame,0005686a)
+1,869,0,1477,527,<BoundingBox(frame,00056862)
+ 2 Subpanels of <BoundingBox(None,) 866.0,532.0,1609.0,1166.0,2>:
+1,882,558,1297,1166,<BoundingBox(frame,0005687f)
+1,866,532,1609,1165,<BoundingBox(frame,0005686b)
+ 3 Subpanels of <BoundingBox(None,) 43.0,0.0,784.0,469.0,2>:
+1,43,0,784,469,<BoundingBox(frame,0005687a)
+1,474,1,783,323,<BoundingBox(frame,00056884)
+4,533,428,753,655,<BoundingBox(frame,00056875)
+5,533,681,753,1090,<BoundingBox(frame,0005687c)
+ 6 Subpanels of <BoundingBox(None,) 43.0,472.0,527.0,1169.0,2>:
+5,44,472,527,1169,<BoundingBox(frame,00056878)
+5,43,616,383,1167,<BoundingBox(frame,00056880)
+Page 74:
+0,1287,0,1613,420,<BoundingBox(frame,000568c0)
+1,884,0,1274,240,<BoundingBox(frame,000568bb)
+2,886,237,1275,421,<BoundingBox(frame,000568cf)
+3,887,448,1553,637,<BoundingBox(frame,000568ca)
+ 4 Subpanels of <BoundingBox(None,) 869.0,639.0,1608.0,1169.0,2>:
+3,869,639,1606,1169,<BoundingBox(frame,000568d4)
+3,1308,647,1608,1090,<BoundingBox(frame,000568a2)
+5,569,87,769,399,<BoundingBox(frame,000568b0)
+6,450,174,612,463,<BoundingBox(frame,000568d2)
+7,459,409,776,707,<BoundingBox(frame,000568ba)
+8,40,0,479,704,<BoundingBox(frame,000568a8)
+9,45,715,772,1084,<BoundingBox(frame,000568b3)
+Page 75:
+0,1337,0,1609,274,<BoundingBox(frame,000568e1)
+1,1335,272,1610,532,<BoundingBox(frame,00056908)
+2,1128,0,1333,531,<BoundingBox(frame,00056919)
+3,884,0,1127,516,<BoundingBox(frame,000568e9)
+4,878,535,1610,683,<BoundingBox(frame,000568fb)
+5,877,563,1610,1166,<BoundingBox(frame,000568f0)
+6,514,0,765,511,<BoundingBox(frame,00056904)
+7,244,0,497,512,<BoundingBox(frame,000568e3)
+8,45,0,237,516,<BoundingBox(frame,000568dc)
+9,41,519,764,808,<BoundingBox(frame,000568d9)
+10 Subpanels of <BoundingBox(None,) 40.0,813.0,766.0,1166.0,2>:
+9,40,882,288,1166,<BoundingBox(frame,00056914)
+9,99,813,766,1088,<BoundingBox(frame,000568ff)
+Page 76:
+ 0 Subpanels of <BoundingBox(None,) 872.0,0.0,1611.0,756.0,3>:
+9,872,0,1361,755,<BoundingBox(frame,00056923)
+9,1165,0,1611,756,<BoundingBox(frame,00056926)
+9,1162,128,1295,356,<BoundingBox(frame,0005692f)
+1,1435,713,1602,999,<BoundingBox(frame,00056921)
+2,1001,760,1555,1169,<BoundingBox(frame,00056932)
+3,874,808,980,1167,<BoundingBox(frame,00056962)
+ 4 Subpanels of <BoundingBox(None,) 45.0,92.0,763.0,445.0,2>:
+3,45,233,335,445,<BoundingBox(frame,00056952)
+3,100,92,763,408,<BoundingBox(frame,00056955)
+ 5 Subpanels of <BoundingBox(None,) 44.0,418.0,785.0,1122.0,4>:
+3,44,775,785,1122,<BoundingBox(frame,00056940)
+3,476,633,766,1088,<BoundingBox(frame,0005693d)
+3,478,462,768,671,<BoundingBox(frame,00056964)
+3,45,418,760,771,<BoundingBox(frame,00056920)
+6,45,628,179,770,<BoundingBox(frame,0005691c)
+Page 77:
+ 0 Subpanels of <BoundingBox(None,) 1171.0,0.0,1610.0,439.0,2>:
+6,1171,0,1610,439,<BoundingBox(frame,0005697b)
+6,1420,68,1607,232,<BoundingBox(frame,0005697d)
+1,1169,438,1612,764,<BoundingBox(frame,00056983)
+2,1169,766,1612,1167,<BoundingBox(frame,0005698f)
+3,870,0,1167,1169,<BoundingBox(frame,000569a4)
+4,319,0,759,254,<BoundingBox(frame,00056997)
+5,53,81,323,242,<BoundingBox(frame,0005696b)
+6,434,258,762,449,<BoundingBox(frame,00056981)
+7,97,261,490,447,<BoundingBox(frame,00056966)
+ 8 Subpanels of <BoundingBox(None,) 43.0,378.0,783.0,1168.0,2>:
+7,45,790,551,1163,<BoundingBox(frame,00056969)
+7,43,378,783,1168,<BoundingBox(frame,00056992)
+Page 78:
+0,1346,57,1603,205,<BoundingBox(frame,000569c1)
+1,1350,230,1605,392,<BoundingBox(frame,000569d9)
+2,901,0,1432,433,<BoundingBox(frame,000569bd)
+ 3 Subpanels of <BoundingBox(None,) 897.0,432.0,1606.0,729.0,4>:
+2,1002,577,1215,729,<BoundingBox(frame,000569d2)
+2,897,438,1606,727,<BoundingBox(frame,00056a01)
+2,1100,498,1290,650,<BoundingBox(frame,000569b3)
+2,1232,432,1437,596,<BoundingBox(frame,000569c7)
+4,1321,732,1610,1169,<BoundingBox(frame,000569e7)
+ 5 Subpanels of <BoundingBox(None,) 869.0,725.0,1313.0,1092.0,2>:
+4,869,725,1105,952,<BoundingBox(frame,000569bb)
+4,1029,733,1313,1092,<BoundingBox(frame,000569d3)
+6,451,0,751,476,<BoundingBox(frame,000569fd)
+7,252,81,449,459,<BoundingBox(frame,000569b9)
+8,41,87,245,459,<BoundingBox(frame,000569d4)
+9,446,481,741,716,<BoundingBox(frame,00056a00)
+10,396,659,738,868,<BoundingBox(frame,000569b7)
+11,41,457,444,842,<BoundingBox(frame,00056a04)
+12,149,775,277,893,<BoundingBox(frame,000569f2)
+13,40,855,677,1169,<BoundingBox(frame,000569f1)
+Page 79:
+0,1350,0,1610,465,<BoundingBox(frame,00056a27)
+ 1 Subpanels of <BoundingBox(None,) 872.0,0.0,1433.0,497.0,3>:
+0,872,0,1433,451,<BoundingBox(frame,00056a18)
+0,912,264,1050,497,<BoundingBox(frame,00056a23)
+0,887,92,1021,244,<BoundingBox(frame,00056a0e)
+ 2 Subpanels of <BoundingBox(None,) 869.0,387.0,1614.0,1166.0,2>:
+0,869,621,1611,1166,<BoundingBox(frame,00056a09)
+0,869,387,1614,772,<BoundingBox(frame,00056a25)
+ 3 Subpanels of <BoundingBox(None,) 44.0,0.0,780.0,1169.0,3>:
+0,302,0,780,1169,<BoundingBox(frame,00056a10)
+0,46,0,549,1169,<BoundingBox(frame,00056a1c)
+0,44,269,473,1166,<BoundingBox(frame,00056a22)
+Page 80:
+0,872,0,1609,420,<BoundingBox(frame,00056a4c)
+ 1 Subpanels of <BoundingBox(None,) 872.0,420.0,1608.0,1165.0,4>:
+0,1339,443,1575,704,<BoundingBox(frame,00056a4f)
+0,1186,438,1399,872,<BoundingBox(frame,00056a33)
+0,1384,722,1575,1090,<BoundingBox(frame,00056a3a)
+0,872,420,1608,1165,<BoundingBox(frame,00056a45)
+2,43,0,786,314,<BoundingBox(frame,00056a4a)
+3,92,322,757,568,<BoundingBox(frame,00056a5c)
+4,582,594,758,863,<BoundingBox(frame,00056a3b)
+5,583,887,759,1095,<BoundingBox(frame,00056a43)
+6,344,594,577,1169,<BoundingBox(frame,00056a52)
+7,44,593,342,1168,<BoundingBox(frame,00056a56)
+Page 81:
+ 0 Subpanels of <BoundingBox(None,) 1157.0,0.0,1612.0,561.0,3>:
+7,1162,78,1346,225,<BoundingBox(frame,00056a7d)
+7,1157,241,1344,495,<BoundingBox(frame,00056a89)
+7,1209,0,1612,561,<BoundingBox(frame,00056a70)
+1,875,0,1155,427,<BoundingBox(frame,00056a9f)
+2,872,425,1207,548,<BoundingBox(frame,00056a83)
+3,870,564,1547,855,<BoundingBox(frame,00056a7a)
+4,869,854,1607,1169,<BoundingBox(frame,00056a67)
+ 5 Subpanels of <BoundingBox(None,) 45.0,0.0,767.0,411.0,2>:
+4,101,94,287,397,<BoundingBox(frame,00056a7e)
+4,45,0,767,411,<BoundingBox(frame,00056a6d)
+6,44,415,767,641,<BoundingBox(frame,00056a71)
+7,543,663,766,1166,<BoundingBox(frame,00056a9c)
+ 8 Subpanels of <BoundingBox(None,) 44.0,643.0,536.0,1169.0,2>:
+7,359,664,532,984,<BoundingBox(frame,00056a87)
+7,44,643,536,1169,<BoundingBox(frame,00056a8e)
+Page 82:
+0,1444,0,1609,478,<BoundingBox(frame,00056ac1)
+1,1072,0,1512,476,<BoundingBox(frame,00056aaf)
+2,868,0,1076,555,<BoundingBox(frame,00056ad8)
+ 3 Subpanels of <BoundingBox(None,) 896.0,559.0,1608.0,1168.0,3>:
+2,896,559,1608,923,<BoundingBox(frame,00056aa6)
+2,901,750,1393,1168,<BoundingBox(frame,00056ac4)
+2,1368,783,1569,1083,<BoundingBox(frame,00056ad0)
+4,468,82,756,619,<BoundingBox(frame,00056ac0)
+5,85,80,458,301,<BoundingBox(frame,00056abb)
+6,87,310,457,610,<BoundingBox(frame,00056acb)
+ 7 Subpanels of <BoundingBox(None,) 46.0,504.0,787.0,1167.0,2>:
+6,46,504,787,1167,<BoundingBox(frame,00056aaa)
+6,85,836,360,1081,<BoundingBox(frame,00056ab0)
+Page 83:
+0,1176,39,1612,191,<BoundingBox(frame,00056aef)
+1,877,90,1611,543,<BoundingBox(frame,00056afe)
+2,1452,569,1608,675,<BoundingBox(frame,00056afc)
+3,1224,606,1599,1167,<BoundingBox(frame,00056aec)
+4,878,608,1275,855,<BoundingBox(frame,00056b02)
+5,879,863,1355,1169,<BoundingBox(frame,00056af0)
+ 6 Subpanels of <BoundingBox(None,) 36.0,0.0,784.0,1167.0,4>:
+5,41,144,784,1167,<BoundingBox(frame,00056afa)
+5,36,311,558,1165,<BoundingBox(frame,00056af5)
+5,39,887,495,1162,<BoundingBox(frame,00056ae8)
+5,41,0,783,846,<BoundingBox(frame,00056af1)
+Page 84:
+0,869,0,1607,568,<BoundingBox(frame,00056b29)
+1,889,472,1446,588,<BoundingBox(frame,00056b21)
+2,1346,567,1611,1057,<BoundingBox(frame,00056b0d)
+3,1045,639,1339,1083,<BoundingBox(frame,00056b1b)
+4,869,589,1039,1166,<BoundingBox(frame,00056b15)
+5,568,94,735,541,<BoundingBox(frame,00056b0c)
+ 6 Subpanels of <BoundingBox(None,) 73.0,0.0,585.0,719.0,2>:
+5,257,0,585,719,<BoundingBox(frame,00056b0a)
+5,73,0,375,710,<BoundingBox(frame,00056b22)
+ 7 Subpanels of <BoundingBox(None,) 72.0,724.0,775.0,1168.0,2>:
+5,72,821,718,1168,<BoundingBox(frame,00056b17)
+5,72,724,775,1168,<BoundingBox(frame,00056b1c)
+Page 85:
+0,897,88,1567,305,<BoundingBox(frame,00056b4c)
+ 1 Subpanels of <BoundingBox(None,) 869.0,0.0,1607.0,1168.0,5>:
+0,1216,811,1570,1166,<BoundingBox(frame,00056b3e)
+0,869,0,1272,1168,<BoundingBox(frame,00056b5b)
+0,1171,339,1304,637,<BoundingBox(frame,00056b61)
+0,1376,687,1605,900,<BoundingBox(frame,00056b55)
+0,1152,278,1607,799,<BoundingBox(frame,00056b3a)
+2,486,0,776,603,<BoundingBox(frame,00056b58)
+ 3 Subpanels of <BoundingBox(None,) 492.0,607.0,783.0,1166.0,2>:
+2,492,607,783,1166,<BoundingBox(frame,00056b43)
+2,501,823,643,1166,<BoundingBox(frame,00056b44)
+ 4 Subpanels of <BoundingBox(None,) 44.0,0.0,494.0,1168.0,3>:
+2,45,540,490,990,<BoundingBox(frame,00056b5e)
+2,44,781,494,1168,<BoundingBox(frame,00056b4e)
+2,45,0,493,833,<BoundingBox(frame,00056b50)
+Page 86:
+ 0 Subpanels of <BoundingBox(None,) 870.0,0.0,1615.0,1168.0,6>:
+2,1454,685,1570,852,<BoundingBox(frame,00056b6d)
+2,910,457,1207,1168,<BoundingBox(frame,00056b63)
+2,1137,748,1615,1164,<BoundingBox(frame,00056b7d)
+2,870,147,1610,744,<BoundingBox(frame,00056b66)
+2,872,0,1603,392,<BoundingBox(frame,00056b7e)
+2,1132,686,1317,1086,<BoundingBox(frame,00056b75)
+1,120,0,778,471,<BoundingBox(frame,00056b80)
+2,72,162,229,548,<BoundingBox(frame,00056b8f)
+ 3 Subpanels of <BoundingBox(None,) 73.0,475.0,781.0,1167.0,3>:
+2,266,475,781,1167,<BoundingBox(frame,00056b7f)
+2,73,944,741,1087,<BoundingBox(frame,00056b79)
+2,76,483,453,1131,<BoundingBox(frame,00056b71)
+Page 87:
+ 0 Subpanels of <BoundingBox(None,) 1181.0,0.0,1610.0,863.0,2>:
+2,1462,0,1610,547,<BoundingBox(frame,00056bb3)
+2,1181,0,1603,863,<BoundingBox(frame,00056ba0)
+1,873,0,1269,691,<BoundingBox(frame,00056b90)
+2,870,615,1290,874,<BoundingBox(frame,00056baf)
+3,866,869,1606,1169,<BoundingBox(frame,00056b9b)
+ 4 Subpanels of <BoundingBox(None,) 45.0,0.0,771.0,809.0,4>:
+3,463,0,739,522,<BoundingBox(frame,00056bac)
+3,587,3,755,168,<BoundingBox(frame,00056bb6)
+3,45,389,771,809,<BoundingBox(frame,00056b9e)
+3,46,0,582,383,<BoundingBox(frame,00056b9c)
+5,44,813,785,1169,<BoundingBox(frame,00056baa)
+Page 88:
+ 0 Subpanels of <BoundingBox(None,) 868.0,0.0,1607.0,615.0,2>:
+5,1316,0,1607,353,<BoundingBox(frame,00056bc7)
+5,868,0,1478,615,<BoundingBox(frame,00056bdb)
+1,868,612,1609,1167,<BoundingBox(frame,00056bcf)
+2,45,0,783,427,<BoundingBox(frame,00056bc5)
+3,495,433,775,767,<BoundingBox(frame,00056bd5)
+4,99,427,488,766,<BoundingBox(frame,00056bc0)
+5,616,770,788,958,<BoundingBox(frame,00056bd8)
+ 6 Subpanels of <BoundingBox(None,) 99.0,772.0,784.0,1167.0,2>:
+5,99,772,784,1167,<BoundingBox(frame,00056bdd)
+5,102,804,381,1162,<BoundingBox(frame,00056bbc)
+Page 89:
+0,1260,0,1615,469,<BoundingBox(frame,00056c08)
+1,1014,86,1250,466,<BoundingBox(frame,00056c3f)
+2,882,90,1006,468,<BoundingBox(frame,00056c4a)
+3,1275,485,1563,758,<BoundingBox(frame,00056c55)
+4,1141,489,1269,758,<BoundingBox(frame,00056c2c)
+5,882,488,1130,758,<BoundingBox(frame,00056c50)
+6,1381,783,1563,1091,<BoundingBox(frame,00056c00)
+7,884,758,1391,1147,<BoundingBox(frame,00056c23)
+8,341,0,757,345,<BoundingBox(frame,00056c64)
+9,85,100,336,346,<BoundingBox(frame,00056c2d)
+10,559,359,755,634,<BoundingBox(frame,00056c57)
+11,359,359,549,637,<BoundingBox(frame,00056c17)
+12,82,361,346,639,<BoundingBox(frame,00056c48)
+13 Subpanels of <BoundingBox(None,) 46.0,628.0,758.0,1169.0,2>:
+12,46,628,746,1169,<BoundingBox(frame,00056c25)
+12,512,657,758,929,<BoundingBox(frame,00056c35)
+Page 90:
+0,897,144,1103,282,<BoundingBox(frame,00056c6c)
+1,892,291,1105,418,<BoundingBox(frame,00056c6d)
+2,894,427,1102,561,<BoundingBox(frame,00056c68)
+Page 91:

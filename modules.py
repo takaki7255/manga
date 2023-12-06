@@ -2,17 +2,47 @@ import cv2
 import numpy as np
 import math
 import os
+import re
+
 
 def PageCut(input_img):
     pageImg = []
     if input_img.shape[1] > input_img.shape[0]:  # 縦 < 横の場合: 見開きだと判断し真ん中で切断
-        cut_img_left = input_img[:, :input_img.shape[1]//2]  # 右ページ
-        cut_img_right = input_img[:, input_img.shape[1]//2:]  # 左ページ
+        cut_img_left = input_img[:, : input_img.shape[1] // 2]  # 右ページ
+        cut_img_right = input_img[:, input_img.shape[1] // 2 :]  # 左ページ
         pageImg.append(cut_img_right)
         pageImg.append(cut_img_left)
     else:  # 縦 > 横の場合: 単一ページ画像だと判断しそのまま保存
         pageImg.append(input_img)
     return pageImg
+
+
+def atoi(text):
+    return int(text) if text.isdigit() else text
+
+
+def natural_keys(text):
+    return [atoi(c) for c in re.split("(\d+)", text)]
+
+
+def is_all_black_image(img, threshold=0):
+    if len(img.shape) == 3:  # もしカラー画像なら、グレースケールに変換
+        img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    avg_color_per_row = np.average(img, axis=0)
+    avg_color = np.average(avg_color_per_row, axis=0)
+    return np.all(avg_color <= threshold)
+
+
+def get_imgs_from_folder_sorted(folder):
+    image_files = []
+    all_files = os.listdir(folder)
+    for file in all_files:
+        if os.path.isfile(os.path.join(folder, file)):
+            extension = os.path.splitext(file)[1].lower()
+            if extension in [".jpg", ".jpeg", ".png", ".gif", ".bmp"]:
+                image_files.append(file)
+    return sorted(image_files, key=natural_keys)
+
 
 def get_imgList_form_dir(dir_path):
     img_list = []
@@ -21,12 +51,16 @@ def get_imgList_form_dir(dir_path):
             img_list.append(os.path.join(dir_path, file))
     return img_list
 
-def extractSpeechBalloon(fukidashi_contours,hierarchy2,gaussian_img):
+
+def extractSpeechBalloon(fukidashi_contours, hierarchy2, gaussian_img):
     for i in range(len(fukidashi_contours)):
         area = cv2.contourArea(fukidashi_contours[i])
         length = cv2.arcLength(fukidashi_contours[i], True)
         en = 0.0
-        if gaussian_img.shape[0] * gaussian_img.shape[1] * 0.005 <= area and area < gaussian_img.shape[0] * gaussian_img.shape[1] * 0.05:
+        if (
+            gaussian_img.shape[0] * gaussian_img.shape[1] * 0.005 <= area
+            and area < gaussian_img.shape[0] * gaussian_img.shape[1] * 0.05
+        ):
             en = 4.0 * np.pi * area / (length * length)
         if en > 0.4:
             cv2.drawContours(gaussian_img, fukidashi_contours, i, 0, -1, cv2.LINE_AA, hierarchy2, 1)
@@ -37,15 +71,15 @@ def findFrameArea(input_page_image):
     if len(input_page_image.shape) > 2:
         input_page_image = cv2.cvtColor(input_page_image, cv2.COLOR_BGR2GRAY)
     # ガウシアンフィルタ
-    gaussian_img = np.zeros(input_page_image.shape, dtype=np.uint8)
-    gaussian_img = cv2.GaussianBlur(input_page_image, (3,3), 0)  # Smoothing
+    gaussian_img = np.zeros(input_page_image.shape, dtype=int)
+    gaussian_img = cv2.GaussianBlur(input_page_image, (3, 3), 0)  # Smoothing
 
     # Generation of inverse binarized image
     inverse_bin_img = cv2.bitwise_not(gaussian_img)  # Inverse image
-    _, inverse_bin_img = cv2.threshold(inverse_bin_img, 0, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)   # Binarization
+    _, inverse_bin_img = cv2.threshold(inverse_bin_img, 0, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)  # Binarization
 
     # Histogram generation for left and right
-    histgram_lr = np.zeros(inverse_bin_img.shape[1], dtype=np.int)
+    histgram_lr = np.zeros(inverse_bin_img.shape[1], dtype=int)
     for y in range(inverse_bin_img.shape[0]):
         for x in range(inverse_bin_img.shape[1]):
             if x <= 2 or x >= inverse_bin_img.shape[1] - 2 or y <= 2 or y >= inverse_bin_img.shape[0] - 2:
@@ -63,7 +97,7 @@ def findFrameArea(input_page_image):
     cut_page_img_lr = input_page_image[:, min_x_lr:max_x_lr]
 
     # Histogram generation for top and bottom
-    histgram_tb = np.zeros(inverse_bin_img.shape[0], dtype=np.int)
+    histgram_tb = np.zeros(inverse_bin_img.shape[0], dtype=int)
     for y in range(inverse_bin_img.shape[0]):
         for x in range(inverse_bin_img.shape[1]):
             if x <= 2 or x >= inverse_bin_img.shape[1] - 2 or y <= 2 or y >= inverse_bin_img.shape[0] - 2:
@@ -85,16 +119,16 @@ def findFrameArea(input_page_image):
 
 # 0-white 1-black
 def get_page_type(src_image):
-    BLACK_LENGTH_TH = 5
+    BLACK_LENGTH_TH = 4
     input_page_image = src_image.copy()
     frame_exist_page = findFrameArea(input_page_image)
-    _, frame_exist_page = cv2.threshold(frame_exist_page, 0, 255, cv2.THRESH_BINARY|cv2.THRESH_OTSU)
+    _, frame_exist_page = cv2.threshold(frame_exist_page, 0, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)
 
-    #top
+    # top
     page_type = 1
     for y in range(3, BLACK_LENGTH_TH):
         for x in range(frame_exist_page.shape[1]):
-            if frame_exist_page[y,x] != 0:
+            if frame_exist_page[y, x] != 0:
                 page_type = 0
                 break
         if not page_type:
@@ -102,11 +136,11 @@ def get_page_type(src_image):
     if page_type:
         return page_type
 
-    #bottom
+    # bottom
     page_type = 1
     for y in range(frame_exist_page.shape[0] - 3, frame_exist_page.shape[0] - BLACK_LENGTH_TH, -1):
         for x in range(frame_exist_page.shape[1]):
-            if frame_exist_page[y,x] != 0:
+            if frame_exist_page[y, x] != 0:
                 page_type = 0
                 break
         if not page_type:
@@ -114,11 +148,15 @@ def get_page_type(src_image):
     if page_type:
         return page_type
 
-    #right
+    # right
     page_type = 1
     for y in range(frame_exist_page.shape[0]):
-        for x in range(frame_exist_page.shape[1] - 3, frame_exist_page.shape[1] - BLACK_LENGTH_TH, -1):
-            if frame_exist_page[y,x] != 0:
+        for x in range(
+            frame_exist_page.shape[1] - 3,
+            frame_exist_page.shape[1] - BLACK_LENGTH_TH,
+            -1,
+        ):
+            if frame_exist_page[y, x] != 0:
                 page_type = 0
                 break
         if not page_type:
@@ -126,11 +164,11 @@ def get_page_type(src_image):
     if page_type:
         return page_type
 
-    #left
+    # left
     page_type = 1
     for y in range(frame_exist_page.shape[0]):
         for x in range(3, BLACK_LENGTH_TH):
-            if frame_exist_page[y,x] != 0:
+            if frame_exist_page[y, x] != 0:
                 page_type = 0
                 break
         if not page_type:
@@ -141,10 +179,8 @@ def get_page_type(src_image):
     return page_type
 
 
-
-
 class Line:
-    def __init__(self, p1 = np.array([0, 0]), p2 = np.array([0, 0]), y2x = False):
+    def __init__(self, p1=np.array([0, 0]), p2=np.array([0, 0]), y2x=False):
         self.y2x = y2x
         self.p1 = p1
         self.p2 = p2
@@ -169,12 +205,19 @@ class Line:
         else:
             return 0
 
+
 class Points:
-    def __init__(self, lt = np.array([0, 0]), lb = np.array([0, 0]), rt = np.array([0, 0]), rb = np.array([0, 0])):
-        self.lt = lt if lt is not None else cv2.Point(0,0)
-        self.lb = lb if lb is not None else cv2.Point(0,0)
-        self.rt = rt if rt is not None else cv2.Point(0,0)
-        self.rb = rb if rb is not None else cv2.Point(0,0)
+    def __init__(
+        self,
+        lt=np.array([0, 0]),
+        lb=np.array([0, 0]),
+        rt=np.array([0, 0]),
+        rb=np.array([0, 0]),
+    ):
+        self.lt = lt if lt is not None else cv2.Point(0, 0)
+        self.lb = lb if lb is not None else cv2.Point(0, 0)
+        self.rt = rt if rt is not None else cv2.Point(0, 0)
+        self.rb = rb if rb is not None else cv2.Point(0, 0)
         self.renew_line()
 
     def renew_line(self):
@@ -184,11 +227,17 @@ class Points:
         self.right_line = Line(self.rt, self.rb, True)
 
     def outside(self, p):
-        return self.top_line.judgeArea(p) == 1 or self.right_line.judgeArea(p) == 0 or self.bottom_line.judgeArea(p) == 0 or self.left_line.judgeArea(p) == 1
+        return (
+            self.top_line.judgeArea(p) == 1
+            or self.right_line.judgeArea(p) == 0
+            or self.bottom_line.judgeArea(p) == 0
+            or self.left_line.judgeArea(p) == 1
+        )
+
 
 class Framedetect:
     def __init__(self):
-        self.pageCorners = [] # リストで初期化
+        self.pageCorners = []  # リストで初期化
 
     def frame_detect(self, input_img):
         img_size = input_img.shape
@@ -218,7 +267,7 @@ class Framedetect:
         hukidashi_contours, hierarchy2 = cv2.findContours(binForSpeechBalloon_img, cv2.RETR_LIST, cv2.CHAIN_APPROX_NONE)
 
         # 平滑化
-        gaussian_img = cv2.GaussianBlur(gray_img, (3,3), 0)
+        gaussian_img = cv2.GaussianBlur(gray_img, (3, 3), 0)
 
         # 吹き出しによるコマ未検出を防ぐため吹き出し検出で塗りつぶし
         self.extractSpeechBalloon(hukidashi_contours, hierarchy2, gaussian_img)
@@ -233,8 +282,8 @@ class Framedetect:
         # キャニーフィルタ画像
         canny_img = cv2.Canny(gray_img, 120, 130, 3)
 
-        lines = cv2.HoughLines(canny_img, 1, np.pi/180.0, 50)  # Detect lines
-        lines2 = cv2.HoughLines(canny_img, 1, np.pi/360.0, 50)
+        lines = cv2.HoughLines(canny_img, 1, np.pi / 180.0, 50)  # Detect lines
+        lines2 = cv2.HoughLines(canny_img, 1, np.pi / 360.0, 50)
 
         lines_img = np.zeros(img_size, dtype=np.uint8)
         print("lines_img.shape", lines_img.shape)
@@ -245,7 +294,7 @@ class Framedetect:
         # 論理積画像の作成
         and_img = np.zeros(img_size, dtype=np.uint8)
         # 二値画像と直線検出画像の論理積の計算
-        
+
         and_img = cv2.bitwise_and(inverse_bin_img, cv2.cvtColor(lines_img, cv2.COLOR_BGR2GRAY))
 
         # 輪郭検出（ラベリング）
@@ -258,17 +307,27 @@ class Framedetect:
         print("complement_and_img.shape", complement_and_img.shape)
 
         contours3 = []
-        bounding_boxes = [] # バウンディングボックス群
+        bounding_boxes = []  # バウンディングボックス群
 
         # 輪郭検出（ラベリング）
-        contours3, _, = cv2.findContours(cv2.cvtColor(complement_and_img,cv2.COLOR_BGR2GRAY), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+        (
+            contours3,
+            _,
+        ) = cv2.findContours(
+            cv2.cvtColor(complement_and_img, cv2.COLOR_BGR2GRAY),
+            cv2.RETR_EXTERNAL,
+            cv2.CHAIN_APPROX_SIMPLE,
+        )
 
         # バウンディングボックスの登録
         for i in range(len(contours3)):
             # バウンディングボックスの取得
             tmp_boundhging_box = tmp_bounding_box = cv2.boundingRect(contours3[i])
 
-            if self.judge_area_of_bounding_box(tmp_bounding_box, complement_and_img.shape[0] * complement_and_img.shape[1]):
+            if self.judge_area_of_bounding_box(
+                tmp_bounding_box,
+                complement_and_img.shape[0] * complement_and_img.shape[1],
+            ):
                 # バウンディングボックスの登録
                 bounding_boxes.append(tmp_bounding_box)
 
@@ -290,14 +349,23 @@ class Framedetect:
             ymax = brect[1] + brect[3]
 
             # 端に寄せる
-            if xmin < 6: xmin = 0
-            if xmax > inverse_bin_img.shape[1] - 6: xmax = inverse_bin_img.shape[1]
-            if ymin < 6: ymin = 0
-            if ymax > inverse_bin_img.shape[0] - 6: ymax = inverse_bin_img.shape[0]
+            if xmin < 6:
+                xmin = 0
+            if xmax > inverse_bin_img.shape[1] - 6:
+                xmax = inverse_bin_img.shape[1]
+            if ymin < 6:
+                ymin = 0
+            if ymax > inverse_bin_img.shape[0] - 6:
+                ymax = inverse_bin_img.shape[0]
 
             # バウンディングボックス（外接矩形）の4点
 
-            bbPoints = Points(cv2.Point(xmin, ymin), cv2.Point(xmin, ymax), cv2.Point(xmax, ymin), cv2.Point(xmax, ymax))
+            bbPoints = Points(
+                cv2.Point(xmin, ymin),
+                cv2.Point(xmin, ymax),
+                cv2.Point(xmax, ymin),
+                cv2.Point(xmax, ymax),
+            )
 
             # 最終的な代表点
             definitePanelPoint = Points()
@@ -316,7 +384,7 @@ class Framedetect:
 
             isOverlap = True
 
-            if self.judgeAreaOfBoundingBox(brect,input_img.shape[0] * input_img.shape[1]):
+            if self.judgeAreaOfBoundingBox(brect, input_img.shape[0] * input_img.shape[1]):
                 self.judgeBoundingBoxOverlap(bounding_boxes, brect, isOverlap)
             else:
                 isOverlap = False
@@ -327,10 +395,38 @@ class Framedetect:
             for i in range(len(approx)):
                 p = cv2.Point(approx[i][0][0], approx[i][0][1])
 
-                self.definePanelCorners(flag_lt, p, bb_min_lt, self.pageCorners.lt, definitePanelPoint.lt, bbPoints.lt)
-                self.definePanelCorners(flag_lb, p, bb_min_lb, self.pageCorners.lb, definitePanelPoint.lb, bbPoints.lb)
-                self.definePanelCorners(flag_rt, p, bb_min_rt, self.pageCorners.rt, definitePanelPoint.rt, bbPoints.rt)
-                self.definePanelCorners(flag_rb, p, bb_min_rb, self.pageCorners.rb, definitePanelPoint.rb, bbPoints.rb)
+                self.definePanelCorners(
+                    flag_lt,
+                    p,
+                    bb_min_lt,
+                    self.pageCorners.lt,
+                    definitePanelPoint.lt,
+                    bbPoints.lt,
+                )
+                self.definePanelCorners(
+                    flag_lb,
+                    p,
+                    bb_min_lb,
+                    self.pageCorners.lb,
+                    definitePanelPoint.lb,
+                    bbPoints.lb,
+                )
+                self.definePanelCorners(
+                    flag_rt,
+                    p,
+                    bb_min_rt,
+                    self.pageCorners.rt,
+                    definitePanelPoint.rt,
+                    bbPoints.rt,
+                )
+                self.definePanelCorners(
+                    flag_rb,
+                    p,
+                    bb_min_rb,
+                    self.pageCorners.rb,
+                    definitePanelPoint.rb,
+                    bbPoints.rb,
+                )
                 self.align2edge(definitePanelPoint, inverse_bin_img)
 
                 definitePanelPoint.renew_line()
@@ -345,20 +441,42 @@ class Framedetect:
                 self.createAlphaImage(alpha_img, definitePanelPoint)
 
                 # サイズを合わせる
-                cut_img = alpha_img[brect.y:brect.y+brect.height, brect.x:brect.x+brect.width]
+                cut_img = alpha_img[brect.y : brect.y + brect.height, brect.x : brect.x + brect.width]
 
                 # 保存
                 panel_images.append(cut_img)
 
                 # コマ線を描画
-                cv2.line(color_page, definitePanelPoint.lt, definitePanelPoint.rt, (255,0,0), 2)
-                cv2.line(color_page, definitePanelPoint.rt, definitePanelPoint.rb, (255,0,0), 2)
-                cv2.line(color_page, definitePanelPoint.rb, definitePanelPoint.lb, (255,0,0), 2)
-                cv2.line(color_page, definitePanelPoint.lb, definitePanelPoint.lt, (255,0,0), 2)
-
+                cv2.line(
+                    color_page,
+                    definitePanelPoint.lt,
+                    definitePanelPoint.rt,
+                    (255, 0, 0),
+                    2,
+                )
+                cv2.line(
+                    color_page,
+                    definitePanelPoint.rt,
+                    definitePanelPoint.rb,
+                    (255, 0, 0),
+                    2,
+                )
+                cv2.line(
+                    color_page,
+                    definitePanelPoint.rb,
+                    definitePanelPoint.lb,
+                    (255, 0, 0),
+                    2,
+                )
+                cv2.line(
+                    color_page,
+                    definitePanelPoint.lb,
+                    definitePanelPoint.lt,
+                    (255, 0, 0),
+                    2,
+                )
 
         return panel_images
-
 
     def extractSpeechBalloon(self, fukidashi_contours, hierarchy2, gaussian_img):
         for i in range(len(fukidashi_contours)):
@@ -366,10 +484,22 @@ class Framedetect:
             length = cv2.arcLength(fukidashi_contours[i], True)
             en = 0
 
-            if gaussian_img.shape[0] * gaussian_img.shape[1] * 0.008 <= area and area < gaussian_img.shape[0] * gaussian_img.shape[1] * 0.03:
+            if (
+                gaussian_img.shape[0] * gaussian_img.shape[1] * 0.008 <= area
+                and area < gaussian_img.shape[0] * gaussian_img.shape[1] * 0.03
+            ):
                 en = 4.0 * math.pi * area / (length * length)
                 if en > 0.4:
-                    cv2.drawContours(gaussian_img, fukidashi_contours, i, 0, -1, cv2.LINE_AA, hierarchy2, 1)
+                    cv2.drawContours(
+                        gaussian_img,
+                        fukidashi_contours,
+                        i,
+                        0,
+                        -1,
+                        cv2.LINE_AA,
+                        hierarchy2,
+                        1,
+                    )
 
     def findFrameExistenceArea(self, inverse_bin_img):
         histogram = np.zeros(inverse_bin_img.shape[1], dtype=np.int)
@@ -461,11 +591,15 @@ class Framedetect:
         dst_img = np.zeros_like(src_img)
         for contour in contours:
             bounding_box = cv2.boundingRect(contour)
-            if not self.judgeAreaOfBoundingBox(bounding_box, src_img.shape[0]*src_img.shape[1]):
+            if not self.judgeAreaOfBoundingBox(bounding_box, src_img.shape[0] * src_img.shape[1]):
                 continue
-            cv2.rectangle(src_img, (bounding_box[0], bounding_box[1]),
-                          (bounding_box[0] + bounding_box[2], bounding_box[1] + bounding_box[3]), 
-                          255, 3)
+            cv2.rectangle(
+                src_img,
+                (bounding_box[0], bounding_box[1]),
+                (bounding_box[0] + bounding_box[2], bounding_box[1] + bounding_box[3]),
+                255,
+                3,
+            )
         cv2.bitwise_and(src_img, inverse_bin_img, dst_img)
         return dst_img
 
@@ -475,16 +609,32 @@ class Framedetect:
     def judgeBoundingBoxOverlap(self, isOverlap, bounding_boxes, brect):
         isOverlap = True
         for bounding_box in bounding_boxes:
-            if (bounding_box[0] == brect[0] and bounding_box[1] == brect[1] and 
-                bounding_box[2] == brect[2] and bounding_box[3] == brect[3]):
+            if (
+                bounding_box[0] == brect[0]
+                and bounding_box[1] == brect[1]
+                and bounding_box[2] == brect[2]
+                and bounding_box[3] == brect[3]
+            ):
                 continue
             overlap_rect = self._rectIntersection(brect, bounding_box)
-            if (overlap_rect[0] == brect[0] and overlap_rect[1] == brect[1] and 
-                overlap_rect[2] == brect[2] and overlap_rect[3] == brect[3]):
+            if (
+                overlap_rect[0] == brect[0]
+                and overlap_rect[1] == brect[1]
+                and overlap_rect[2] == brect[2]
+                and overlap_rect[3] == brect[3]
+            ):
                 isOverlap = False
         return isOverlap
 
-    def definePanelCorners(self, definite, currentPoint, boundingBoxMinDist, PageCornerPoint, definitePanelPoint, boundingBoxPoint):
+    def definePanelCorners(
+        self,
+        definite,
+        currentPoint,
+        boundingBoxMinDist,
+        PageCornerPoint,
+        definitePanelPoint,
+        boundingBoxPoint,
+    ):
         if not definite:
             pageCornerDist = np.linalg.norm(np.array(boundingBoxPoint) - np.array(PageCornerPoint))
             if pageCornerDist < 8:
@@ -499,12 +649,15 @@ class Framedetect:
 
     def align2edge(self, definitePanelPoint, inverse_bin_img):
         th_edge = 6
-        if definitePanelPoint[0] < th_edge: definitePanelPoint[0] = 0
-        if definitePanelPoint[1] < th_edge: definitePanelPoint[1] = 0
-        if definitePanelPoint[0] > inverse_bin_img.shape[1] - th_edge: definitePanelPoint[0] = inverse_bin_img.shape[1]
-        if definitePanelPoint[1] > inverse_bin_img.shape[0] - th_edge: definitePanelPoint[1] = inverse_bin_img.shape[0]
+        if definitePanelPoint[0] < th_edge:
+            definitePanelPoint[0] = 0
+        if definitePanelPoint[1] < th_edge:
+            definitePanelPoint[1] = 0
+        if definitePanelPoint[0] > inverse_bin_img.shape[1] - th_edge:
+            definitePanelPoint[0] = inverse_bin_img.shape[1]
+        if definitePanelPoint[1] > inverse_bin_img.shape[0] - th_edge:
+            definitePanelPoint[1] = inverse_bin_img.shape[0]
         return definitePanelPoint
-
 
     def createAlphaImage(self, alphaImage, definitePanelPoint):
         for y in range(alphaImage.shape[0]):
@@ -515,13 +668,14 @@ class Framedetect:
                     alphaImage[y, x] = px
         return alphaImage
 
+
 def detect_speech_balloons(img_path):
     img = cv2.imread(img_path)
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    
+
     _, binary = cv2.threshold(gray, 230, 255, cv2.THRESH_BINARY_INV)
 
-    kernel = np.ones((3,3), np.uint8)
+    kernel = np.ones((3, 3), np.uint8)
     opening = cv2.morphologyEx(binary, cv2.MORPH_OPEN, kernel)
 
     contours, _ = cv2.findContours(opening, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
@@ -530,13 +684,13 @@ def detect_speech_balloons(img_path):
     for contour in contours:
         area = cv2.contourArea(contour)
         perimeter = cv2.arcLength(contour, True)
-        circularity = 4*np.pi*(area/(perimeter*perimeter))
-        
+        circularity = 4 * np.pi * (area / (perimeter * perimeter))
+
         if area > 500 and circularity > 0.1:
             x, y, w, h = cv2.boundingRect(contour)
-            balloon = img[y:y+h, x:x+w]
+            balloon = img[y : y + h, x : x + w]
             balloon_mask = np.zeros(balloon.shape[:2], np.uint8)
             cv2.drawContours(balloon_mask, [contour], -1, 255, -1)
-            balloon[np.where(balloon_mask==0)] = 0
+            balloon[np.where(balloon_mask == 0)] = 0
             speech_balloons.append(balloon)
     return speech_balloons

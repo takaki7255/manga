@@ -87,7 +87,23 @@ def main():
 
             lines_img = np.zeros(src_img.shape, dtype=np.uint8)
             for line in lines:
+                # 検出した直線を画像端まで描画する
                 x1, y1, x2, y2 = line[0]
+                if x1 == x2:
+                    continue
+                slope = (y2 - y1) / (x2 - x1)
+                if abs(slope) < 0.1:
+                    continue
+                if abs(slope) > 10:
+                    continue
+                if x1 == x2:
+                    continue
+                if y1 == y2:
+                    continue
+                if x1 < 0 or x1 > width or x2 < 0 or x2 > width:
+                    continue
+                if y1 < 0 or y1 > height or y2 < 0 or y2 > height:
+                    continue
                 cv2.line(lines_img, (x1, y1), (x2, y2), (255, 255, 255), 2)
             cv2.imshow("lines_img", lines_img)
             cv2.waitKey(0)

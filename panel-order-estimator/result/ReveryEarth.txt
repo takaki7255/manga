@@ -1,0 +1,1154 @@
+ReveryEarth
+Page 0:
+Page 1:
+Page 2:
+ 0: <BoundingBox(frame,000590a7) 882.0,60.0,1585.0,281.0,1>
+ 1: <BoundingBox(frame,000590b2) 1132.0,316.0,1651.0,730.0,1>
+ 2: <BoundingBox(frame,000590c9) 882.0,311.0,1120.0,431.0,1>
+ 3: <BoundingBox(frame,000590ad) 879.0,459.0,1117.0,674.0,1>
+ 4: <BoundingBox(frame,000590a2) 880.0,681.0,1583.0,904.0,1>
+ 5: <BoundingBox(frame,000590ae) 879.0,931.0,1582.0,1106.0,1>
+ 6: <BoundingBox(frame,00059096) 427.0,0.0,767.0,544.0,1>
+ 7: <BoundingBox(frame,0005909d) 63.0,61.0,414.0,214.0,1>
+ 8: <BoundingBox(frame,000590bb) 0.0,244.0,414.0,548.0,1>
+ 9: <BoundingBox(frame,000590c3) 405.0,578.0,765.0,815.0,1>
+10: <BoundingBox(frame,000590b0) 61.0,576.0,395.0,817.0,1>
+11 Subpanels of <BoundingBox(None,) 63.0,841.0,826.0,1109.0,2>:
+    - <BoundingBox(frame,0005909a) 63.0,847.0,766.0,1109.0,1>
+    - <BoundingBox(frame,000590b8) 434.0,841.0,826.0,969.0,1>
+Page 3:
+ 0: <BoundingBox(frame,000590d7) 1397.0,0.0,1592.0,374.0,1>
+ 1: <BoundingBox(frame,000590e8) 889.0,62.0,1383.0,374.0,1>
+ 2: <BoundingBox(frame,000590eb) 887.0,403.0,1590.0,528.0,1>
+ 3: <BoundingBox(frame,000590e3) 890.0,561.0,1589.0,782.0,1>
+ 4: <BoundingBox(frame,000590f0) 819.0,745.0,1653.0,1165.0,1>
+ 5: <BoundingBox(frame,000590e1) 386.0,60.0,767.0,545.0,1>
+ 6: <BoundingBox(frame,000590df) 58.0,62.0,492.0,214.0,1>
+ 7: <BoundingBox(frame,000590dd) 61.0,248.0,442.0,394.0,1>
+ 8: <BoundingBox(frame,000590d9) 61.0,418.0,402.0,545.0,1>
+ 9: <BoundingBox(frame,000590f4) 505.0,576.0,768.0,1167.0,1>
+10: <BoundingBox(frame,000590e2) 61.0,578.0,488.0,767.0,1>
+11: <BoundingBox(frame,000590e6) 64.0,795.0,493.0,878.0,1>
+12: <BoundingBox(frame,000590f3) 0.0,908.0,489.0,1163.0,1>
+Page 4:
+ 0: <BoundingBox(frame,00059122) 1080.0,0.0,1653.0,509.0,1>
+ 1: <BoundingBox(frame,00059123) 887.0,61.0,1153.0,255.0,1>
+ 2: <BoundingBox(frame,000590fd) 887.0,286.0,1107.0,503.0,1>
+ 3: <BoundingBox(frame,00059115) 892.0,537.0,1591.0,778.0,1>
+ 4: <BoundingBox(frame,000590fa) 1433.0,812.0,1592.0,1168.0,1>
+ 5: <BoundingBox(frame,0005913e) 1271.0,818.0,1418.0,1164.0,1>
+ 6: <BoundingBox(frame,000590fe) 887.0,808.0,1255.0,1165.0,1>
+ 7: <BoundingBox(frame,00059124) 0.0,0.0,824.0,744.0,1>
+ 8 Subpanels of <BoundingBox(None,) 0.0,558.0,774.0,1169.0,3>:
+    - <BoundingBox(frame,0005910f) 0.0,686.0,457.0,1166.0,1>
+    - <BoundingBox(frame,00059121) 463.0,558.0,768.0,831.0,1>
+    - <BoundingBox(frame,00059135) 296.0,658.0,774.0,1169.0,1>
+Page 5:
+ 0: <BoundingBox(frame,00059166) 883.0,60.0,1587.0,378.0,1>
+ 1: <BoundingBox(frame,00059151) 1327.0,402.0,1586.0,760.0,1>
+ 2: <BoundingBox(frame,00059150) 882.0,402.0,1313.0,762.0,1>
+ 3 Subpanels of <BoundingBox(None,) 1095.0,795.0,1651.0,1107.0,2>:
+    - <BoundingBox(frame,0005916f) 1396.0,802.0,1651.0,894.0,1>
+    - <BoundingBox(frame,00059152) 1095.0,795.0,1589.0,1107.0,1>
+ 4: <BoundingBox(frame,00059145) 885.0,793.0,1080.0,1107.0,1>
+ 5: <BoundingBox(frame,00059165) 586.0,60.0,773.0,277.0,1>
+ 6: <BoundingBox(frame,0005914b) 536.0,305.0,767.0,549.0,1>
+ 7: <BoundingBox(frame,00059157) 257.0,61.0,608.0,548.0,1>
+ 8: <BoundingBox(frame,00059143) 68.0,2.0,242.0,552.0,1>
+ 9: <BoundingBox(frame,0005914d) 250.0,452.0,404.0,570.0,1>
+10: <BoundingBox(frame,0005916d) 68.0,578.0,777.0,783.0,1>
+11: <BoundingBox(frame,00059141) 572.0,816.0,771.0,1109.0,1>
+12: <BoundingBox(frame,0005916e) 331.0,815.0,559.0,1106.0,1>
+13: <BoundingBox(frame,00059159) 65.0,813.0,399.0,1108.0,1>
+Page 6:
+ 0: <BoundingBox(frame,00059181) 891.0,60.0,1653.0,199.0,1>
+ 1: <BoundingBox(frame,00059177) 1349.0,226.0,1586.0,428.0,1>
+ 2: <BoundingBox(frame,00059171) 1351.0,463.0,1589.0,665.0,1>
+ 3: <BoundingBox(frame,00059191) 883.0,231.0,1338.0,665.0,1>
+ 4: <BoundingBox(frame,00059187) 1133.0,698.0,1590.0,1169.0,1>
+ 5: <BoundingBox(frame,00059179) 886.0,696.0,1120.0,860.0,1>
+ 6: <BoundingBox(frame,00059182) 885.0,892.0,1120.0,1109.0,1>
+ 7: <BoundingBox(frame,0005918b) 0.0,60.0,788.0,199.0,1>
+ 8: <BoundingBox(frame,00059188) 470.0,227.0,771.0,1168.0,1>
+ 9: <BoundingBox(frame,00059190) 0.0,227.0,462.0,670.0,1>
+10: <BoundingBox(frame,00059192) 75.0,700.0,457.0,905.0,1>
+11: <BoundingBox(frame,0005918c) 82.0,936.0,458.0,1107.0,1>
+Page 7:
+ 0: <BoundingBox(frame,0005919c) 1095.0,0.0,1653.0,558.0,1>
+ 1: <BoundingBox(frame,000591ad) 890.0,61.0,1220.0,352.0,1>
+ 2: <BoundingBox(frame,000591bb) 885.0,382.0,1130.0,560.0,1>
+ 3: <BoundingBox(frame,000591ae) 885.0,589.0,1587.0,764.0,1>
+ 4: <BoundingBox(frame,000591c9) 1264.0,794.0,1586.0,1106.0,1>
+ 5 Subpanels of <BoundingBox(None,) 982.0,791.0,1250.0,1107.0,2>:
+    - <BoundingBox(frame,000591bf) 1091.0,791.0,1250.0,1107.0,1>
+    - <BoundingBox(frame,000591bd) 982.0,791.0,1146.0,1107.0,1>
+ 6: <BoundingBox(frame,000591a9) 880.0,793.0,1018.0,1107.0,1>
+ 7: <BoundingBox(frame,000591c0) 515.0,1.0,777.0,506.0,1>
+ 8: <BoundingBox(frame,000591c2) 201.0,62.0,498.0,240.0,1>
+ 9: <BoundingBox(frame,000591b9) 70.0,60.0,192.0,240.0,1>
+10: <BoundingBox(frame,000591aa) 72.0,272.0,494.0,512.0,1>
+11 Subpanels of <BoundingBox(None,) 0.0,470.0,827.0,1169.0,2>:
+    - <BoundingBox(frame,000591ba) 163.0,862.0,379.0,1111.0,1>
+    - <BoundingBox(frame,00059196) 0.0,470.0,827.0,1169.0,1>
+12: <BoundingBox(frame,000591bc) 35.0,858.0,152.0,1109.0,1>
+Page 8:
+ 0: <BoundingBox(frame,000591cc) 1236.0,0.0,1653.0,400.0,1>
+ 1: <BoundingBox(frame,00059209) 1243.0,430.0,1583.0,586.0,1>
+ 2: <BoundingBox(frame,000591e1) 967.0,60.0,1229.0,586.0,1>
+ 3: <BoundingBox(frame,000591cf) 876.0,61.0,961.0,590.0,1>
+ 4: <BoundingBox(frame,000591e8) 880.0,615.0,1582.0,825.0,1>
+ 5: <BoundingBox(frame,00059202) 1428.0,840.0,1626.0,990.0,1>
+ 6: <BoundingBox(frame,000591e7) 878.0,857.0,1582.0,1106.0,1>
+ 7: <BoundingBox(frame,000591e2) 65.0,60.0,768.0,315.0,1>
+ 8 Subpanels of <BoundingBox(None,) 3.0,259.0,776.0,871.0,3>:
+    - <BoundingBox(frame,000591f5) 487.0,349.0,774.0,589.0,1>
+    - <BoundingBox(frame,00059200) 485.0,622.0,765.0,782.0,1>
+    - <BoundingBox(frame,000591d4) 3.0,259.0,776.0,871.0,1>
+ 9: <BoundingBox(frame,000591cd) 386.0,823.0,767.0,1107.0,1>
+10: <BoundingBox(frame,000591e9) 65.0,820.0,373.0,1106.0,1>
+Page 9:
+ 0: <BoundingBox(frame,00059217) 827.0,0.0,1653.0,681.0,1>
+ 1: <BoundingBox(frame,00059232) 887.0,667.0,1587.0,827.0,1>
+ 2: <BoundingBox(frame,00059244) 1326.0,846.0,1588.0,1108.0,1>
+ 3: <BoundingBox(frame,00059237) 1234.0,857.0,1317.0,1105.0,1>
+ 4: <BoundingBox(frame,0005921e) 890.0,848.0,1219.0,1102.0,1>
+ 5: <BoundingBox(frame,00059224) 176.0,0.0,773.0,397.0,1>
+ 6: <BoundingBox(frame,00059226) 1.0,0.0,263.0,294.0,1>
+ 7: <BoundingBox(frame,00059243) 3.0,295.0,776.0,736.0,1>
+ 8: <BoundingBox(frame,00059240) 0.0,653.0,776.0,883.0,1>
+ 9: <BoundingBox(frame,00059242) 0.0,915.0,773.0,1110.0,1>
+Page 10:
+ 0: <BoundingBox(frame,0005924d) 1253.0,64.0,1583.0,283.0,1>
+ 1: <BoundingBox(frame,00059250) 1301.0,308.0,1585.0,430.0,1>
+ 2: <BoundingBox(frame,00059257) 882.0,0.0,1306.0,428.0,1>
+ 3: <BoundingBox(frame,00059262) 883.0,459.0,1585.0,644.0,1>
+ 4: <BoundingBox(frame,00059272) 880.0,670.0,1584.0,838.0,1>
+ 5 Subpanels of <BoundingBox(None,) 832.0,864.0,1586.0,1163.0,2>:
+    - <BoundingBox(frame,00059258) 882.0,864.0,1586.0,1109.0,1>
+    - <BoundingBox(frame,0005926f) 832.0,1009.0,1247.0,1163.0,1>
+ 6: <BoundingBox(frame,00059276) 275.0,57.0,769.0,390.0,1>
+ 7: <BoundingBox(frame,00059279) 68.0,65.0,266.0,393.0,1>
+ 8: <BoundingBox(frame,0005927c) 227.0,423.0,769.0,1111.0,1>
+ 9: <BoundingBox(frame,00059268) 68.0,421.0,213.0,1107.0,1>
+Page 11:
+ 0 Subpanels of <BoundingBox(None,) 1051.0,58.0,1653.0,443.0,2>:
+    - <BoundingBox(frame,00059290) 1102.0,258.0,1582.0,443.0,1>
+    - <BoundingBox(frame,00059287) 1051.0,58.0,1653.0,333.0,1>
+ 1: <BoundingBox(frame,00059282) 1189.0,464.0,1586.0,850.0,1>
+ 2: <BoundingBox(frame,0005928b) 1196.0,794.0,1579.0,1108.0,1>
+ 3: <BoundingBox(frame,00059291) 879.0,5.0,1225.0,1165.0,1>
+Page 12:
+ 0: <BoundingBox(frame,000592b8) 1245.0,60.0,1579.0,235.0,1>
+ 1: <BoundingBox(frame,000592b6) 1012.0,60.0,1317.0,238.0,1>
+ 2: <BoundingBox(frame,000592ae) 883.0,61.0,1030.0,234.0,1>
+ 3: <BoundingBox(frame,0005929a) 825.0,199.0,1651.0,742.0,1>
+ 4: <BoundingBox(frame,000592ab) 1280.0,702.0,1589.0,901.0,1>
+ 5: <BoundingBox(frame,0005929f) 883.0,706.0,1264.0,900.0,1>
+ 6: <BoundingBox(frame,000592c4) 885.0,934.0,1581.0,1108.0,1>
+ 7: <BoundingBox(frame,000592b1) 64.0,60.0,767.0,316.0,1>
+ 8: <BoundingBox(frame,00059296) 53.0,349.0,764.0,668.0,1>
+ 9: <BoundingBox(frame,000592c7) 504.0,696.0,769.0,1165.0,1>
+10: <BoundingBox(frame,000592ce) 286.0,698.0,569.0,1167.0,1>
+11: <BoundingBox(frame,000592be) 63.0,693.0,284.0,817.0,1>
+12: <BoundingBox(frame,000592cc) 58.0,843.0,305.0,953.0,1>
+13: <BoundingBox(frame,000592c1) 63.0,985.0,319.0,1107.0,1>
+Page 13:
+ 0: <BoundingBox(frame,00059306) 1396.0,58.0,1592.0,440.0,1>
+ 1: <BoundingBox(frame,0005930d) 889.0,0.0,1385.0,441.0,1>
+ 2: <BoundingBox(frame,000592f6) 922.0,351.0,1047.0,448.0,1>
+ 3: <BoundingBox(frame,000592e9) 910.0,470.0,1589.0,613.0,1>
+ 4: <BoundingBox(frame,00059313) 1257.0,642.0,1585.0,748.0,1>
+ 5: <BoundingBox(frame,000592dc) 886.0,646.0,1234.0,745.0,1>
+ 6: <BoundingBox(frame,000592e1) 894.0,774.0,1589.0,1104.0,1>
+ 7: <BoundingBox(frame,00059314) 497.0,58.0,769.0,281.0,1>
+ 8: <BoundingBox(frame,000592db) 71.0,61.0,481.0,425.0,1>
+ 9: <BoundingBox(frame,000592f0) 504.0,311.0,773.0,1164.0,1>
+10: <BoundingBox(frame,0005930b) 71.0,445.0,481.0,595.0,1>
+11: <BoundingBox(frame,000592f2) 1.0,629.0,485.0,1169.0,1>
+Page 14:
+ 0: <BoundingBox(frame,00059316) 1056.0,60.0,1583.0,330.0,1>
+ 1: <BoundingBox(frame,0005932f) 868.0,1.0,1039.0,329.0,1>
+ 2: <BoundingBox(frame,00059335) 1181.0,361.0,1582.0,749.0,1>
+ 3: <BoundingBox(frame,00059348) 880.0,368.0,1170.0,636.0,1>
+ 4: <BoundingBox(frame,00059332) 882.0,667.0,1173.0,750.0,1>
+ 5: <BoundingBox(frame,00059328) 1416.0,780.0,1580.0,1106.0,1>
+ 6: <BoundingBox(frame,0005931d) 883.0,783.0,1410.0,1169.0,1>
+ 7: <BoundingBox(frame,00059352) 393.0,55.0,771.0,232.0,1>
+ 8: <BoundingBox(frame,00059315) 74.0,60.0,378.0,234.0,1>
+ 9: <BoundingBox(frame,00059323) 629.0,265.0,764.0,584.0,1>
+10: <BoundingBox(frame,00059321) 64.0,262.0,611.0,585.0,1>
+11: <BoundingBox(frame,00059349) 460.0,619.0,765.0,697.0,1>
+12: <BoundingBox(frame,0005932b) 463.0,734.0,767.0,972.0,1>
+13: <BoundingBox(frame,00059351) 564.0,1005.0,766.0,1165.0,1>
+14: <BoundingBox(frame,0005934a) 455.0,1005.0,551.0,1169.0,1>
+15: <BoundingBox(frame,0005934b) 4.0,547.0,493.0,1169.0,1>
+Page 15:
+ 0: <BoundingBox(frame,0005936c) 1439.0,57.0,1581.0,358.0,1>
+ 1: <BoundingBox(frame,00059387) 1056.0,61.0,1425.0,358.0,1>
+ 2: <BoundingBox(frame,000593af) 885.0,58.0,1041.0,240.0,1>
+ 3: <BoundingBox(frame,000593a4) 887.0,266.0,1041.0,355.0,1>
+ 4: <BoundingBox(frame,00059370) 884.0,390.0,1653.0,659.0,1>
+ 5: <BoundingBox(frame,00059381) 1408.0,679.0,1653.0,778.0,1>
+ 6: <BoundingBox(frame,00059360) 1362.0,693.0,1585.0,1167.0,1>
+ 7: <BoundingBox(frame,00059388) 1210.0,700.0,1350.0,1103.0,1>
+ 8: <BoundingBox(frame,00059371) 883.0,695.0,1197.0,1104.0,1>
+ 9: <BoundingBox(frame,0005937e) 455.0,60.0,776.0,284.0,1>
+10: <BoundingBox(frame,00059386) 455.0,311.0,767.0,438.0,1>
+11: <BoundingBox(frame,00059392) 0.0,0.0,441.0,442.0,1>
+12 Subpanels of <BoundingBox(None,) 3.0,469.0,776.0,906.0,2>:
+    - <BoundingBox(frame,0005937a) 3.0,469.0,773.0,906.0,1>
+    - <BoundingBox(frame,0005938c) 453.0,469.0,776.0,586.0,1>
+13: <BoundingBox(frame,00059368) 70.0,935.0,773.0,1115.0,1>
+Page 16:
+ 0: <BoundingBox(frame,000593b6) 1345.0,57.0,1585.0,431.0,1>
+ 1: <BoundingBox(frame,000593d0) 886.0,61.0,1334.0,432.0,1>
+ 2: <BoundingBox(frame,000593df) 893.0,455.0,1590.0,650.0,1>
+ 3 Subpanels of <BoundingBox(None,) 999.0,631.0,1472.0,721.0,2>:
+    - <BoundingBox(frame,000593d1) 1122.0,681.0,1352.0,721.0,1>
+    - <BoundingBox(frame,000593d7) 999.0,631.0,1472.0,702.0,1>
+ 4: <BoundingBox(frame,000593c2) 883.0,738.0,1582.0,1102.0,1>
+ 5: <BoundingBox(frame,000593de) 77.0,64.0,770.0,547.0,1>
+ 6 Subpanels of <BoundingBox(None,) 64.0,578.0,773.0,1112.0,3>:
+    - <BoundingBox(frame,000593b5) 65.0,964.0,393.0,1107.0,1>
+    - <BoundingBox(frame,000593d6) 64.0,578.0,505.0,935.0,1>
+    - <BoundingBox(frame,000593cb) 377.0,583.0,773.0,1112.0,1>
+Page 17:
+ 0: <BoundingBox(frame,000593ed) 1139.0,62.0,1585.0,429.0,1>
+ 1: <BoundingBox(frame,0005940b) 880.0,55.0,1125.0,427.0,1>
+ 2: <BoundingBox(frame,000593fd) 1365.0,462.0,1578.0,802.0,1>
+ 3: <BoundingBox(frame,000593f6) 883.0,462.0,1349.0,801.0,1>
+ 4: <BoundingBox(frame,00059403) 882.0,829.0,1581.0,1108.0,1>
+ 5: <BoundingBox(frame,0005940f) 396.0,2.0,765.0,748.0,1>
+ 6: <BoundingBox(frame,000593e8) 0.0,0.0,436.0,283.0,1>
+ 7: <BoundingBox(frame,00059414) 74.0,314.0,453.0,396.0,1>
+ 8: <BoundingBox(frame,000593ee) 0.0,428.0,520.0,743.0,1>
+ 9: <BoundingBox(frame,000593e9) 579.0,779.0,778.0,1107.0,1>
+10: <BoundingBox(frame,0005941a) 72.0,779.0,566.0,1109.0,1>
+Page 18:
+ 0 Subpanels of <BoundingBox(None,) 822.0,1.0,1653.0,623.0,2>:
+    - <BoundingBox(frame,0005943a) 1387.0,64.0,1582.0,358.0,1>
+    - <BoundingBox(frame,00059422) 822.0,1.0,1653.0,623.0,1>
+ 1: <BoundingBox(frame,0005944b) 875.0,626.0,1593.0,785.0,1>
+ 2: <BoundingBox(frame,00059450) 1362.0,812.0,1583.0,1110.0,1>
+ 3: <BoundingBox(frame,00059446) 1010.0,816.0,1350.0,1106.0,1>
+ 4: <BoundingBox(frame,00059437) 880.0,815.0,1001.0,1113.0,1>
+ 5: <BoundingBox(frame,00059420) 72.0,61.0,774.0,323.0,1>
+ 6: <BoundingBox(frame,00059423) 72.0,351.0,774.0,556.0,1>
+ 7: <BoundingBox(frame,0005942a) 72.0,587.0,774.0,792.0,1>
+ 8: <BoundingBox(frame,00059441) 74.0,819.0,776.0,1112.0,1>
+Page 19:
+ 0: <BoundingBox(frame,0005947a) 1204.0,57.0,1583.0,319.0,1>
+ 1: <BoundingBox(frame,0005945b) 875.0,61.0,1184.0,315.0,1>
+ 2 Subpanels of <BoundingBox(None,) 891.0,337.0,1583.0,769.0,2>:
+    - <BoundingBox(frame,00059471) 891.0,344.0,1583.0,769.0,1>
+    - <BoundingBox(frame,00059480) 1348.0,337.0,1569.0,487.0,1>
+ 3: <BoundingBox(frame,00059487) 1354.0,806.0,1582.0,1104.0,1>
+ 4: <BoundingBox(frame,00059455) 883.0,800.0,1345.0,1105.0,1>
+ 5: <BoundingBox(frame,00059459) 71.0,57.0,773.0,389.0,1>
+ 6: <BoundingBox(frame,0005948b) 618.0,423.0,774.0,825.0,1>
+ 7: <BoundingBox(frame,0005945e) 273.0,417.0,603.0,828.0,1>
+ 8: <BoundingBox(frame,0005945c) 72.0,418.0,253.0,828.0,1>
+ 9: <BoundingBox(frame,0005947f) 81.0,854.0,770.0,1108.0,1>
+Page 20:
+ 0: <BoundingBox(frame,000594b2) 1194.0,0.0,1653.0,585.0,1>
+ 1: <BoundingBox(frame,000594b5) 883.0,58.0,1180.0,398.0,1>
+ 2: <BoundingBox(frame,000594a2) 878.0,431.0,1182.0,587.0,1>
+ 3: <BoundingBox(frame,000594af) 1337.0,615.0,1584.0,902.0,1>
+ 4: <BoundingBox(frame,000594a3) 1340.0,934.0,1582.0,1105.0,1>
+ 5: <BoundingBox(frame,000594ac) 1054.0,621.0,1320.0,1106.0,1>
+ 6: <BoundingBox(frame,000594b6) 880.0,625.0,1036.0,1105.0,1>
+ 7: <BoundingBox(frame,000594bc) 0.0,0.0,774.0,337.0,1>
+ 8: <BoundingBox(frame,000594bd) 441.0,227.0,778.0,1166.0,1>
+ 9: <BoundingBox(frame,000594be) 68.0,270.0,532.0,815.0,1>
+10: <BoundingBox(frame,00059499) 64.0,843.0,464.0,1168.0,1>
+Page 21:
+ 0: <BoundingBox(frame,000594cb) 876.0,61.0,1585.0,404.0,1>
+ 1: <BoundingBox(frame,000594c2) 885.0,432.0,1582.0,612.0,1>
+ 2: <BoundingBox(frame,000594c6) 882.0,643.0,1585.0,1106.0,1>
+Page 22:
+ 0: <BoundingBox(frame,000594d0) 834.0,115.0,1653.0,464.0,1>
+ 1: <BoundingBox(frame,000594eb) 887.0,491.0,1195.0,707.0,1>
+ 2 Subpanels of <BoundingBox(None,) 1329.0,726.0,1585.0,1106.0,2>:
+    - <BoundingBox(frame,000594e1) 1425.0,726.0,1575.0,854.0,1>
+    - <BoundingBox(frame,000594d3) 1329.0,741.0,1585.0,1106.0,1>
+ 3: <BoundingBox(frame,000594da) 1199.0,742.0,1316.0,1102.0,1>
+ 4 Subpanels of <BoundingBox(None,) 887.0,741.0,1185.0,1169.0,2>:
+    - <BoundingBox(frame,000594ce) 918.0,918.0,975.0,1169.0,1>
+    - <BoundingBox(frame,000594f1) 887.0,741.0,1185.0,1109.0,1>
+ 5: <BoundingBox(frame,000594db) 311.0,60.0,766.0,393.0,1>
+ 6: <BoundingBox(frame,000594f6) 65.0,64.0,300.0,393.0,1>
+ 7: <BoundingBox(frame,000594f8) 587.0,418.0,762.0,701.0,1>
+ 8: <BoundingBox(frame,000594fb) 63.0,420.0,571.0,702.0,1>
+ 9: <BoundingBox(frame,00059500) 65.0,734.0,768.0,1109.0,1>
+Page 23:
+ 0: <BoundingBox(frame,00059510) 889.0,0.0,1653.0,670.0,1>
+ 1: <BoundingBox(frame,00059517) 1319.0,693.0,1586.0,1104.0,1>
+ 2: <BoundingBox(frame,00059523) 1213.0,691.0,1369.0,1108.0,1>
+ 3 Subpanels of <BoundingBox(None,) 887.0,696.0,1247.0,1109.0,2>:
+    - <BoundingBox(frame,0005951e) 995.0,702.0,1247.0,1105.0,1>
+    - <BoundingBox(frame,0005950c) 887.0,696.0,1067.0,1109.0,1>
+ 4: <BoundingBox(frame,00059514) 0.0,0.0,833.0,524.0,1>
+ 5: <BoundingBox(frame,00059513) 0.0,551.0,769.0,750.0,1>
+ 6: <BoundingBox(frame,0005950f) 0.0,781.0,764.0,1167.0,1>
+Page 24:
+ 0: <BoundingBox(frame,00059537) 540.0,61.0,1653.0,592.0,1>
+ 1 Subpanels of <BoundingBox(None,) 1.0,1.0,521.0,602.0,2>:
+    - <BoundingBox(frame,00059534) 293.0,60.0,514.0,234.0,1>
+    - <BoundingBox(frame,00059541) 1.0,1.0,521.0,602.0,1>
+ 2: <BoundingBox(frame,00059547) 1344.0,515.0,1653.0,674.0,1>
+ 3 Subpanels of <BoundingBox(None,) 880.0,625.0,1653.0,1166.0,2>:
+    - <BoundingBox(frame,0005953e) 921.0,794.0,1105.0,1166.0,1>
+    - <BoundingBox(frame,00059540) 880.0,625.0,1653.0,1166.0,1>
+ 4: <BoundingBox(frame,0005953c) 541.0,618.0,767.0,1110.0,1>
+ 5: <BoundingBox(frame,00059542) 1.0,450.0,520.0,1166.0,1>
+Page 25:
+ 0: <BoundingBox(frame,0005957c) 1250.0,60.0,1590.0,544.0,1>
+ 1: <BoundingBox(frame,00059548) 894.0,58.0,1237.0,546.0,1>
+ 2: <BoundingBox(frame,00059571) 892.0,575.0,1594.0,753.0,1>
+ 3: <BoundingBox(frame,00059552) 892.0,793.0,1652.0,1169.0,1>
+ 4: <BoundingBox(frame,00059578) 610.0,65.0,767.0,411.0,1>
+ 5: <BoundingBox(frame,00059559) 438.0,62.0,597.0,411.0,1>
+ 6: <BoundingBox(frame,00059553) 60.0,58.0,428.0,412.0,1>
+ 7: <BoundingBox(frame,00059556) 3.0,445.0,763.0,687.0,1>
+ 8: <BoundingBox(frame,00059579) 472.0,717.0,766.0,880.0,1>
+ 9: <BoundingBox(frame,0005955a) 469.0,910.0,767.0,1112.0,1>
+10: <BoundingBox(frame,00059580) 0.0,719.0,453.0,1168.0,1>
+Page 26:
+ 0: <BoundingBox(frame,00059589) 889.0,62.0,1592.0,314.0,1>
+ 1: <BoundingBox(frame,000595a9) 1009.0,344.0,1475.0,423.0,1>
+ 2: <BoundingBox(frame,000595ae) 894.0,453.0,1589.0,709.0,1>
+ 3: <BoundingBox(frame,00059594) 1013.0,739.0,1475.0,815.0,1>
+ 4: <BoundingBox(frame,000595a0) 897.0,847.0,1589.0,1110.0,1>
+ 5: <BoundingBox(frame,00059590) 67.0,57.0,770.0,547.0,1>
+ 6: <BoundingBox(frame,000595ac) 56.0,582.0,769.0,725.0,1>
+ 7: <BoundingBox(frame,0005958d) 298.0,758.0,769.0,1108.0,1>
+ 8: <BoundingBox(frame,000595b4) 61.0,751.0,284.0,1069.0,1>
+ 9: <BoundingBox(frame,0005958a) 3.0,1066.0,358.0,1141.0,1>
+Page 27:
+ 0: <BoundingBox(frame,000595bf) 1331.0,0.0,1653.0,1168.0,1>
+ 1: <BoundingBox(frame,000595c3) 1056.0,64.0,1322.0,355.0,1>
+ 2: <BoundingBox(frame,000595c1) 1055.0,385.0,1318.0,748.0,1>
+ 3: <BoundingBox(frame,000595b9) 1052.0,783.0,1322.0,1166.0,1>
+ 4: <BoundingBox(frame,000595bd) 0.0,2.0,1044.0,730.0,1>
+ 5: <BoundingBox(frame,000595be) 44.0,635.0,1038.0,1111.0,1>
+Page 28:
+ 0: <BoundingBox(frame,000595e2) 881.0,0.0,1650.0,710.0,1>
+ 1: <BoundingBox(frame,000595d9) 890.0,741.0,1590.0,902.0,1>
+ 2: <BoundingBox(frame,000595ef) 885.0,934.0,1589.0,1110.0,1>
+ 3: <BoundingBox(frame,000595ca) 306.0,5.0,756.0,545.0,1>
+ 4: <BoundingBox(frame,000595c8) 57.0,63.0,417.0,245.0,1>
+ 5: <BoundingBox(frame,000595cb) 58.0,198.0,375.0,419.0,1>
+ 6: <BoundingBox(frame,000595de) 50.0,380.0,316.0,540.0,1>
+ 7: <BoundingBox(frame,000595e0) 5.0,508.0,826.0,1165.0,1>
+Page 29:
+ 0: <BoundingBox(frame,00059614) 1345.0,1.0,1651.0,788.0,1>
+ 1: <BoundingBox(frame,00059624) 897.0,61.0,1333.0,232.0,1>
+ 2: <BoundingBox(frame,0005960c) 897.0,266.0,1336.0,391.0,1>
+ 3: <BoundingBox(frame,0005962d) 897.0,421.0,1335.0,794.0,1>
+ 4: <BoundingBox(frame,00059601) 1220.0,817.0,1653.0,1106.0,1>
+ 5: <BoundingBox(frame,0005961d) 895.0,820.0,1205.0,1105.0,1>
+ 6: <BoundingBox(frame,00059625) 499.0,60.0,765.0,544.0,1>
+ 7: <BoundingBox(frame,0005960b) 71.0,58.0,479.0,275.0,1>
+ 8: <BoundingBox(frame,000595fb) 314.0,301.0,481.0,545.0,1>
+ 9: <BoundingBox(frame,00059629) 70.0,309.0,300.0,544.0,1>
+10: <BoundingBox(frame,00059623) 536.0,581.0,774.0,1102.0,1>
+11: <BoundingBox(frame,0005962e) 408.0,580.0,525.0,976.0,1>
+12: <BoundingBox(frame,0005960e) 0.0,549.0,534.0,1164.0,1>
+Page 30:
+ 0: <BoundingBox(frame,00059630) 885.0,58.0,1582.0,347.0,1>
+ 1: <BoundingBox(frame,00059636) 901.0,386.0,1583.0,676.0,1>
+ 2: <BoundingBox(frame,00059640) 1388.0,705.0,1581.0,1110.0,1>
+ 3: <BoundingBox(frame,0005963e) 1276.0,703.0,1377.0,1111.0,1>
+ 4: <BoundingBox(frame,00059632) 881.0,705.0,1262.0,1110.0,1>
+Page 31:
+ 0 Subpanels of <BoundingBox(None,) 898.0,0.0,1634.0,313.0,2>:
+    - <BoundingBox(frame,00059677) 898.0,63.0,1598.0,313.0,1>
+    - <BoundingBox(frame,00059671) 1418.0,0.0,1634.0,157.0,1>
+ 1: <BoundingBox(frame,0005966c) 867.0,174.0,1071.0,331.0,1>
+ 2: <BoundingBox(frame,00059653) 898.0,349.0,1650.0,622.0,1>
+ 3: <BoundingBox(frame,00059655) 1044.0,651.0,1653.0,1165.0,1>
+ 4: <BoundingBox(frame,00059676) 898.0,658.0,1154.0,1106.0,1>
+ 5: <BoundingBox(frame,0005965e) 328.0,58.0,763.0,367.0,1>
+ 6: <BoundingBox(frame,0005965b) 19.0,63.0,334.0,438.0,1>
+ 7: <BoundingBox(frame,00059674) 453.0,323.0,761.0,1106.0,1>
+ 8: <BoundingBox(frame,00059661) 58.0,380.0,432.0,582.0,1>
+ 9: <BoundingBox(frame,00059664) 66.0,620.0,440.0,943.0,1>
+10: <BoundingBox(frame,00059670) 61.0,971.0,437.0,1107.0,1>
+Page 32:
+ 0: <BoundingBox(frame,00059697) 898.0,2.0,1653.0,584.0,1>
+ 1: <BoundingBox(frame,0005968b) 895.0,615.0,1597.0,782.0,1>
+ 2: <BoundingBox(frame,0005969e) 1103.0,810.0,1602.0,1103.0,1>
+ 3: <BoundingBox(frame,000596a2) 891.0,813.0,1086.0,1107.0,1>
+ 4: <BoundingBox(frame,0005967d) 0.0,0.0,776.0,262.0,1>
+ 5: <BoundingBox(frame,00059687) 71.0,292.0,781.0,481.0,1>
+ 6: <BoundingBox(frame,00059693) 88.0,511.0,773.0,627.0,1>
+ 7: <BoundingBox(frame,0005969f) 0.0,664.0,775.0,1164.0,1>
+Page 33:
+ 0: <BoundingBox(frame,000596db) 1387.0,58.0,1582.0,479.0,1>
+ 1: <BoundingBox(frame,000596ad) 888.0,0.0,1371.0,466.0,1>
+ 2: <BoundingBox(frame,000596b6) 897.0,497.0,1587.0,706.0,1>
+ 3: <BoundingBox(frame,000596bc) 1152.0,738.0,1653.0,1169.0,1>
+ 4: <BoundingBox(frame,000596aa) 885.0,728.0,1130.0,1104.0,1>
+ 5: <BoundingBox(frame,000596d3) 320.0,1.0,756.0,437.0,1>
+ 6: <BoundingBox(frame,000596d9) 66.0,54.0,306.0,424.0,1>
+ 7: <BoundingBox(frame,000596bb) 285.0,462.0,772.0,775.0,1>
+ 8: <BoundingBox(frame,000596cb) 68.0,457.0,379.0,782.0,1>
+ 9: <BoundingBox(frame,000596dc) 338.0,814.0,767.0,1106.0,1>
+10: <BoundingBox(frame,000596d1) 68.0,810.0,316.0,1121.0,1>
+Page 34:
+ 0 Subpanels of <BoundingBox(None,) 1098.0,2.0,1649.0,764.0,2>:
+    - <BoundingBox(frame,000596de) 1098.0,2.0,1649.0,747.0,1>
+    - <BoundingBox(frame,000596f5) 1225.0,391.0,1466.0,764.0,1>
+ 1: <BoundingBox(frame,000596e5) 888.0,61.0,1147.0,323.0,1>
+ 2: <BoundingBox(frame,000596e4) 885.0,289.0,1268.0,749.0,1>
+ 3 Subpanels of <BoundingBox(None,) 1145.0,779.0,1653.0,1111.0,2>:
+    - <BoundingBox(frame,000596e2) 1256.0,782.0,1653.0,1109.0,1>
+    - <BoundingBox(frame,000596e3) 1145.0,779.0,1371.0,1111.0,1>
+ 4: <BoundingBox(frame,000596ec) 885.0,783.0,1147.0,1107.0,1>
+ 5: <BoundingBox(frame,000596f9) 56.0,63.0,765.0,320.0,1>
+ 6: <BoundingBox(frame,000596f6) 58.0,342.0,760.0,499.0,1>
+ 7 Subpanels of <BoundingBox(None,) 61.0,525.0,762.0,892.0,2>:
+    - <BoundingBox(frame,000596f3) 63.0,525.0,762.0,749.0,1>
+    - <BoundingBox(frame,000596fb) 61.0,685.0,760.0,892.0,1>
+ 8: <BoundingBox(frame,000596e7) 60.0,870.0,762.0,1108.0,1>
+Page 35:
+ 0 Subpanels of <BoundingBox(None,) 5.0,60.0,1649.0,1166.0,3>:
+    - <BoundingBox(frame,00059713) 622.0,61.0,1606.0,563.0,1>
+    - <BoundingBox(frame,00059712) 5.0,338.0,1649.0,1166.0,1>
+    - <BoundingBox(frame,00059703) 217.0,60.0,690.0,429.0,1>
+ 1: <BoundingBox(frame,00059708) 47.0,60.0,326.0,367.0,1>
+Page 36:
+ 0: <BoundingBox(frame,00059727) 1178.0,0.0,1653.0,1169.0,1>
+ 1: <BoundingBox(frame,00059723) 43.0,63.0,1170.0,468.0,1>
+ 2: <BoundingBox(frame,0005971d) 81.0,500.0,1162.0,771.0,1>
+ 3: <BoundingBox(frame,0005972a) 907.0,799.0,1162.0,1108.0,1>
+ 4: <BoundingBox(frame,00059729) 523.0,793.0,737.0,1104.0,1>
+ 5: <BoundingBox(frame,00059717) 1.0,800.0,500.0,1169.0,1>
+Page 37:
+ 0: <BoundingBox(frame,0005973c) 1260.0,58.0,1599.0,234.0,1>
+ 1: <BoundingBox(frame,00059752) 901.0,56.0,1249.0,314.0,1>
+ 2: <BoundingBox(frame,00059748) 1263.0,269.0,1653.0,558.0,1>
+ 3: <BoundingBox(frame,00059745) 1047.0,342.0,1249.0,551.0,1>
+ 4: <BoundingBox(frame,00059756) 893.0,345.0,1034.0,552.0,1>
+ 5: <BoundingBox(frame,0005973d) 1019.0,550.0,1642.0,1169.0,1>
+ 6: <BoundingBox(frame,00059734) 898.0,582.0,1149.0,768.0,1>
+ 7: <BoundingBox(frame,00059747) 898.0,768.0,1125.0,964.0,1>
+ 8: <BoundingBox(frame,00059766) 883.0,956.0,1082.0,1100.0,1>
+ 9: <BoundingBox(frame,0005975b) 324.0,56.0,776.0,357.0,1>
+10: <BoundingBox(frame,00059759) 0.0,0.0,307.0,362.0,1>
+11: <BoundingBox(frame,0005973a) 82.0,390.0,781.0,472.0,1>
+12: <BoundingBox(frame,0005973b) 70.0,505.0,776.0,829.0,1>
+13: <BoundingBox(frame,0005974f) 71.0,856.0,777.0,1110.0,1>
+Page 38:
+ 0 Subpanels of <BoundingBox(None,) 1266.0,23.0,1653.0,390.0,2>:
+    - <BoundingBox(frame,00059784) 1388.0,23.0,1653.0,177.0,1>
+    - <BoundingBox(frame,000597a0) 1266.0,60.0,1583.0,390.0,1>
+ 1: <BoundingBox(frame,00059799) 1090.0,424.0,1584.0,707.0,1>
+ 2: <BoundingBox(frame,00059771) 881.0,419.0,1078.0,698.0,1>
+ 3: <BoundingBox(frame,00059780) 1156.0,733.0,1647.0,1168.0,1>
+ 4: <BoundingBox(frame,0005979a) 877.0,733.0,1142.0,1168.0,1>
+ 5: <BoundingBox(frame,00059793) 71.0,60.0,775.0,276.0,1>
+ 6: <BoundingBox(frame,00059791) 436.0,307.0,772.0,788.0,1>
+ 7: <BoundingBox(frame,0005978a) 70.0,301.0,419.0,624.0,1>
+ 8: <BoundingBox(frame,00059797) 68.0,655.0,421.0,788.0,1>
+ 9 Subpanels of <BoundingBox(None,) 28.0,823.0,772.0,1163.0,2>:
+    - <BoundingBox(frame,00059774) 70.0,823.0,772.0,1108.0,1>
+    - <BoundingBox(frame,00059788) 28.0,970.0,303.0,1163.0,1>
+Page 39:
+ 0: <BoundingBox(frame,000597a6) 1322.0,0.0,1585.0,507.0,1>
+ 1: <BoundingBox(frame,000597be) 1197.0,57.0,1312.0,507.0,1>
+ 2: <BoundingBox(frame,000597bf) 878.0,57.0,1182.0,507.0,1>
+ 3: <BoundingBox(frame,000597c0) 881.0,536.0,1585.0,896.0,1>
+ 4: <BoundingBox(frame,000597b8) 884.0,928.0,1584.0,1109.0,1>
+ 5: <BoundingBox(frame,000597b1) 80.0,58.0,780.0,362.0,1>
+ 6: <BoundingBox(frame,000597c4) 431.0,390.0,773.0,663.0,1>
+ 7: <BoundingBox(frame,000597ab) 71.0,396.0,410.0,664.0,1>
+ 8: <BoundingBox(frame,000597a8) 74.0,698.0,770.0,870.0,1>
+ 9: <BoundingBox(frame,000597b4) 73.0,901.0,770.0,1104.0,1>
+Page 40:
+ 0: <BoundingBox(frame,000597d7) 1239.0,5.0,1587.0,439.0,1>
+ 1: <BoundingBox(frame,00059802) 887.0,2.0,1228.0,438.0,1>
+ 2: <BoundingBox(frame,000597e7) 887.0,467.0,1653.0,745.0,1>
+ 3: <BoundingBox(frame,000597f3) 1124.0,769.0,1584.0,1113.0,1>
+ 4: <BoundingBox(frame,000597de) 884.0,773.0,1105.0,1105.0,1>
+ 5: <BoundingBox(frame,0005980e) 5.0,60.0,777.0,276.0,1>
+ 6: <BoundingBox(frame,000597fb) 4.0,303.0,773.0,564.0,1>
+ 7: <BoundingBox(frame,000597eb) 581.0,536.0,822.0,648.0,1>
+ 8: <BoundingBox(frame,000597fa) 0.0,595.0,776.0,880.0,1>
+ 9 Subpanels of <BoundingBox(None,) 74.0,804.0,817.0,1169.0,2>:
+    - <BoundingBox(frame,00059808) 388.0,804.0,817.0,1169.0,1>
+    - <BoundingBox(frame,0005980f) 74.0,922.0,756.0,1110.0,1>
+Page 41:
+ 0: <BoundingBox(frame,00059834) 884.0,61.0,1581.0,507.0,1>
+ 1: <BoundingBox(frame,00059820) 884.0,894.0,1649.0,1113.0,1>
+ 2: <BoundingBox(frame,0005982a) 68.0,58.0,772.0,277.0,1>
+ 3: <BoundingBox(frame,00059828) 68.0,304.0,767.0,591.0,1>
+ 4: <BoundingBox(frame,0005982d) 71.0,626.0,767.0,819.0,1>
+ 5: <BoundingBox(frame,0005983a) 70.0,848.0,770.0,1166.0,1>
+Page 42:
+ 0: <BoundingBox(frame,0005987a) 1172.0,57.0,1584.0,467.0,1>
+ 1: <BoundingBox(frame,00059853) 885.0,56.0,1158.0,470.0,1>
+ 2: <BoundingBox(frame,00059856) 890.0,501.0,1585.0,857.0,1>
+ 3: <BoundingBox(frame,00059840) 1105.0,884.0,1590.0,1104.0,1>
+ 4: <BoundingBox(frame,00059857) 891.0,884.0,1086.0,1108.0,1>
+ 5: <BoundingBox(frame,00059847) 0.0,1.0,766.0,401.0,1>
+ 6: <BoundingBox(frame,0005986b) 63.0,432.0,760.0,677.0,1>
+ 7 Subpanels of <BoundingBox(None,) 271.0,699.0,769.0,1163.0,2>:
+    - <BoundingBox(frame,0005986f) 515.0,699.0,743.0,832.0,1>
+    - <BoundingBox(frame,00059861) 271.0,710.0,769.0,1163.0,1>
+ 8: <BoundingBox(frame,00059843) 7.0,713.0,256.0,1165.0,1>
+Page 43:
+ 0 Subpanels of <BoundingBox(None,) 888.0,0.0,1649.0,585.0,2>:
+    - <BoundingBox(frame,00059890) 1356.0,66.0,1593.0,543.0,1>
+    - <BoundingBox(frame,00059899) 888.0,0.0,1649.0,585.0,1>
+ 1: <BoundingBox(frame,00059893) 1290.0,612.0,1594.0,911.0,1>
+ 2: <BoundingBox(frame,00059886) 1297.0,943.0,1593.0,1110.0,1>
+ 3 Subpanels of <BoundingBox(None,) 888.0,616.0,1276.0,1104.0,2>:
+    - <BoundingBox(frame,00059897) 1020.0,623.0,1276.0,1104.0,1>
+    - <BoundingBox(frame,000598b2) 888.0,616.0,1160.0,1104.0,1>
+ 4 Subpanels of <BoundingBox(None,) 58.0,60.0,772.0,544.0,2>:
+    - <BoundingBox(frame,00059896) 278.0,61.0,772.0,544.0,1>
+    - <BoundingBox(frame,0005988a) 58.0,60.0,531.0,543.0,1>
+ 5: <BoundingBox(frame,00059880) 492.0,580.0,762.0,1105.0,1>
+ 6: <BoundingBox(frame,0005989f) 67.0,581.0,475.0,904.0,1>
+ 7: <BoundingBox(frame,00059887) 63.0,927.0,481.0,1110.0,1>
+Page 44:
+ 0: <BoundingBox(frame,000598b9) 1099.0,57.0,1593.0,350.0,1>
+ 1: <BoundingBox(frame,000598c6) 897.0,4.0,1092.0,352.0,1>
+ 2: <BoundingBox(frame,000598d8) 1368.0,382.0,1587.0,742.0,1>
+ 3: <BoundingBox(frame,000598eb) 1133.0,380.0,1360.0,738.0,1>
+ 4: <BoundingBox(frame,000598e7) 888.0,380.0,1123.0,738.0,1>
+ 5: <BoundingBox(frame,000598e3) 1194.0,771.0,1653.0,1169.0,1>
+ 6: <BoundingBox(frame,000598c1) 1140.0,758.0,1211.0,1068.0,1>
+ 7: <BoundingBox(frame,000598b7) 897.0,771.0,1184.0,1106.0,1>
+ 8: <BoundingBox(frame,000598db) 454.0,53.0,762.0,343.0,1>
+ 9: <BoundingBox(frame,000598f7) 453.0,367.0,760.0,507.0,1>
+10: <BoundingBox(frame,000598e4) 1.0,4.0,437.0,509.0,1>
+11: <BoundingBox(frame,000598dc) 61.0,540.0,765.0,777.0,1>
+12: <BoundingBox(frame,000598f0) 527.0,810.0,762.0,1110.0,1>
+13: <BoundingBox(frame,000598f6) 60.0,806.0,509.0,1105.0,1>
+Page 45:
+ 0: <BoundingBox(frame,0005990b) 1255.0,64.0,1594.0,333.0,1>
+ 1: <BoundingBox(frame,00059926) 885.0,58.0,1245.0,334.0,1>
+ 2: <BoundingBox(frame,00059933) 894.0,367.0,1590.0,622.0,1>
+ 3: <BoundingBox(frame,00059907) 1255.0,661.0,1594.0,1169.0,1>
+ 4: <BoundingBox(frame,0005990c) 894.0,655.0,1240.0,938.0,1>
+ 5: <BoundingBox(frame,00059904) 900.0,974.0,1239.0,1104.0,1>
+ 6: <BoundingBox(frame,0005993e) 0.0,0.0,768.0,283.0,1>
+ 7: <BoundingBox(frame,00059915) 306.0,314.0,772.0,628.0,1>
+ 8: <BoundingBox(frame,00059924) 73.0,317.0,290.0,621.0,1>
+ 9: <BoundingBox(frame,0005993c) 68.0,660.0,767.0,869.0,1>
+10: <BoundingBox(frame,000598fb) 71.0,898.0,771.0,1110.0,1>
+Page 46:
+ 0: <BoundingBox(frame,00059965) 1252.0,0.0,1653.0,428.0,1>
+ 1 Subpanels of <BoundingBox(None,) 884.0,60.0,1236.0,433.0,2>:
+    - <BoundingBox(frame,00059974) 998.0,60.0,1236.0,433.0,1>
+    - <BoundingBox(frame,00059964) 884.0,64.0,1087.0,431.0,1>
+ 2: <BoundingBox(frame,00059941) 1325.0,462.0,1579.0,900.0,1>
+ 3: <BoundingBox(frame,0005995c) 880.0,460.0,1309.0,898.0,1>
+ 4: <BoundingBox(frame,00059943) 881.0,922.0,1584.0,1105.0,1>
+ 5: <BoundingBox(frame,0005997a) 356.0,58.0,770.0,483.0,1>
+ 6: <BoundingBox(frame,00059970) 74.0,58.0,340.0,197.0,1>
+ 7: <BoundingBox(frame,00059959) 67.0,228.0,347.0,476.0,1>
+ 8: <BoundingBox(frame,0005994a) 70.0,509.0,773.0,737.0,1>
+ 9: <BoundingBox(frame,00059950) 394.0,772.0,773.0,1165.0,1>
+10: <BoundingBox(frame,00059955) 70.0,773.0,381.0,1107.0,1>
+Page 47:
+ 0: <BoundingBox(frame,000599a7) 1313.0,60.0,1582.0,360.0,1>
+ 1: <BoundingBox(frame,000599a6) 883.0,56.0,1304.0,362.0,1>
+ 2: <BoundingBox(frame,00059986) 1228.0,392.0,1583.0,672.0,1>
+ 3: <BoundingBox(frame,00059985) 888.0,391.0,1216.0,674.0,1>
+ 4: <BoundingBox(frame,0005999e) 1323.0,701.0,1583.0,1106.0,1>
+ 5: <BoundingBox(frame,0005998b) 886.0,701.0,1316.0,825.0,1>
+ 6: <BoundingBox(frame,000599bc) 888.0,848.0,1311.0,1104.0,1>
+ 7: <BoundingBox(frame,000599c6) 515.0,56.0,776.0,506.0,1>
+ 8: <BoundingBox(frame,000599c3) 74.0,56.0,500.0,180.0,1>
+ 9: <BoundingBox(frame,000599a9) 73.0,206.0,499.0,504.0,1>
+10 Subpanels of <BoundingBox(None,) 71.0,537.0,773.0,1110.0,4>:
+    - <BoundingBox(frame,000599b8) 74.0,889.0,348.0,1110.0,1>
+    - <BoundingBox(frame,000599b0) 359.0,889.0,626.0,1106.0,1>
+    - <BoundingBox(frame,00059991) 71.0,537.0,567.0,857.0,1>
+    - <BoundingBox(frame,0005998f) 496.0,539.0,773.0,1108.0,1>
+Page 48:
+ 0: <BoundingBox(frame,000599f2) 1352.0,2.0,1653.0,120.0,1>
+ 1: <BoundingBox(frame,000599d5) 1250.0,62.0,1582.0,512.0,1>
+ 2: <BoundingBox(frame,000599df) 883.0,64.0,1238.0,364.0,1>
+ 3: <BoundingBox(frame,00059a00) 887.0,395.0,1233.0,516.0,1>
+ 4: <BoundingBox(frame,000599e8) 887.0,551.0,1586.0,792.0,1>
+ 5: <BoundingBox(frame,000599e9) 1368.0,822.0,1584.0,1102.0,1>
+ 6: <BoundingBox(frame,000599d4) 883.0,820.0,1354.0,1107.0,1>
+ 7 Subpanels of <BoundingBox(None,) 0.0,1.0,781.0,761.0,2>:
+    - <BoundingBox(frame,000599fc) 0.0,1.0,781.0,696.0,1>
+    - <BoundingBox(frame,000599fa) 124.0,481.0,770.0,761.0,1>
+ 8: <BoundingBox(frame,000599f0) 592.0,724.0,776.0,1109.0,1>
+ 9: <BoundingBox(frame,000599cc) 3.0,696.0,713.0,1169.0,1>
+Page 49:
+ 0: <BoundingBox(frame,00059a16) 887.0,6.0,1646.0,366.0,1>
+ 1: <BoundingBox(frame,00059a11) 1173.0,399.0,1653.0,805.0,1>
+ 2: <BoundingBox(frame,00059a15) 892.0,399.0,1171.0,654.0,1>
+ 3: <BoundingBox(frame,00059a3a) 878.0,682.0,1166.0,797.0,1>
+ 4: <BoundingBox(frame,00059a3e) 1400.0,833.0,1587.0,1108.0,1>
+ 5: <BoundingBox(frame,00059a1e) 889.0,834.0,1391.0,1166.0,1>
+ 6: <BoundingBox(frame,00059a08) 506.0,1.0,771.0,549.0,1>
+ 7: <BoundingBox(frame,00059a2d) 72.0,62.0,486.0,362.0,1>
+ 8: <BoundingBox(frame,00059a36) 74.0,396.0,488.0,545.0,1>
+ 9: <BoundingBox(frame,00059a35) 554.0,579.0,774.0,1109.0,1>
+10: <BoundingBox(frame,00059a13) 74.0,579.0,537.0,763.0,1>
+11: <BoundingBox(frame,00059a3c) 74.0,797.0,540.0,1111.0,1>
+Page 50:
+ 0: <BoundingBox(frame,00059a62) 1285.0,0.0,1653.0,717.0,1>
+ 1: <BoundingBox(frame,00059a67) 890.0,64.0,1275.0,238.0,1>
+ 2: <BoundingBox(frame,00059a5d) 883.0,270.0,1276.0,559.0,1>
+ 3: <BoundingBox(frame,00059a4c) 899.0,596.0,1270.0,711.0,1>
+ 4: <BoundingBox(frame,00059a58) 1386.0,751.0,1585.0,1109.0,1>
+ 5: <BoundingBox(frame,00059a46) 1253.0,749.0,1367.0,1110.0,1>
+ 6: <BoundingBox(frame,00059a45) 887.0,746.0,1234.0,1109.0,1>
+ 7: <BoundingBox(frame,00059a54) 0.0,0.0,763.0,724.0,1>
+ 8: <BoundingBox(frame,00059a57) 65.0,758.0,767.0,1105.0,1>
+Page 51:
+Page 52:
+ 0: <BoundingBox(frame,00059a77) 0.0,0.0,763.0,741.0,1>
+ 1: <BoundingBox(frame,00059a6d) 508.0,779.0,763.0,1105.0,1>
+ 2: <BoundingBox(frame,00059a73) 0.0,773.0,492.0,1169.0,1>
+Page 53:
+ 0: <BoundingBox(frame,00059a9a) 831.0,0.0,1653.0,696.0,1>
+ 1: <BoundingBox(frame,00059a99) 890.0,589.0,1582.0,780.0,1>
+ 2: <BoundingBox(frame,00059a9c) 1396.0,802.0,1587.0,1103.0,1>
+ 3: <BoundingBox(frame,00059a9b) 1303.0,804.0,1385.0,1102.0,1>
+ 4: <BoundingBox(frame,00059a7c) 887.0,758.0,1287.0,1164.0,1>
+ 5: <BoundingBox(frame,00059a93) 502.0,64.0,758.0,608.0,1>
+ 6: <BoundingBox(frame,00059aa5) 71.0,61.0,475.0,211.0,1>
+ 7: <BoundingBox(frame,00059aa6) 342.0,249.0,488.0,600.0,1>
+ 8: <BoundingBox(frame,00059a82) 63.0,248.0,324.0,606.0,1>
+ 9: <BoundingBox(frame,00059aa9) 5.0,643.0,760.0,940.0,1>
+10: <BoundingBox(frame,00059aaa) 64.0,967.0,756.0,1108.0,1>
+Page 54:
+ 0: <BoundingBox(frame,00059ac9) 1472.0,60.0,1596.0,355.0,1>
+ 1: <BoundingBox(frame,00059ab0) 1097.0,57.0,1464.0,355.0,1>
+ 2: <BoundingBox(frame,00059ad0) 892.0,58.0,1088.0,348.0,1>
+ 3: <BoundingBox(frame,00059ab2) 1028.0,386.0,1591.0,786.0,1>
+ 4: <BoundingBox(frame,00059ab4) 892.0,382.0,1129.0,777.0,1>
+ 5: <BoundingBox(frame,00059aca) 1376.0,813.0,1590.0,1110.0,1>
+ 6: <BoundingBox(frame,00059ab7) 908.0,815.0,1443.0,1166.0,1>
+ 7: <BoundingBox(frame,00059ad8) 70.0,62.0,773.0,507.0,1>
+ 8: <BoundingBox(frame,00059abd) 71.0,541.0,768.0,747.0,1>
+ 9: <BoundingBox(frame,00059ad2) 74.0,777.0,769.0,860.0,1>
+10: <BoundingBox(frame,00059ac3) 344.0,889.0,768.0,1169.0,1>
+11: <BoundingBox(frame,00059ace) 71.0,893.0,329.0,1105.0,1>
+Page 55:
+ 0: <BoundingBox(frame,00059aec) 1312.0,69.0,1584.0,346.0,1>
+ 1: <BoundingBox(frame,00059b25) 1315.0,388.0,1584.0,554.0,1>
+ 2: <BoundingBox(frame,00059b13) 887.0,2.0,1300.0,704.0,1>
+ 3: <BoundingBox(frame,00059af5) 1316.0,586.0,1588.0,711.0,1>
+ 4: <BoundingBox(frame,00059adb) 1288.0,751.0,1581.0,1104.0,1>
+ 5: <BoundingBox(frame,00059aff) 1160.0,741.0,1278.0,1106.0,1>
+ 6: <BoundingBox(frame,00059b07) 886.0,741.0,1145.0,1169.0,1>
+ 7: <BoundingBox(frame,00059b15) 435.0,61.0,765.0,358.0,1>
+ 8: <BoundingBox(frame,00059aed) 74.0,62.0,421.0,362.0,1>
+ 9 Subpanels of <BoundingBox(None,) 7.0,400.0,829.0,828.0,3>:
+    - <BoundingBox(frame,00059afd) 7.0,400.0,829.0,828.0,1>
+    - <BoundingBox(frame,00059b17) 576.0,629.0,767.0,816.0,1>
+    - <BoundingBox(frame,00059ae9) 580.0,406.0,767.0,591.0,1>
+10: <BoundingBox(frame,00059aee) 470.0,861.0,767.0,1105.0,1>
+11: <BoundingBox(frame,00059b26) 71.0,862.0,456.0,1107.0,1>
+Page 56:
+ 0: <BoundingBox(frame,00059b47) 1396.0,61.0,1588.0,425.0,1>
+ 1: <BoundingBox(frame,00059b42) 897.0,6.0,1382.0,424.0,1>
+ 2: <BoundingBox(frame,00059b50) 1255.0,467.0,1588.0,687.0,1>
+ 3: <BoundingBox(frame,00059b4b) 889.0,464.0,1236.0,684.0,1>
+ 4: <BoundingBox(frame,00059b38) 1356.0,726.0,1589.0,1107.0,1>
+ 5 Subpanels of <BoundingBox(None,) 880.0,723.0,1346.0,1108.0,2>:
+    - <BoundingBox(frame,00059b61) 889.0,906.0,1337.0,1108.0,1>
+    - <BoundingBox(frame,00059b5f) 880.0,723.0,1346.0,968.0,1>
+ 6: <BoundingBox(frame,00059b4d) 469.0,64.0,760.0,526.0,1>
+ 7: <BoundingBox(frame,00059b51) 377.0,64.0,460.0,526.0,1>
+ 8: <BoundingBox(frame,00059b5b) 67.0,61.0,362.0,354.0,1>
+ 9: <BoundingBox(frame,00059b6c) 67.0,396.0,364.0,524.0,1>
+10: <BoundingBox(frame,00059b59) 71.0,562.0,764.0,740.0,1>
+11: <BoundingBox(frame,00059b6d) 416.0,784.0,767.0,1159.0,1>
+12: <BoundingBox(frame,00059b2c) 314.0,763.0,407.0,1107.0,1>
+13: <BoundingBox(frame,00059b67) 5.0,777.0,395.0,1163.0,1>
+Page 57:
+ 0: <BoundingBox(frame,00059b8e) 1362.0,60.0,1586.0,351.0,1>
+ 1: <BoundingBox(frame,00059b74) 1129.0,72.0,1349.0,347.0,1>
+ 2: <BoundingBox(frame,00059ba1) 893.0,68.0,1114.0,354.0,1>
+ 3: <BoundingBox(frame,00059b9c) 887.0,386.0,1586.0,595.0,1>
+ 4: <BoundingBox(frame,00059b89) 824.0,453.0,1653.0,1166.0,1>
+ 5: <BoundingBox(frame,00059b7c) 505.0,62.0,777.0,521.0,1>
+ 6: <BoundingBox(frame,00059b8a) 293.0,64.0,489.0,220.0,1>
+ 7: <BoundingBox(frame,00059b72) 79.0,67.0,277.0,214.0,1>
+ 8: <BoundingBox(frame,00059b87) 78.0,252.0,491.0,524.0,1>
+ 9: <BoundingBox(frame,00059b9f) 453.0,558.0,776.0,757.0,1>
+10: <BoundingBox(frame,00059b7b) 75.0,558.0,442.0,763.0,1>
+11: <BoundingBox(frame,00059b7a) 3.0,793.0,774.0,1165.0,1>
+Page 58:
+ 0: <BoundingBox(frame,00059bc6) 883.0,62.0,1652.0,327.0,1>
+ 1: <BoundingBox(frame,00059bab) 1329.0,357.0,1580.0,745.0,1>
+ 2: <BoundingBox(frame,00059baf) 883.0,354.0,1307.0,743.0,1>
+ 3: <BoundingBox(frame,00059bc0) 883.0,777.0,1578.0,1110.0,1>
+ 4: <BoundingBox(frame,00059bcf) 1.0,60.0,763.0,248.0,1>
+ 5: <BoundingBox(frame,00059bc9) 469.0,273.0,759.0,493.0,1>
+ 6: <BoundingBox(frame,00059bc2) 463.0,530.0,761.0,640.0,1>
+ 7: <BoundingBox(frame,00059bb1) 57.0,273.0,450.0,641.0,1>
+ 8: <BoundingBox(frame,00059ba9) 60.0,677.0,757.0,780.0,1>
+ 9: <BoundingBox(frame,00059bbb) 65.0,812.0,761.0,1107.0,1>
+Page 59:
+ 0: <BoundingBox(frame,00059bec) 901.0,62.0,1593.0,316.0,1>
+ 1: <BoundingBox(frame,00059be4) 890.0,346.0,1594.0,491.0,1>
+ 2: <BoundingBox(frame,00059bf0) 897.0,517.0,1592.0,751.0,1>
+ 3: <BoundingBox(frame,00059bef) 1277.0,784.0,1592.0,1106.0,1>
+ 4: <BoundingBox(frame,00059bd8) 899.0,781.0,1261.0,1103.0,1>
+ 5: <BoundingBox(frame,00059be7) 56.0,60.0,758.0,543.0,1>
+ 6: <BoundingBox(frame,00059bf6) 65.0,578.0,511.0,700.0,1>
+ 7: <BoundingBox(frame,00059be6) 527.0,579.0,760.0,1165.0,1>
+ 8: <BoundingBox(frame,00059bf5) 74.0,735.0,512.0,848.0,1>
+ 9: <BoundingBox(frame,00059be5) 49.0,878.0,516.0,1165.0,1>
+Page 60:
+ 0: <BoundingBox(frame,00059c04) 900.0,1.0,1599.0,238.0,1>
+ 1: <BoundingBox(frame,00059c08) 907.0,270.0,1602.0,357.0,1>
+ 2: <BoundingBox(frame,00059bfb) 1260.0,392.0,1594.0,714.0,1>
+ 3: <BoundingBox(frame,00059c02) 897.0,382.0,1236.0,710.0,1>
+ 4: <BoundingBox(frame,00059bfc) 896.0,745.0,1598.0,831.0,1>
+ 5: <BoundingBox(frame,00059c00) 897.0,864.0,1597.0,1166.0,1>
+Page 61:
+ 0: <BoundingBox(frame,00059c2e) 886.0,64.0,1586.0,753.0,1>
+ 1: <BoundingBox(frame,00059c24) 885.0,786.0,1581.0,1109.0,1>
+ 2: <BoundingBox(frame,00059c19) 58.0,51.0,761.0,552.0,1>
+ 3: <BoundingBox(frame,00059c1a) 491.0,583.0,761.0,1162.0,1>
+ 4: <BoundingBox(frame,00059c1e) 57.0,583.0,472.0,816.0,1>
+ 5: <BoundingBox(frame,00059c0f) 3.0,850.0,473.0,1162.0,1>
+Page 62:
+ 0: <BoundingBox(frame,00059c5d) 897.0,64.0,1600.0,474.0,1>
+ 1: <BoundingBox(frame,00059c4d) 899.0,504.0,1598.0,744.0,1>
+ 2: <BoundingBox(frame,00059c5b) 1326.0,773.0,1596.0,1169.0,1>
+ 3: <BoundingBox(frame,00059c35) 899.0,770.0,1313.0,1112.0,1>
+ 4: <BoundingBox(frame,00059c52) 477.0,5.0,774.0,1165.0,1>
+ 5: <BoundingBox(frame,00059c4e) 8.0,1.0,460.0,417.0,1>
+ 6: <BoundingBox(frame,00059c41) 74.0,350.0,464.0,644.0,1>
+ 7 Subpanels of <BoundingBox(None,) 72.0,650.0,467.0,904.0,2>:
+    - <BoundingBox(frame,00059c36) 75.0,741.0,460.0,904.0,1>
+    - <BoundingBox(frame,00059c46) 72.0,650.0,467.0,816.0,1>
+ 8: <BoundingBox(frame,00059c4f) 81.0,932.0,463.0,1106.0,1>
+Page 63:
+ 0: <BoundingBox(frame,00059c74) 885.0,61.0,1584.0,370.0,1>
+ 1: <BoundingBox(frame,00059c87) 1175.0,404.0,1582.0,702.0,1>
+ 2: <BoundingBox(frame,00059c89) 1172.0,738.0,1582.0,852.0,1>
+ 3: <BoundingBox(frame,00059c80) 883.0,403.0,1155.0,856.0,1>
+ 4: <BoundingBox(frame,00059c77) 879.0,892.0,1653.0,1169.0,1>
+ 5: <BoundingBox(frame,00059c8b) 83.0,60.0,772.0,353.0,1>
+ 6: <BoundingBox(frame,00059c86) 79.0,381.0,769.0,623.0,1>
+ 7: <BoundingBox(frame,00059c71) 592.0,657.0,772.0,1166.0,1>
+ 8: <BoundingBox(frame,00059c8a) 384.0,657.0,579.0,1166.0,1>
+ 9: <BoundingBox(frame,00059c8d) 0.0,658.0,368.0,1169.0,1>
+Page 64:
+ 0 Subpanels of <BoundingBox(None,) 883.0,5.0,1653.0,1166.0,2>:
+    - <BoundingBox(frame,00059c9a) 883.0,6.0,1427.0,1160.0,1>
+    - <BoundingBox(frame,00059c9c) 1215.0,5.0,1653.0,1166.0,1>
+ 1: <BoundingBox(frame,00059c9f) 453.0,1.0,758.0,1168.0,1>
+ 2: <BoundingBox(frame,00059c97) 0.0,4.0,640.0,319.0,1>
+ 3: <BoundingBox(frame,00059ca1) 3.0,353.0,580.0,707.0,1>
+ 4: <BoundingBox(frame,00059c98) 3.0,742.0,520.0,845.0,1>
+ 5: <BoundingBox(frame,00059c9d) 1.0,878.0,486.0,1167.0,1>
+Page 65:
+ 0: <BoundingBox(frame,00059cac) 1273.0,6.0,1628.0,585.0,1>
+ 1: <BoundingBox(frame,00059caf) 51.0,61.0,1604.0,1101.0,1>
+ 2: <BoundingBox(frame,00059cb0) 29.0,589.0,403.0,1162.0,1>
+Page 66:
+ 0: <BoundingBox(frame,00059cdc) 887.0,62.0,1650.0,277.0,1>
+ 1: <BoundingBox(frame,00059cc4) 889.0,308.0,1652.0,532.0,1>
+ 2: <BoundingBox(frame,00059cc6) 897.0,566.0,1593.0,670.0,1>
+ 3: <BoundingBox(frame,00059cd0) 892.0,703.0,1587.0,807.0,1>
+ 4: <BoundingBox(frame,00059cd4) 889.0,839.0,1598.0,904.0,1>
+ 5: <BoundingBox(frame,00059cdb) 893.0,932.0,1653.0,1169.0,1>
+ 6: <BoundingBox(frame,00059cd3) 0.0,0.0,764.0,512.0,1>
+ 7: <BoundingBox(frame,00059cc1) 57.0,432.0,248.0,524.0,1>
+ 8: <BoundingBox(frame,00059cbe) 79.0,538.0,767.0,743.0,1>
+ 9: <BoundingBox(frame,00059cb9) 508.0,769.0,769.0,1109.0,1>
+10: <BoundingBox(frame,00059cd1) 70.0,772.0,497.0,1105.0,1>
+Page 67:
+ 0: <BoundingBox(frame,00059cf8) 1134.0,4.0,1653.0,400.0,1>
+ 1: <BoundingBox(frame,00059ced) 889.0,65.0,1124.0,397.0,1>
+ 2: <BoundingBox(frame,00059d0b) 949.0,434.0,1528.0,597.0,1>
+ 3: <BoundingBox(frame,00059ce0) 889.0,625.0,1589.0,708.0,1>
+ 4 Subpanels of <BoundingBox(None,) 1327.0,727.0,1653.0,912.0,2>:
+    - <BoundingBox(frame,00059d04) 1447.0,727.0,1653.0,831.0,1>
+    - <BoundingBox(frame,00059ce7) 1327.0,744.0,1589.0,912.0,1>
+ 5: <BoundingBox(frame,00059cec) 1324.0,948.0,1585.0,1165.0,1>
+ 6: <BoundingBox(frame,00059cf4) 886.0,744.0,1314.0,1165.0,1>
+ 7: <BoundingBox(frame,00059cee) 469.0,5.0,763.0,602.0,1>
+ 8: <BoundingBox(frame,00059ce4) 68.0,61.0,451.0,238.0,1>
+ 9: <BoundingBox(frame,00059ce6) 65.0,269.0,458.0,507.0,1>
+10 Subpanels of <BoundingBox(None,) 61.0,537.0,770.0,788.0,2>:
+    - <BoundingBox(frame,00059d0c) 61.0,537.0,456.0,647.0,1>
+    - <BoundingBox(frame,00059cde) 61.0,593.0,770.0,788.0,1>
+11: <BoundingBox(frame,00059d0d) 0.0,818.0,763.0,1169.0,1>
+Page 68:
+ 0: <BoundingBox(frame,00059d44) 893.0,2.0,1653.0,409.0,1>
+ 1: <BoundingBox(frame,00059d28) 1429.0,428.0,1653.0,508.0,1>
+ 2 Subpanels of <BoundingBox(None,) 832.0,437.0,1586.0,656.0,2>:
+    - <BoundingBox(frame,00059d36) 832.0,578.0,1080.0,656.0,1>
+    - <BoundingBox(frame,00059d37) 897.0,437.0,1586.0,643.0,1>
+ 3: <BoundingBox(frame,00059d29) 896.0,678.0,1653.0,1169.0,1>
+ 4: <BoundingBox(frame,00059d3d) 455.0,2.0,769.0,549.0,1>
+ 5: <BoundingBox(frame,00059d22) 74.0,61.0,443.0,215.0,1>
+ 6: <BoundingBox(frame,00059d39) 64.0,248.0,443.0,372.0,1>
+ 7: <BoundingBox(frame,00059d38) 68.0,403.0,449.0,555.0,1>
+ 8: <BoundingBox(frame,00059d12) 75.0,586.0,771.0,781.0,1>
+ 9: <BoundingBox(frame,00059d1a) 474.0,815.0,769.0,1106.0,1>
+10: <BoundingBox(frame,00059d3a) 72.0,809.0,461.0,1109.0,1>
+11: <BoundingBox(frame,00059d3c) 30.0,938.0,161.0,1165.0,1>
+Page 69:
+ 0: <BoundingBox(frame,00059d4b) 1018.0,0.0,1653.0,590.0,1>
+ 1: <BoundingBox(frame,00059d50) 883.0,61.0,1102.0,587.0,1>
+ 2 Subpanels of <BoundingBox(None,) 886.0,619.0,1646.0,1166.0,3>:
+    - <BoundingBox(frame,00059d4a) 1074.0,622.0,1333.0,1106.0,1>
+    - <BoundingBox(frame,00059d52) 886.0,624.0,1236.0,1115.0,1>
+    - <BoundingBox(frame,00059d53) 1081.0,619.0,1646.0,1166.0,1>
+ 3: <BoundingBox(frame,00059d4c) 1.0,61.0,770.0,270.0,1>
+ 4: <BoundingBox(frame,00059d66) 411.0,308.0,766.0,742.0,1>
+ 5: <BoundingBox(frame,00059d61) 71.0,302.0,401.0,444.0,1>
+ 6: <BoundingBox(frame,00059d59) 63.0,478.0,396.0,737.0,1>
+ 7: <BoundingBox(frame,00059d4f) 64.0,777.0,766.0,1107.0,1>
+Page 70:
+ 0: <BoundingBox(frame,00059d79) 1331.0,1.0,1594.0,752.0,1>
+ 1 Subpanels of <BoundingBox(None,) 885.0,61.0,1320.0,279.0,2>:
+    - <BoundingBox(frame,00059d73) 889.0,61.0,1320.0,171.0,1>
+    - <BoundingBox(frame,00059d7b) 885.0,132.0,1317.0,279.0,1>
+ 2: <BoundingBox(frame,00059d6c) 893.0,265.0,1318.0,576.0,1>
+ 3: <BoundingBox(frame,00059d72) 889.0,530.0,1317.0,718.0,1>
+ 4 Subpanels of <BoundingBox(None,) 894.0,695.0,1653.0,1166.0,2>:
+    - <BoundingBox(frame,00059d74) 894.0,787.0,1653.0,1166.0,1>
+    - <BoundingBox(frame,00059d7c) 894.0,695.0,1586.0,901.0,1>
+Page 71:
+ 0: <BoundingBox(frame,00059d9f) 883.0,60.0,1586.0,428.0,1>
+ 1: <BoundingBox(frame,00059d81) 827.0,389.0,1649.0,894.0,1>
+ 2: <BoundingBox(frame,00059d93) 887.0,865.0,1583.0,1102.0,1>
+ 3: <BoundingBox(frame,00059d88) 75.0,62.0,777.0,274.0,1>
+ 4: <BoundingBox(frame,00059d8e) 460.0,297.0,751.0,389.0,1>
+ 5: <BoundingBox(frame,00059d95) 1.0,305.0,782.0,786.0,1>
+ 6: <BoundingBox(frame,00059d9c) 576.0,819.0,769.0,1107.0,1>
+ 7 Subpanels of <BoundingBox(None,) 8.0,816.0,566.0,1158.0,2>:
+    - <BoundingBox(frame,00059d89) 8.0,998.0,220.0,1158.0,1>
+    - <BoundingBox(frame,00059d8f) 75.0,816.0,566.0,1105.0,1>
+Page 72:
+ 0: <BoundingBox(frame,00059dc5) 882.0,4.0,1648.0,470.0,1>
+ 1: <BoundingBox(frame,00059dba) 1292.0,490.0,1653.0,582.0,1>
+ 2: <BoundingBox(frame,00059dc9) 884.0,502.0,1653.0,937.0,1>
+ 3: <BoundingBox(frame,00059db1) 886.0,882.0,1585.0,1112.0,1>
+ 4: <BoundingBox(frame,00059db6) 0.0,0.0,844.0,752.0,1>
+ 5: <BoundingBox(frame,00059db7) 1.0,578.0,765.0,832.0,1>
+ 6: <BoundingBox(frame,00059dc4) 508.0,874.0,771.0,1169.0,1>
+ 7: <BoundingBox(frame,00059daa) 363.0,868.0,498.0,1169.0,1>
+ 8: <BoundingBox(frame,00059dc2) 71.0,875.0,344.0,1164.0,1>
+Page 73:
+ 0: <BoundingBox(frame,00059dfe) 1074.0,4.0,1653.0,556.0,1>
+ 1: <BoundingBox(frame,00059e01) 886.0,2.0,1064.0,585.0,1>
+ 2: <BoundingBox(frame,00059dd3) 889.0,512.0,1589.0,814.0,1>
+ 3: <BoundingBox(frame,00059dd7) 886.0,756.0,1649.0,1165.0,1>
+ 4: <BoundingBox(frame,00059ddd) 72.0,61.0,767.0,315.0,1>
+ 5 Subpanels of <BoundingBox(None,) 0.0,347.0,770.0,654.0,2>:
+    - <BoundingBox(frame,00059df4) 0.0,552.0,301.0,652.0,1>
+    - <BoundingBox(frame,00059e02) 0.0,347.0,770.0,654.0,1>
+ 6: <BoundingBox(frame,00059dea) 490.0,681.0,824.0,782.0,1>
+ 7: <BoundingBox(frame,00059ddc) 0.0,656.0,830.0,1162.0,1>
+Page 74:
+ 0: <BoundingBox(frame,00059e0e) 889.0,61.0,1584.0,373.0,1>
+ 1: <BoundingBox(frame,00059e29) 1101.0,400.0,1653.0,783.0,1>
+ 2: <BoundingBox(frame,00059e41) 883.0,403.0,1077.0,777.0,1>
+ 3: <BoundingBox(frame,00059e11) 1154.0,811.0,1650.0,1167.0,1>
+ 4: <BoundingBox(frame,00059e42) 885.0,811.0,1256.0,1165.0,1>
+ 5: <BoundingBox(frame,00059e1d) 537.0,61.0,761.0,456.0,1>
+ 6: <BoundingBox(frame,00059e24) 541.0,423.0,767.0,584.0,1>
+ 7: <BoundingBox(frame,00059e2a) 0.0,0.0,570.0,612.0,1>
+ 8: <BoundingBox(frame,00059e1a) 480.0,614.0,767.0,1111.0,1>
+ 9: <BoundingBox(frame,00059e14) 65.0,619.0,504.0,776.0,1>
+10: <BoundingBox(frame,00059e12) 18.0,811.0,600.0,1168.0,1>
+Page 75:
+ 0: <BoundingBox(frame,00059e46) 1137.0,58.0,1589.0,327.0,1>
+ 1: <BoundingBox(frame,00059e54) 890.0,57.0,1120.0,332.0,1>
+ 2: <BoundingBox(frame,00059e62) 1214.0,365.0,1586.0,641.0,1>
+ 3: <BoundingBox(frame,00059e6b) 888.0,366.0,1196.0,639.0,1>
+ 4 Subpanels of <BoundingBox(None,) 878.0,667.0,1653.0,1168.0,3>:
+    - <BoundingBox(frame,00059e56) 1333.0,667.0,1587.0,796.0,1>
+    - <BoundingBox(frame,00059e64) 878.0,671.0,1653.0,1168.0,1>
+    - <BoundingBox(frame,00059e4e) 1347.0,835.0,1580.0,1104.0,1>
+ 5 Subpanels of <BoundingBox(None,) 64.0,61.0,764.0,505.0,2>:
+    - <BoundingBox(frame,00059e6c) 67.0,61.0,764.0,315.0,1>
+    - <BoundingBox(frame,00059e77) 64.0,219.0,759.0,505.0,1>
+ 6: <BoundingBox(frame,00059e6d) 412.0,535.0,768.0,740.0,1>
+ 7: <BoundingBox(frame,00059e58) 67.0,533.0,395.0,742.0,1>
+ 8 Subpanels of <BoundingBox(None,) 4.0,705.0,823.0,1169.0,2>:
+    - <BoundingBox(frame,00059e60) 612.0,823.0,731.0,1167.0,1>
+    - <BoundingBox(frame,00059e71) 4.0,705.0,823.0,1169.0,1>
+Page 76:
+ 0: <BoundingBox(frame,00059eaf) 1384.0,5.0,1653.0,385.0,1>
+ 1: <BoundingBox(frame,00059ea0) 890.0,54.0,1461.0,268.0,1>
+ 2: <BoundingBox(frame,00059ea9) 890.0,303.0,1583.0,787.0,1>
+ 3 Subpanels of <BoundingBox(None,) 1098.0,820.0,1583.0,1103.0,2>:
+    - <BoundingBox(frame,00059e9a) 1300.0,820.0,1583.0,1102.0,1>
+    - <BoundingBox(frame,00059e8e) 1098.0,823.0,1390.0,1103.0,1>
+ 4: <BoundingBox(frame,00059e90) 888.0,821.0,1088.0,1103.0,1>
+ 5: <BoundingBox(frame,00059e8d) 643.0,0.0,746.0,310.0,1>
+ 6: <BoundingBox(frame,00059e87) 0.0,0.0,768.0,551.0,1>
+ 7: <BoundingBox(frame,00059e7f) 0.0,587.0,762.0,740.0,1>
+ 8: <BoundingBox(frame,00059e89) 61.0,699.0,760.0,871.0,1>
+ 9: <BoundingBox(frame,00059e8b) 169.0,816.0,823.0,1164.0,1>
+10: <BoundingBox(frame,00059ea4) 66.0,851.0,299.0,1113.0,1>
+Page 77:
+ 0: <BoundingBox(frame,00059ebf) 1113.0,0.0,1653.0,587.0,1>
+ 1: <BoundingBox(frame,00059ec5) 887.0,61.0,1103.0,583.0,1>
+ 2: <BoundingBox(frame,00059ed6) 890.0,621.0,1587.0,824.0,1>
+ 3: <BoundingBox(frame,00059edc) 893.0,861.0,1590.0,1103.0,1>
+ 4 Subpanels of <BoundingBox(None,) 0.0,0.0,824.0,385.0,2>:
+    - <BoundingBox(frame,00059eb3) 469.0,22.0,824.0,151.0,1>
+    - <BoundingBox(frame,00059ed2) 0.0,0.0,769.0,385.0,1>
+ 5: <BoundingBox(frame,00059ee2) 474.0,417.0,768.0,658.0,1>
+ 6: <BoundingBox(frame,00059eb2) 432.0,693.0,768.0,814.0,1>
+ 7: <BoundingBox(frame,00059ee1) 70.0,418.0,537.0,814.0,1>
+ 8: <BoundingBox(frame,00059ec1) 0.0,847.0,770.0,1110.0,1>
+ 9: <BoundingBox(frame,00059eb1) 0.0,897.0,174.0,1163.0,1>
+Page 78:
+ 0: <BoundingBox(frame,00059ef0) 892.0,0.0,1613.0,583.0,1>
+ 1: <BoundingBox(frame,00059efc) 887.0,618.0,1584.0,821.0,1>
+ 2: <BoundingBox(frame,00059ee4) 883.0,858.0,1653.0,1107.0,1>
+ 3: <BoundingBox(frame,00059ef3) 907.0,936.0,1022.0,1166.0,1>
+ 4: <BoundingBox(frame,00059eec) 575.0,65.0,764.0,1107.0,1>
+ 5: <BoundingBox(frame,00059ee7) 67.0,65.0,559.0,356.0,1>
+ 6: <BoundingBox(frame,00059ef2) 63.0,393.0,555.0,553.0,1>
+ 7: <BoundingBox(frame,00059ee6) 68.0,579.0,557.0,700.0,1>
+ 8: <BoundingBox(frame,00059efe) 64.0,732.0,560.0,818.0,1>
+ 9: <BoundingBox(frame,00059ee9) 64.0,853.0,556.0,1105.0,1>
+Page 79:
+ 0: <BoundingBox(frame,00059f1c) 890.0,2.0,1652.0,425.0,1>
+ 1: <BoundingBox(frame,00059f06) 893.0,375.0,1646.0,622.0,1>
+ 2: <BoundingBox(frame,00059f0c) 890.0,568.0,1653.0,702.0,1>
+ 3 Subpanels of <BoundingBox(None,) 830.0,661.0,1653.0,1169.0,2>:
+    - <BoundingBox(frame,00059f1a) 1319.0,691.0,1649.0,841.0,1>
+    - <BoundingBox(frame,00059f1d) 830.0,661.0,1653.0,1169.0,1>
+ 4 Subpanels of <BoundingBox(None,) 67.0,61.0,771.0,735.0,2>:
+    - <BoundingBox(frame,00059f0e) 72.0,61.0,771.0,443.0,1>
+    - <BoundingBox(frame,00059f18) 67.0,333.0,770.0,735.0,1>
+ 5: <BoundingBox(frame,00059f12) 70.0,649.0,767.0,1104.0,1>
+Page 80:
+ 0: <BoundingBox(frame,00059f27) 889.0,64.0,1585.0,424.0,1>
+ 1: <BoundingBox(frame,00059f2f) 899.0,825.0,1592.0,1104.0,1>
+ 2: <BoundingBox(frame,00059f1f) 68.0,60.0,768.0,354.0,1>
+ 3: <BoundingBox(frame,00059f24) 498.0,375.0,746.0,468.0,1>
+ 4: <BoundingBox(frame,00059f2c) 74.0,385.0,766.0,792.0,1>
+ 5: <BoundingBox(frame,00059f30) 650.0,864.0,743.0,1166.0,1>
+ 6 Subpanels of <BoundingBox(None,) 7.0,819.0,767.0,1169.0,5>:
+    - <BoundingBox(frame,00059f2d) 7.0,1028.0,330.0,1121.0,1>
+    - <BoundingBox(frame,00059f2a) 226.0,941.0,272.0,1169.0,1>
+    - <BoundingBox(frame,00059f31) 114.0,994.0,190.0,1162.0,1>
+    - <BoundingBox(frame,00059f25) 418.0,830.0,472.0,1031.0,1>
+    - <BoundingBox(frame,00059f2b) 70.0,819.0,767.0,1103.0,1>
+Page 81:
+ 0: <BoundingBox(frame,00059f3a) 1444.0,44.0,1635.0,501.0,1>
+ 1 Subpanels of <BoundingBox(None,) 1244.0,132.0,1449.0,557.0,2>:
+    - <BoundingBox(frame,00059f3c) 1244.0,266.0,1336.0,557.0,1>
+    - <BoundingBox(frame,00059f35) 1289.0,132.0,1449.0,535.0,1>
+ 2 Subpanels of <BoundingBox(None,) 0.0,0.0,1653.0,1168.0,2>:
+    - <BoundingBox(frame,00059f47) 368.0,0.0,557.0,653.0,1>
+    - <BoundingBox(frame,00059f3d) 0.0,0.0,1653.0,1168.0,1>
+ 3: <BoundingBox(frame,00059f33) 0.0,921.0,509.0,1113.0,1>
+Page 82:
+ 0 Subpanels of <BoundingBox(None,) 822.0,0.0,1653.0,839.0,7>:
+    - <BoundingBox(frame,00059f5a) 1229.0,89.0,1305.0,359.0,1>
+    - <BoundingBox(frame,00059f62) 822.0,0.0,947.0,478.0,1>
+    - <BoundingBox(frame,00059f68) 987.0,223.0,1147.0,414.0,1>
+    - <BoundingBox(frame,00059f71) 914.0,0.0,1031.0,396.0,1>
+    - <BoundingBox(frame,00059f66) 1147.0,208.0,1254.0,435.0,1>
+    - <BoundingBox(frame,00059f6e) 894.0,0.0,1653.0,839.0,1>
+    - <BoundingBox(frame,00059f56) 1330.0,495.0,1653.0,623.0,1>
+ 1: <BoundingBox(frame,00059f61) 1401.0,618.0,1508.0,806.0,1>
+ 2: <BoundingBox(frame,00059f52) 1175.0,656.0,1403.0,787.0,1>
+ 3 Subpanels of <BoundingBox(None,) 935.0,594.0,1182.0,824.0,2>:
+    - <BoundingBox(frame,00059f60) 935.0,594.0,1123.0,824.0,1>
+    - <BoundingBox(frame,00059f4d) 1072.0,632.0,1182.0,803.0,1>
+ 4: <BoundingBox(frame,00059f6d) 886.0,867.0,1653.0,1165.0,1>
+ 5: <BoundingBox(frame,00059f4f) 0.0,0.0,801.0,576.0,1>
+ 6: <BoundingBox(frame,00059f65) 65.0,569.0,764.0,735.0,1>
+ 7: <BoundingBox(frame,00059f64) 67.0,772.0,766.0,845.0,1>
+ 8: <BoundingBox(frame,00059f55) 333.0,904.0,764.0,1167.0,1>
+ 9: <BoundingBox(frame,00059f53) 16.0,897.0,320.0,1165.0,1>
+Page 83:
+ 0: <BoundingBox(frame,00059f77) 886.0,0.0,1653.0,353.0,1>
+ 1 Subpanels of <BoundingBox(None,) 894.0,409.0,1653.0,1169.0,3>:
+    - <BoundingBox(frame,00059f85) 894.0,699.0,1111.0,1106.0,1>
+    - <BoundingBox(frame,00059f90) 894.0,409.0,1653.0,872.0,1>
+    - <BoundingBox(frame,00059f83) 1030.0,734.0,1653.0,1169.0,1>
+ 2 Subpanels of <BoundingBox(None,) 53.0,1.0,826.0,686.0,2>:
+    - <BoundingBox(frame,00059f7e) 60.0,1.0,826.0,686.0,1>
+    - <BoundingBox(frame,00059f7f) 53.0,1.0,329.0,643.0,1>
+ 3 Subpanels of <BoundingBox(None,) 0.0,621.0,756.0,1169.0,4>:
+    - <BoundingBox(frame,00059f8f) 0.0,752.0,421.0,1169.0,1>
+    - <BoundingBox(frame,00059f87) 65.0,621.0,754.0,870.0,1>
+    - <BoundingBox(frame,00059f8a) 413.0,883.0,756.0,1169.0,1>
+    - <BoundingBox(frame,00059f75) 342.0,865.0,510.0,1166.0,1>
+Page 84:
+ 0 Subpanels of <BoundingBox(None,) 1069.0,0.0,1653.0,1169.0,2>:
+    - <BoundingBox(frame,00059f96) 1069.0,0.0,1653.0,1169.0,1>
+    - <BoundingBox(frame,00059f92) 1109.0,2.0,1311.0,677.0,1>
+ 1: <BoundingBox(frame,00059f94) 0.0,1.0,1335.0,1161.0,1>
+Page 85:
+ 0: <BoundingBox(frame,00059fb1) 893.0,0.0,1652.0,354.0,1>
+ 1: <BoundingBox(frame,00059faf) 889.0,282.0,1653.0,534.0,1>
+ 2: <BoundingBox(frame,00059fb8) 1334.0,504.0,1653.0,584.0,1>
+ 3 Subpanels of <BoundingBox(None,) 819.0,495.0,1653.0,1169.0,2>:
+    - <BoundingBox(frame,00059fba) 1274.0,551.0,1653.0,747.0,1>
+    - <BoundingBox(frame,00059fa9) 819.0,495.0,1653.0,1169.0,1>
+ 4: <BoundingBox(frame,00059fb5) 562.0,0.0,758.0,564.0,1>
+ 5: <BoundingBox(frame,00059fa0) 0.0,0.0,556.0,304.0,1>
+ 6: <BoundingBox(frame,00059fb0) 197.0,335.0,555.0,555.0,1>
+ 7: <BoundingBox(frame,00059f9c) 58.0,337.0,191.0,553.0,1>
+ 8: <BoundingBox(frame,00059f97) 442.0,587.0,756.0,1103.0,1>
+ 9: <BoundingBox(frame,00059fa7) 65.0,586.0,429.0,1108.0,1>
+10: <BoundingBox(frame,00059fbb) 0.0,996.0,180.0,1145.0,1>
+Page 86:
+ 0: <BoundingBox(frame,00059fee) 1120.0,1.0,1653.0,516.0,1>
+ 1: <BoundingBox(frame,00059fdc) 890.0,0.0,1187.0,513.0,1>
+ 2: <BoundingBox(frame,00059fc5) 890.0,540.0,1590.0,812.0,1>
+ 3: <BoundingBox(frame,00059fc9) 893.0,841.0,1588.0,1109.0,1>
+ 4: <BoundingBox(frame,00059fd1) 342.0,62.0,766.0,433.0,1>
+ 5: <BoundingBox(frame,00059fd4) 65.0,58.0,326.0,432.0,1>
+ 6: <BoundingBox(frame,00059fc2) 395.0,464.0,766.0,792.0,1>
+ 7: <BoundingBox(frame,00059fd9) 67.0,463.0,375.0,657.0,1>
+ 8: <BoundingBox(frame,00059fce) 67.0,682.0,371.0,788.0,1>
+ 9 Subpanels of <BoundingBox(None,) 428.0,823.0,762.0,1166.0,2>:
+    - <BoundingBox(frame,00059fcc) 446.0,978.0,518.0,1166.0,1>
+    - <BoundingBox(frame,00059fe8) 428.0,823.0,762.0,1109.0,1>
+10: <BoundingBox(frame,00059fdf) 3.0,822.0,413.0,1168.0,1>
+Page 87:
+ 0: <BoundingBox(frame,0005a002) 1049.0,0.0,1649.0,682.0,1>
+ 1 Subpanels of <BoundingBox(None,) 882.0,58.0,1159.0,633.0,2>:
+    - <BoundingBox(frame,0005a00d) 882.0,58.0,1029.0,596.0,1>
+    - <BoundingBox(frame,0005a013) 967.0,62.0,1159.0,633.0,1>
+ 2: <BoundingBox(frame,00059ffe) 1317.0,668.0,1584.0,1165.0,1>
+ 3: <BoundingBox(frame,00059ff6) 886.0,663.0,1293.0,932.0,1>
+ 4: <BoundingBox(frame,00059ffa) 887.0,961.0,1297.0,1107.0,1>
+ 5: <BoundingBox(frame,00059ffd) 558.0,64.0,825.0,174.0,1>
+ 6: <BoundingBox(frame,00059ff3) 0.0,0.0,826.0,893.0,1>
+ 7: <BoundingBox(frame,0005a011) 68.0,735.0,774.0,1109.0,1>
+Page 88:
+ 0: <BoundingBox(frame,0005a01b) 1229.0,58.0,1591.0,352.0,1>
+ 1: <BoundingBox(frame,0005a031) 880.0,62.0,1230.0,352.0,1>
+ 2: <BoundingBox(frame,0005a035) 882.0,382.0,1585.0,622.0,1>
+ 3: <BoundingBox(frame,0005a022) 885.0,658.0,1584.0,1107.0,1>
+ 4: <BoundingBox(frame,0005a03a) 70.0,61.0,763.0,407.0,1>
+ 5: <BoundingBox(frame,0005a02c) 64.0,438.0,764.0,701.0,1>
+ 6: <BoundingBox(frame,0005a01d) 333.0,703.0,825.0,1166.0,1>
+ 7: <BoundingBox(frame,0005a043) 0.0,734.0,425.0,834.0,1>
+ 8: <BoundingBox(frame,0005a032) 0.0,876.0,397.0,1165.0,1>
+Page 89:
+ 0: <BoundingBox(frame,0005a04d) 2.0,0.0,1653.0,551.0,1>
+ 1: <BoundingBox(frame,0005a051) 89.0,1.0,244.0,524.0,1>
+ 2 Subpanels of <BoundingBox(None,) 904.0,547.0,1649.0,1160.0,2>:
+    - <BoundingBox(frame,0005a049) 904.0,582.0,1167.0,1104.0,1>
+    - <BoundingBox(frame,0005a052) 907.0,547.0,1649.0,1160.0,1>
+ 3: <BoundingBox(frame,0005a04a) 47.0,577.0,749.0,1107.0,1>
+Page 90:
+ 0: <BoundingBox(frame,0005a09c) 1249.0,62.0,1586.0,353.0,1>
+ 1: <BoundingBox(frame,0005a082) 890.0,58.0,1233.0,349.0,1>
+ 2: <BoundingBox(frame,0005a08d) 887.0,383.0,1653.0,702.0,1>
+ 3: <BoundingBox(frame,0005a063) 1337.0,737.0,1591.0,879.0,1>
+ 4: <BoundingBox(frame,0005a064) 1334.0,911.0,1590.0,1107.0,1>
+ 5 Subpanels of <BoundingBox(None,) 827.0,661.0,1372.0,1167.0,2>:
+    - <BoundingBox(frame,0005a07a) 827.0,661.0,1372.0,1167.0,1>
+    - <BoundingBox(frame,0005a091) 1217.0,709.0,1330.0,993.0,1>
+ 6 Subpanels of <BoundingBox(None,) 0.0,0.0,827.0,643.0,3>:
+    - <BoundingBox(frame,0005a074) 0.0,0.0,827.0,643.0,1>
+    - <BoundingBox(frame,0005a072) 431.0,60.0,768.0,175.0,1>
+    - <BoundingBox(frame,0005a069) 68.0,64.0,409.0,179.0,1>
+ 7: <BoundingBox(frame,0005a07d) 64.0,628.0,770.0,829.0,1>
+ 8: <BoundingBox(frame,0005a08e) 418.0,862.0,771.0,1111.0,1>
+ 9: <BoundingBox(frame,0005a096) 0.0,862.0,404.0,1169.0,1>
+Page 91:
+ 0: <BoundingBox(frame,0005a0c8) 887.0,61.0,1653.0,235.0,1>
+ 1: <BoundingBox(frame,0005a0dc) 1199.0,268.0,1589.0,544.0,1>
+ 2: <BoundingBox(frame,0005a0bf) 886.0,270.0,1184.0,542.0,1>
+ 3: <BoundingBox(frame,0005a0b4) 890.0,579.0,1589.0,861.0,1>
+ 4: <BoundingBox(frame,0005a0a9) 1095.0,893.0,1589.0,1166.0,1>
+ 5: <BoundingBox(frame,0005a0cd) 885.0,887.0,1085.0,1169.0,1>
+ 6: <BoundingBox(frame,0005a0d1) 3.0,60.0,827.0,389.0,1>
+ 7: <BoundingBox(frame,0005a0df) 10.0,423.0,794.0,635.0,1>
+ 8: <BoundingBox(frame,0005a0aa) 68.0,665.0,456.0,900.0,1>
+ 9: <BoundingBox(frame,0005a0d6) 63.0,941.0,445.0,1102.0,1>
+Page 92:
+ 0: <BoundingBox(frame,0005a10c) 1133.0,0.0,1653.0,663.0,1>
+ 1: <BoundingBox(frame,0005a0ec) 887.0,51.0,1118.0,663.0,1>
+ 2: <BoundingBox(frame,0005a10d) 1432.0,696.0,1584.0,1110.0,1>
+ 3: <BoundingBox(frame,0005a0ef) 1095.0,698.0,1414.0,1161.0,1>
+ 4: <BoundingBox(frame,0005a0ed) 887.0,693.0,1074.0,1104.0,1>
+ 5: <BoundingBox(frame,0005a0f4) 56.0,60.0,765.0,464.0,1>
+ 6: <BoundingBox(frame,0005a0e4) 353.0,504.0,768.0,774.0,1>
+ 7: <BoundingBox(frame,0005a0ea) 61.0,504.0,334.0,777.0,1>
+ 8: <BoundingBox(frame,0005a101) 607.0,816.0,760.0,1110.0,1>
+ 9: <BoundingBox(frame,0005a0e2) 63.0,815.0,596.0,1109.0,1>
+Page 93:
+ 0: <BoundingBox(frame,0005a136) 894.0,0.0,1653.0,314.0,1>
+ 1: <BoundingBox(frame,0005a130) 1363.0,346.0,1591.0,699.0,1>
+ 2: <BoundingBox(frame,0005a135) 1243.0,350.0,1354.0,706.0,1>
+ 3: <BoundingBox(frame,0005a140) 896.0,343.0,1229.0,706.0,1>
+ 4: <BoundingBox(frame,0005a134) 892.0,734.0,1591.0,1105.0,1>
+ 5: <BoundingBox(frame,0005a113) 322.0,58.0,771.0,390.0,1>
+ 6: <BoundingBox(frame,0005a133) 74.0,61.0,307.0,391.0,1>
+ 7: <BoundingBox(frame,0005a127) 72.0,425.0,775.0,817.0,1>
+ 8: <BoundingBox(frame,0005a14f) 508.0,854.0,771.0,1169.0,1>
+ 9: <BoundingBox(frame,0005a148) 72.0,847.0,494.0,1109.0,1>
+10: <BoundingBox(frame,0005a114) 0.0,1093.0,189.0,1165.0,1>
+Page 94:
+ 0: <BoundingBox(frame,0005a172) 1063.0,19.0,1653.0,113.0,1>
+ 1: <BoundingBox(frame,0005a155) 834.0,0.0,1653.0,663.0,1>
+ 2: <BoundingBox(frame,0005a154) 68.0,60.0,765.0,509.0,1>
+ 3: <BoundingBox(frame,0005a171) 661.0,468.0,991.0,702.0,1>
+ 4: <BoundingBox(frame,0005a16c) 68.0,540.0,763.0,622.0,1>
+ 5: <BoundingBox(frame,0005a17a) 885.0,625.0,1585.0,901.0,1>
+ 6: <BoundingBox(frame,0005a17b) 1242.0,935.0,1581.0,1109.0,1>
+ 7: <BoundingBox(frame,0005a174) 887.0,936.0,1228.0,1110.0,1>
+ 8: <BoundingBox(frame,0005a17e) 466.0,654.0,768.0,1169.0,1>
+ 9 Subpanels of <BoundingBox(None,) 1.0,654.0,459.0,1165.0,2>:
+    - <BoundingBox(frame,0005a150) 1.0,853.0,239.0,1165.0,1>
+    - <BoundingBox(frame,0005a16e) 64.0,654.0,459.0,1165.0,1>
+Page 95:
+ 0: <BoundingBox(frame,0005a1a9) 1249.0,60.0,1583.0,420.0,1>
+ 1: <BoundingBox(frame,0005a19f) 1250.0,446.0,1583.0,581.0,1>
+ 2: <BoundingBox(frame,0005a189) 882.0,61.0,1230.0,584.0,1>
+ 3: <BoundingBox(frame,0005a1a7) 885.0,617.0,1587.0,723.0,1>
+ 4: <BoundingBox(frame,0005a1a0) 885.0,756.0,1585.0,1167.0,1>
+ 5: <BoundingBox(frame,0005a1ac) 0.0,27.0,382.0,161.0,1>
+ 6: <BoundingBox(frame,0005a1a1) 5.0,0.0,827.0,839.0,1>
+ 7 Subpanels of <BoundingBox(None,) 68.0,714.0,779.0,1111.0,2>:
+    - <BoundingBox(frame,0005a1aa) 68.0,880.0,772.0,1111.0,1>
+    - <BoundingBox(frame,0005a19a) 70.0,714.0,779.0,1004.0,1>
+Page 96:
+ 0: <BoundingBox(frame,0005a1c0) 1368.0,0.0,1585.0,1167.0,1>
+ 1: <BoundingBox(frame,0005a1ba) 0.0,2.0,1653.0,1166.0,1>
+Page 97:
+ 0 Subpanels of <BoundingBox(None,) 882.0,0.0,1652.0,394.0,2>:
+    - <BoundingBox(frame,0005a1ec) 882.0,1.0,1334.0,394.0,1>
+    - <BoundingBox(frame,0005a1fc) 1140.0,0.0,1652.0,393.0,1>
+ 1: <BoundingBox(frame,0005a1e9) 882.0,421.0,1586.0,564.0,1>
+ 2: <BoundingBox(frame,0005a1de) 885.0,596.0,1587.0,696.0,1>
+ 3: <BoundingBox(frame,0005a1d4) 825.0,636.0,1649.0,1165.0,1>
+ 4: <BoundingBox(frame,0005a1f0) 867.0,1047.0,1137.0,1161.0,1>
+ 5: <BoundingBox(frame,0005a1c7) 3.0,1.0,827.0,615.0,1>
+ 6: <BoundingBox(frame,0005a1d5) 18.0,540.0,181.0,619.0,1>
+ 7: <BoundingBox(frame,0005a1df) 467.0,629.0,781.0,1110.0,1>
+ 8: <BoundingBox(frame,0005a1dd) 77.0,639.0,451.0,865.0,1>
+ 9: <BoundingBox(frame,0005a1d7) 78.0,899.0,453.0,1112.0,1>
+Page 98:
+ 0: <BoundingBox(frame,0005a242) 1094.0,64.0,1589.0,413.0,1>
+ 1: <BoundingBox(frame,0005a221) 889.0,62.0,1076.0,406.0,1>
+ 2: <BoundingBox(frame,0005a20f) 1274.0,448.0,1585.0,743.0,1>
+ 3: <BoundingBox(frame,0005a246) 886.0,445.0,1261.0,742.0,1>
+ 4: <BoundingBox(frame,0005a236) 1284.0,772.0,1585.0,1105.0,1>
+ 5: <BoundingBox(frame,0005a237) 883.0,777.0,1271.0,1103.0,1>
+ 6: <BoundingBox(frame,0005a23e) 324.0,61.0,779.0,419.0,1>
+ 7: <BoundingBox(frame,0005a213) 75.0,61.0,317.0,418.0,1>
+ 8: <BoundingBox(frame,0005a22b) 483.0,449.0,777.0,722.0,1>
+ 9: <BoundingBox(frame,0005a203) 252.0,453.0,469.0,725.0,1>
+10: <BoundingBox(frame,0005a22f) 75.0,449.0,234.0,722.0,1>
+11: <BoundingBox(frame,0005a202) 638.0,753.0,780.0,1106.0,1>
+12: <BoundingBox(frame,0005a214) 310.0,753.0,622.0,1109.0,1>
+13: <BoundingBox(frame,0005a240) 78.0,752.0,270.0,1106.0,1>
+Page 99:
