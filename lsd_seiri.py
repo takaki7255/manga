@@ -8,12 +8,12 @@ import re
 
 def main():
     # フォルダから画像を読み込み
-    folder = "./input/Belmondo/"
+    folder = "./black_img/"
     img_files = get_imgs_from_folder_sorted(folder)
     # print(img_files)
     for img_file in img_files:
-        if img_file != "044.jpg":
-            continue
+        # if img_file != "buraritessenmonogatari088のコピー.jpg_1.jpg":
+        #     continue
         input_img = cv2.imread(folder + img_file)
         # print(input_img)
         twoPage = PageCut(input_img)
@@ -42,20 +42,12 @@ def main():
 
             gausForLsd_img = cv2.GaussianBlur(src_img, (5, 5), 0)  # ガウシアンフィルタfor lsdImg
 
-            binForSpeechBalloon_img = cv2.threshold(
-                src_img, 230, 255, cv2.THRESH_BINARY
-            )[
-                1
-            ]  # 吹き出し検出用の二値画像
+            binForSpeechBalloon_img = cv2.threshold(src_img, 230, 255, cv2.THRESH_BINARY)[1]  # 吹き出し検出用の二値画像
 
             # 膨張収縮
             kernel = np.ones((3, 3), np.uint8)
-            binForSpeechBalloon_img = cv2.erode(
-                binForSpeechBalloon_img, kernel, (-1, -1), iterations=1
-            )
-            binForSpeechBalloon_img = cv2.dilate(
-                binForSpeechBalloon_img, kernel, (-1, -1), iterations=1
-            )
+            binForSpeechBalloon_img = cv2.erode(binForSpeechBalloon_img, kernel, (-1, -1), iterations=1)
+            binForSpeechBalloon_img = cv2.dilate(binForSpeechBalloon_img, kernel, (-1, -1), iterations=1)
 
             hierarchy2 = []  # cv::Vec4i のリスト
             hukidashi_contours = []  # cv::Point のリストのリスト（輪郭情報）
@@ -68,13 +60,9 @@ def main():
             gaussian_img = cv2.GaussianBlur(src_img, (3, 3), 0)
 
             # 吹き出し検出　塗りつぶし
-            gaussian_img = extractSpeechBalloon(
-                hukidashi_contours, hierarchy2, gaussian_img
-            )
+            gaussian_img = extractSpeechBalloon(hukidashi_contours, hierarchy2, gaussian_img)
 
-            inverse_bin_img = cv2.threshold(
-                gaussian_img, 100, 255, cv2.THRESH_BINARY_INV
-            )[1]
+            inverse_bin_img = cv2.threshold(gaussian_img, 100, 255, cv2.THRESH_BINARY_INV)[1]
 
             # 結果等格納用
             result_img = np.zeros_like(src_img)
@@ -91,23 +79,23 @@ def main():
             lines = lsd(gausForLsd_img)
             for line in lines:
                 x1, y1, x2, y2 = map(int, line[:4])
-                if (x2 - x1) ** 2 + (y2 - y1) ** 2 > 9000:  # 今のところ9000が最適
+                if (x2 - x1) ** 2 + (y2 - y1) ** 2 > 5000:  # 今のところ9000が最適
                     # 線を引く
                     cv2.line(lines_senbun, (x1, y1), (x2, y2), (255, 255, 255), 3)
             cv2.imshow("lines_senbun", lines_senbun)
-            # cv2.imwrite(
-            #     "./output/0818/" + str(img_file) + str(pagenum) + "lines_senbun.jpg",
-            #     lines_senbun,
-            # )
+            cv2.imwrite(
+                "./output/0818/" + str(img_file) + str(pagenum) + "lines_senbun.jpg",
+                lines_senbun,
+            )
             cv2.waitKey(0)
             cv2.destroyAllWindows()
 
             and_img = cv2.bitwise_and(lines_img, inverse_bin_img)
             and_senbun = cv2.bitwise_and(lines_senbun, inverse_bin_img)
-            # cv2.imwrite(
-            #     "./output/0818/" + str(img_file) + str(pagenum) + "and_senbun.jpg",
-            #     and_senbun,
-            # )
+            cv2.imwrite(
+                "./output/0818/" + str(img_file) + str(pagenum) + "and_senbun.jpg",
+                and_senbun,
+            )
             cv2.imshow("and_img", and_senbun)
             cv2.waitKey(0)
             cv2.destroyAllWindows()
@@ -137,22 +125,18 @@ def main():
             # and_senbunに輪郭抽出
             contours = []
             hierarchy = []
-            contours, hierarchy = cv2.findContours(
-                and_senbun, cv2.RETR_LIST, cv2.CHAIN_APPROX_NONE
-            )
+            contours, hierarchy = cv2.findContours(and_senbun, cv2.RETR_LIST, cv2.CHAIN_APPROX_NONE)
             # print(len(contours))
 
             # 極端に小さい輪郭を削除
             contours = [cnt for cnt in contours if cv2.contourArea(cnt) > 100]
 
             # 輪郭を描画
-            result_senbun = cv2.drawContours(
-                result_senbun, contours, -1, (255, 255, 255), 3
+            result_senbun = cv2.drawContours(result_senbun, contours, -1, (255, 255, 255), 3)
+            cv2.imwrite(
+                "./output/0818/" + str(img_file) + str(pagenum) + "result_senbun.jpg",
+                result_senbun,
             )
-            # cv2.imwrite(
-            #     "./output/0818/" + str(img_file) + str(pagenum) + "result_senbun.jpg",
-            #     result_senbun,
-            # )
             # cv2.imshow("result_senbun",result_senbun)
             # cv2.waitKey(0)
             # cv2.destroyAllWindows()
@@ -177,10 +161,10 @@ def main():
 
                 cv2.line(result_senbun, (x1, y1), (x2, y2), (255, 255, 255), 3)
 
-            # cv2.imwrite(
-            #     "./output/0818/" + str(img_file) + str(pagenum) + "result_senbun.jpg",
-            #     result_senbun,
-            # )
+            cv2.imwrite(
+                "./output/0818/" + str(img_file) + str(pagenum) + "result_senbun.jpg",
+                result_senbun,
+            )
             cv2.imshow("result_senbun", result_senbun)
             cv2.waitKey(0)
             cv2.destroyAllWindows()
@@ -193,24 +177,17 @@ def main():
             result_senbun = cv2.bitwise_and(result_senbun, forBitwiseInverseImg)
 
             result_senbun_dulateerode = cv2.dilate(result_senbun, kernel, iterations=2)
-            result_senbun_dulateerode = cv2.erode(
-                result_senbun_dulateerode, kernel, iterations=2
+            result_senbun_dulateerode = cv2.erode(result_senbun_dulateerode, kernel, iterations=2)
+            cv2.imwrite(
+                "./output/0818/" + str(img_file) + str(pagenum) + "result_senbun_dulateerode.jpg",
+                result_senbun_dulateerode,
             )
-            # cv2.imwrite(
-            #     "./output/0818/"
-            #     + str(img_file)
-            #     + str(pagenum)
-            #     + "result_senbun_dulateerode.jpg",
-            #     result_senbun_dulateerode,
-            # )
             cv2.imshow("result_senbun_dulateerode", result_senbun_dulateerode)
             cv2.waitKey(0)
             cv2.destroyAllWindows()
 
             # 画像端に直線を引く
-            cv2.line(
-                result_senbun_dulateerode, (0, 0), (width - 1, 0), (255, 255, 255), 3
-            )  # 上辺
+            cv2.line(result_senbun_dulateerode, (0, 0), (width - 1, 0), (255, 255, 255), 3)  # 上辺
             cv2.line(
                 result_senbun_dulateerode,
                 (0, height - 1),
@@ -218,9 +195,7 @@ def main():
                 (255, 255, 255),
                 3,
             )  # 下辺
-            cv2.line(
-                result_senbun_dulateerode, (0, 0), (0, height - 1), (255, 255, 255), 3
-            )  # 左辺
+            cv2.line(result_senbun_dulateerode, (0, 0), (0, height - 1), (255, 255, 255), 3)  # 左辺
             cv2.line(
                 result_senbun_dulateerode,
                 (width - 1, 0),
@@ -228,15 +203,12 @@ def main():
                 (255, 255, 255),
                 3,
             )  # 右辺
-            # cv2.imwrite(
-            #     "./output/0818/"
-            #     + str(img_file)
-            #     + str(pagenum)
-            #     + "result_senbun_dulateerode.jpg",
-            #     result_senbun_dulateerode,
-            # )
+            cv2.imwrite(
+                "./output/0818/" + str(img_file) + str(pagenum) + "result_senbun_dulateerode.jpg",
+                result_senbun_dulateerode,
+            )
             cv2.imshow("result_senbun_dulateerode", result_senbun_dulateerode)
-            # cv2.imwrite("./output/0818/result_senbun_dulateerode.jpg",result_senbun_dulateerode)
+            # cv2.imwrite("./output/0818/result_senbun_dulateerode.jpg", result_senbun_dulateerode)
             cv2.waitKey(0)
             cv2.destroyAllWindows()
 
@@ -244,16 +216,12 @@ def main():
             contours = []
             hierarchy = []
             # contours,hierarchy = cv2.findContours(result_senbun_dulateerode, cv2.RETR_LIST, cv2.CHAIN_APPROX_NONE)
-            contours, hierarchy = cv2.findContours(
-                result_senbun_dulateerode, cv2.RETR_TREE, cv2.CHAIN_APPROX_TC89_KCOS
-            )
+            contours, hierarchy = cv2.findContours(result_senbun_dulateerode, cv2.RETR_TREE, cv2.CHAIN_APPROX_TC89_KCOS)
 
             # 極端に小さい輪郭を削除
             contours = [cnt for cnt in contours if cv2.contourArea(cnt) > 1000]
             # 画像サイズの輪郭を削除
-            contours = [
-                cnt for cnt in contours if cv2.contourArea(cnt) < (width * height) / 2
-            ]
+            contours = [cnt for cnt in contours if cv2.contourArea(cnt) < (width * height) / 2]
 
             # 輪郭を描画
             count = 0
@@ -263,45 +231,40 @@ def main():
                 approx = cv2.approxPolyDP(contour, epsilon, True)
                 # cornersに近似した輪郭の頂点を格納
                 if len(approx) == 4:
-                    # x1,y1,w1,h1 = cv2.boundingRect(contour)
-                    # for contour2 in contours:
-                    #     x2,y2,w2,h2 = cv2.boundingRect(contour2)
-                    #     if not (x1 > x2+w2 or x1+w1 < x2 or y1 > y2+h2 or y1+h1 < y2):
-                    #         print(f"Contour  is overlapping with contour ")
-                    #         count += 1
-                    #         result_img = cv2.drawContours(result_img, [approx], -1, (255, 255, 255), 2)
+                    x1, y1, w1, h1 = cv2.boundingRect(contour)
+                    for contour2 in contours:
+                        x2, y2, w2, h2 = cv2.boundingRect(contour2)
+                        if not (x1 > x2 + w2 or x1 + w1 < x2 or y1 > y2 + h2 or y1 + h1 < y2):
+                            print(f"Contour  is overlapping with contour ")
+                            count += 1
+                            result_img = cv2.drawContours(result_img, [approx], -1, (255, 255, 255), 2)
                     count += 1
                     cv2.drawContours(result_img, [approx], -1, (255, 255, 255), 2)
-                    # cv2.imwrite(
-                    #     "./output/0818/"
-                    #     + str(img_file)
-                    #     + str(pagenum)
-                    #     + "result_img.jpg",
-                    #     result_img,
-                    # )
+                    cv2.imwrite(
+                        "./output/0818/" + str(img_file) + str(pagenum) + "result_img.jpg",
+                        result_img,
+                    )
             # print(count)
 
             contours2 = []
-            contours2, hierarchy = cv2.findContours(
-                result_img, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_TC89_KCOS
-            )
+            contours2, hierarchy = cv2.findContours(result_img, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_TC89_KCOS)
             # contours2を格納
             for contour2 in contours2:
                 mask = np.zeros_like(result_img)
                 # 輪郭を格納
                 corners.append([contour2])
-                cv2.drawContours(
-                    mask, [contour2], -1, (255, 255, 255), thickness=cv2.FILLED
-                )
+                cv2.drawContours(mask, [contour2], -1, (255, 255, 255), thickness=cv2.FILLED)
                 # 論理積画像を生成
                 mask = cv2.cvtColor(mask, cv2.COLOR_GRAY2BGR)
                 crop_img = cv2.bitwise_and(color_img, mask)
                 result_img2 = cv2.bitwise_or(result_img2, crop_img)
-                # cv2.imwrite(
-                #     "./output/0818/" + str(img_file) + str(pagenum) + "result_img2.jpg",
-                #     result_img2,
-                # )
+                cv2.imwrite(
+                    "./output/0818/" + str(img_file) + str(pagenum) + "result_img2.jpg",
+                    result_img2,
+                )
                 cv2.imshow("crop_img", crop_img)
+                cv2.imshow("input", src_img)
+                cv2.moveWindow("input", 500, 0)
                 cv2.waitKey(0)
                 cv2.destroyAllWindows()
                 # 論理積画像を保存
@@ -357,9 +320,7 @@ def extractSpeechBalloon(fukidashi_contours, hierarchy2, gaussian_img):
         ):
             en = 4.0 * np.pi * area / (length * length)
         if en > 0.4:
-            cv2.drawContours(
-                gaussian_img, fukidashi_contours, i, 0, -1, cv2.LINE_AA, hierarchy2, 1
-            )
+            cv2.drawContours(gaussian_img, fukidashi_contours, i, 0, -1, cv2.LINE_AA, hierarchy2, 1)
 
     return gaussian_img
 
